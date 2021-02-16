@@ -12,49 +12,53 @@ const MainFunctionalites = (props) => {
     const {t} = useTranslation();
 
     return (
-    <Container>
-        <Row className="justify-content-md-center">
-            <p>{t('sponsors.text')}</p>
-            <p>slika</p>
-        </Row>
-        <Row>
-            <h1>{t('main-features.title1')}</h1>
-            <h3>{t('main-features.title2')}</h3>
-        </Row>
-        <Row>
-            <div className="col-md-6">
-                 <p>{t('main-features.feature1_title')}</p>
-                 <p>{t('main-features.feature1_text')}</p>
-                 <p>{t('main-features.feature2_title')}</p>
-                 <p>{t('main-features.feature2_text')}</p>
+    <div className="container">
+            <div className="center">
+                <p>{t('sponsors.text')}</p>
             </div>
+            <div className="inblock">
+                <h1 className="main-functionalities-title weight700">
+                {t('main-features.title1')}
+                </h1>
+                <hr />
+            </div>
+                <p className="main-functionalities-title weight400">
+                    {t('main-features.title2')}
+                </p>
+        <div className="row">
             <div className="col-md-6">
+                 <h3 className="main-functionalities-title">{t('main-features.feature1_title')}</h3>
+                 <p className="main-functionalities-text">{t('main-features.feature1_text')}</p>
+                 <h3 className="main-functionalities-title">{t('main-features.feature2_title')}</h3>
+                 <p className="main-functionalities-text">{t('main-features.feature2_text')}</p>
+            </div>
+            <div className="col-md-6 image-div">
                 <img src={ image1 } alt="Kumuluz" className="image"/>
             </div>
-        </Row>
+        </div>
         <Row>
-            <div className="col-md-6">
+            <div className="col-md-6 image-div">
                 <img src={ image2 } alt="Kumuluz" className="image"/>
             </div>
             <div className="col-md-6">
-                <p>{t('main-features.feature3_title')}</p>
-                <p>{t('main-features.feature3_text')}</p>
-                <p>{t('main-features.feature4_title')}</p>
-                <p>{t('main-features.feature4_text')}</p>
+                <h3 className="main-functionalities-title">{t('main-features.feature3_title')}</h3>
+                <p className="main-functionalities-text">{t('main-features.feature3_text')}</p>
+                <h3 className="main-functionalities-title">{t('main-features.feature4_title')}</h3>
+                <p className="main-functionalities-text">{t('main-features.feature4_text')}</p>
             </div>
         </Row>
         <Row>
             <div className="col-md-6">
-                <p>{t('main-features.feature5_title')}</p>
-                <p>{t('main-features.feature5_text')}</p>
-                <p>{t('main-features.feature6_title')}</p>
-                <p>{t('main-features.feature6_text')}</p>
+                <h3 className="main-functionalities-title">{t('main-features.feature5_title')}</h3>
+                <p className="main-functionalities-text">{t('main-features.feature5_text')}</p>
+                <h3 className="main-functionalities-title">{t('main-features.feature6_title')}</h3>
+                <p className="main-functionalities-text">{t('main-features.feature6_text')}</p>
             </div>
-            <div className="col-md-6">
+            <div className="col-md-6 image-div">
                 <img src={ image3 } alt="Kumuluz" className="image"/>
             </div>
         </Row>
-    </Container>
+    </div>
     )
 }
 

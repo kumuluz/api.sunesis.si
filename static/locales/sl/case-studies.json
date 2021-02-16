@@ -1,0 +1,30 @@
+{
+    "hello": "mladsnadaskdk jbsdkadbjas dsabd ks",
+    "cases":
+    [
+        {
+            "title": "Vpeljava KumuluzAPI v okolju zavarovalnice",
+            "text": "Cilj digitalizacije poslovanja zavarovalnice je bil dvodelen. Kot prvo, vzpostaviti pregled nad API-ji v poslovnem okolju skupaj s pregledom nad integracijami z internimi aplikacijami. In kot drugo, vzpostavitev ekosistame API-jev za zunanje partnerje. Dva najbolj uporabljena API-jev iz strani zunanjih partnerjev sta API za informativni izračun zavarovanj (premoženjsko, zdravstveno,...) in API za sklenitev zavarovanj. Kot najbolj zanimiv primer je uporaba omenjenih API-jev iz strani agregatorja ponudnikov zavarovanj, kjer tuja organizacija uporablja API-je zavarovalnic in omogoča primerjavo zavarovanj med različnimi ponudniki in potem tudi sklenitev zavarovanj pri izbranem ponudniku.",
+            "bulletpoints": [
+                "88 objavljenih API-jev",
+                "613 API naročnin",
+                "62 aktivnih odjemalnih aplikacij",
+                "200k do 500k API klicev na dan",
+                "4 API prehodi",
+                "59 zalednih namestitev API-jev v testnem in produkcijskem okolju"
+            ]
+        },
+        {
+            "title": "Vpeljava KumuluzAPI v okolju zavarovalnice",
+            "text": "Cilj digitalizacije poslovanja zavarovalnice je bil dvodelen. Kot prvo, vzpostaviti pregled nad API-ji v poslovnem okolju skupaj s pregledom nad integracijami z internimi aplikacijami. In kot drugo, vzpostavitev ekosistame API-jev za zunanje partnerje. Dva najbolj uporabljena API-jev iz strani zunanjih partnerjev sta API za informativni izračun zavarovanj (premoženjsko, zdravstveno,...) in API za sklenitev zavarovanj. Kot najbolj zanimiv primer je uporaba omenjenih API-jev iz strani agregatorja ponudnikov zavarovanj, kjer tuja organizacija uporablja API-je zavarovalnic in omogoča primerjavo zavarovanj med različnimi ponudniki in potem tudi sklenitev zavarovanj pri izbranem ponudniku.",
+            "bulletpoints": [
+                "88 objavljenih API-jev",
+                "613 API naročnin",
+                "62 aktivnih odjemalnih aplikacij",
+                "200k do 500k API klicev na dan",
+                "4 API prehodi",
+                "59 zalednih namestitev API-jev v testnem in produkcijskem okolju"
+            ]
+        }
+    ]
+}

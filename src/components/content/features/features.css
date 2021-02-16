@@ -1,8 +1,11 @@
-.featuress {
+.features {
     background: radial-gradient(52.47% 202.29% at 69.07% 71.82%, #254A99 0%, #2B2B6F 82.13%);
+    color: white;
+    padding: 50px;
+    text-align: center;
 }
 
 .iimage {
     width: 153.13px;
-    height: 10px;
+    height: 94.6px;
 }

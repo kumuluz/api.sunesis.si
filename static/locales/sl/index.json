@@ -29,10 +29,10 @@
         "specs-button": "TEHNOLOŠKE SPECIFIKACIJE"
     },
     "advantages": {
-        "advantag1-text": "Lahkotna namestitev \"On-premis\" ali SaaS",
-        "advantag2-text": "Enostavne in hitre nadgradnje, od politik, do integracij",
-        "advantag3-text": "Ločena komponenta za management in razvijalce",
-        "advantag4-text": "Poslovni model povsem po vaši meri"
+        "advantage1-text": "Lahkotna namestitev \"On-premis\" ali SaaS",
+        "advantage2-text": "Enostavne in hitre nadgradnje, od politik, do integracij",
+        "advantage3-text": "Ločena komponenta za management in razvijalce",
+        "advantage4-text": "Poslovni model povsem po vaši meri"
     },
     "case-study": {
         "case-study-title": "ŠTUDIJE PRIMERA",
@@ -47,7 +47,9 @@
     },
     "blog": {
         "blog-title": "Zadnje blog objave",
-        "post1-title": "Največje tehnološke napake pri implementaciji in uporabi API-jev"
+        "show-more": "Več",
+        "post1-title": "Največje tehnološke napake pri implementaciji in uporabi API-jev",
+        "post1-text": "Največje tehnološke napake pri implementaciji in uporabi API-jev.ksddhaksdasjdhashdkasjhdasbdhbasdbasjdbjasbdasnd,asbdjasbdasbdasbnmd asmdnbasmdbas d jasbd masbd asbd bnasvdjh vasjdashvdasd bhasdvjhas dhasdn baksdnhas kdb askdbas."
     },
     "video": {
         "video-title": "Zmogljiva API Management Platforma, popolnoma prilagojena vašim potrebam",

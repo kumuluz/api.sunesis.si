@@ -1,34 +1,41 @@
+import {useTranslation} from "gatsby-plugin-react-i18next" //Link
+import { Row, Col } from 'react-bootstrap';
 import React from 'react'
-import { Container, Row, Col } from 'react-bootstrap';
-import "./features.module.css"
+import "./features.css"
+
 import image1 from "../../../../static/images/icon-access.png"
 import image2 from "../../../../static/images/icon-custom.png"
 import image3 from "../../../../static/images/icon-upgrade.png"
 import image4 from "../../../../static/images/icon-wrench.png"
 
-const FeaturesComponent = () => (
-    <div className="featuress">
-    <Container className="justify-content-md-center">
-        <Row>
-            <Col md={3}>
-                <img src={ image1 } alt="Kumuluz" className="iimage"/>
-                <p>Lahkotna namestitev "On-premis" ali SaaS</p>
-            </Col>
-            <Col md={3}>
-                <img src={ image2 } alt="Kumuluz" className="iimage"/>
-                <p>Enostavne in hitre nadgradnje, od politik, do integracij</p>
-            </Col>
-            <Col md={3}>
-                <img src={ image3 } alt="Kumuluz" className="iimage"/>
-                <p>Ločena komponenta za management in razvijalce</p>
-            </Col>
-            <Col md={3}>
-                <img src={ image4 } alt="Kumuluz" className="iimage"/>
-                <p>Poslovni model povsem po vaši meri</p>
-            </Col>
-        </Row>
-    </Container>
+const FeaturesComponent = () => {
+    
+    const {t} = useTranslation();
+    
+    return (
+    <div className="features">
+        <div className="container">
+            <Row>
+                <Col md={3}>
+                    <img src={ image1 } alt="Kumuluz" className="iimage"/>
+                    <p>{t('advantages.advantage1-text')}</p>
+                </Col>
+                <Col md={3}>
+                    <img src={ image2 } alt="Kumuluz" className="iimage"/>
+                    <p>{t('advantages.advantage2-text')}</p>
+                </Col>
+                <Col md={3}>
+                    <img src={ image3 } alt="Kumuluz" className="iimage"/>
+                    <p>{t('advantages.advantage3-text')}</p>
+                </Col>
+                <Col md={3}>
+                    <img src={ image4 } alt="Kumuluz" className="iimage"/>
+                    <p>{t('advantages.advantage4-text')}</p>
+                </Col>
+            </Row>
+        </div>
     </div>
-)
+    )
+}
 
 export default FeaturesComponent;

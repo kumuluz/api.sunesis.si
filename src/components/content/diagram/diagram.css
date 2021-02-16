@@ -1,3 +1,23 @@
 .diagram {
     background: #F4F5F5;
+    text-align: center;
+}
+
+
+.specs-text {
+    font-family: Asap;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 150%;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #2B2B6F;
+}
+
+.specs-button {
+    background: #5DC2EF;
+    padding: 10px;
+    margin-bottom: 50px;
 }
