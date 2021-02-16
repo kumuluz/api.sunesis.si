@@ -1,0 +1,56 @@
+{
+    "header": {
+        "introduction": "Zmogljiva API Management Platforma, popolnoma prilagojena vašim potrebam",
+        "text": "Celovita rešitev za upravljanje z API-ji, zasnovana na modularni način. Varna, hitro nadgradljiva in razširljiva, obenem pa dostopna po poslovnem modelu, ki vam najbolj ustreza.",
+        "button-video": "POGLEJ VIDEO",
+        "button-contact": "KONTAKT"
+    },
+    "sponsors": {
+        "text": "Zadovoljni uporabniki KumuluzAPI rešitve"
+    },
+    "main-features": {
+        "title1": "Glavne Funkcionalnosti",
+        "title2": "KumuluzAPI Management Platforme",
+        "feature1_title": "Specificirajte in dokumentirajte API-je",
+        "feature1_text": "Specificirajte API-je z uporabo OpenAPI 2.0/3.0, RAML ali WSDL in dokumentirajte API-je v markdown, Docksify ali Rapidoc formatu.",
+        "feature2_title": "Samodejno uvozite API-je ",
+        "feature2_text": "Samodejno uvozite API-je z orodji za gradnjo tekom CI cikla. KumuluzAPI podpira vtičnike za maven, gradle in .NET.",
+        "feature3_title": "Integrirajte in upravljajte odprtokodne API prehode",
+        "feature3_text": "KumuluzAPI poleg lastnega API prehoda podpira integracijo tudi z drugimi odprtokodnimi API prehodi kot je Apiman in Kong GW.",
+        "feature4_title": "\"Low code\" API implementacija",
+        "feature4_text": "Implementacija agregiranih in oskubljenih (podmnožica operacij) API-jev ne zahteva pisanje nove kode. Implementirajte API-je s konfiguracijo podmnožico operacij zalednega API-ja in kombinirajte več zalednih API-je v agregirane API-je.",
+        "feature5_title": "Zavarujte API-je ",
+        "feature5_text": "Definirajte varnostne mehanizme in zaščitite svoje API-je z mehanizmi za avtentikacijo, avtorizacijo in enkripcijo brez dodatne kode. Definirajte različne nivoje varnostni s kombiniranjem varnostnih politik v plane.",
+        "feature6_title": "Nadzirajte dostop",
+        "feature6_text": "Nadzirajte aktivnost dostopov do API-jev in aktivnosti odjemalnih aplikacij. Definirajte politike in plane dostopa in zagotovite ustrezen QoS (quality of Service). Spremljajte trend klicev in odzivnost API prehodov."
+    },
+    "diagram": {
+        "description": "Obrazložitev diagrama in ostale informacije o tej sliki.",
+        "specs-button": "TEHNOLOŠKE SPECIFIKACIJE"
+    },
+    "advantages": {
+        "advantag1-text": "Lahkotna namestitev \"On-premis\" ali SaaS",
+        "advantag2-text": "Enostavne in hitre nadgradnje, od politik, do integracij",
+        "advantag3-text": "Ločena komponenta za management in razvijalce",
+        "advantag4-text": "Poslovni model povsem po vaši meri"
+    },
+    "case-study": {
+        "case-study-title": "ŠTUDIJE PRIMERA",
+        "study1-title": "Vpeljava KumuluzAPI v okolju zavarovalnice (Generali)",
+        "study1-text": "Cilj digitalizacije poslovanja zavarovalnice je bil dvodelen. Kot prvo, vzpostaviti pregled nad API-ji v poslovnem okolju skupaj s pregledom nad integracijami z internimi aplikacijami. In kot drugo, vzpostavitev ekosistame API-jev za zunanje partnerje.",
+        "improvement1-title": "15 %",
+        "improvement1-text": "več povpraševanj po zavarovalnih produktih po izpostavitvi API-ja",
+        "improvement2-title": "2",
+        "improvement2-text": "nova partnerja",
+        "improvement3-title": "5 %",
+        "improvement3-text": "povečano število sklenjenih zavarovanj po izpostavitvi API-ja"
+    },
+    "blog": {
+        "blog-title": "Zadnje blog objave",
+        "post1-title": "Največje tehnološke napake pri implementaciji in uporabi API-jev"
+    },
+    "video": {
+        "video-title": "Zmogljiva API Management Platforma, popolnoma prilagojena vašim potrebam",
+        "video-text": "Celovita rešitev za upravljanje z API-ji, zasnovana na modularni način. Varna, hitro nadgradljiva in razširljiva, obenem pa dostopna po poslovnem modelu, ki vam najbolj ustreza."
+    }
+}
