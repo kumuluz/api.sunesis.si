@@ -22,8 +22,8 @@ const IndexPage = () => {
       < Content1 /> 
       < Content2 />
       < Content3 />
-      < Content4 /> 
       < Content5 /> 
+      < Content4 /> 
       < Content6 /> 
     </Layout>
   )
@@ -33,7 +33,7 @@ export default IndexPage;
 
 export const query = graphql`
   query($language: String!) {
-    locales: allLocale(filter: {ns: {in: ["translations", "index"]}, language: {eq: $language}}) {
+    locales: allLocale(filter: {ns: {in: ["common", "index"]}, language: {eq: $language}}) {
       edges {
         node {
           ns

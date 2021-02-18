@@ -19,7 +19,7 @@ const BlogPostsComponent = () => {
                 <p className="post-text">{t('blog.post1-text')}</p>
                 <p className="show-more">{t('blog.show-more')}
                     <svg width="19" height="14" viewBox="0 0 19 14" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <path d="M12.3203 0.947266L17.3203 7.20823M17.3203 7.20823L12.3203 12.9473M17.3203 7.20823H0.320312" stroke="#EC6B6B" stroke-width="2"/>
+                    <path d="M12.3203 0.947266L17.3203 7.20823M17.3203 7.20823L12.3203 12.9473M17.3203 7.20823H0.320312" stroke="#EC6B6B" strokeWidth="2"/>
                     </svg>
                 </p>
             </div>

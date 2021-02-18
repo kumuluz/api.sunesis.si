@@ -3,7 +3,6 @@ hr {
     padding: 2.5px;
     margin: 0;
 }
-
 h1 {
     margin:0;
 }
@@ -48,5 +47,9 @@ h1 {
 
 
 .image-div {
+    text-align: center;
+}
+
+.center {
     text-align: center;
 }

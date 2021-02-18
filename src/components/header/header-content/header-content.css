@@ -36,7 +36,7 @@
     color: #2B2B6F;
 }
 
-.video-button {
+.vide-button {
     margin-left: 10px;
     border: 2px solid #5DC2EF;
     box-sizing: border-box;
@@ -46,7 +46,7 @@
     padding-bottom:5px;
 }
 
-.video-button-text {
+.vide-button-text {
     font-family: Asap;
     font-style: normal;
     font-weight: 600;

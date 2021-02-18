@@ -1,12 +1,12 @@
 import React from 'react'
-import { Container, Row, Col } from 'react-bootstrap';
+import { Col } from 'react-bootstrap';
 import "./header-content.css"
 import image from "../../../../static/images/kumuluz-header.png"
 
 const HeaderComponent = (props) => (
 
-    <Container>
-        <Row>
+    <div className="container">
+        <div className="row">
             <Col md={7}>
                 <p className="header-title">{ props.title }</p>
                 <p className="header-text">
@@ -15,15 +15,15 @@ const HeaderComponent = (props) => (
                 <button className="contact-button">
                     <span className="contact-button-text">KONTAKT</span>
                 </button>
-                <button className="video-button">
-                    <span className="video-button-text">POGLEJ VIDEO</span>
+                <button className="vide-button">
+                    <span className="vide-button-text">POGLEJ VIDEO</span>
                 </button>
             </Col>
             <Col md={5}>
                 <img src={ image } alt="Kumuluz" className="image"/>
             </Col>
-        </Row>
-    </Container>
+        </div>
+    </div>
 )
 
 export default HeaderComponent;

@@ -1,4 +1,16 @@
-.blog-title {
+.study-title {
+    font-family: Asap;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 130%;
+    color: #367DBF;
+}
+
+.padded {
+    padding:30px;
+}
+.study-subtitle {
     font-family: Asap;
     font-style: normal;
     font-weight: bold;
@@ -6,30 +18,15 @@
     line-height: 130%;
     color: #2B2B6F;
 }
+/* or 42px */
 
-.post-title {
-    font-family: Asap;
-    font-style: normal;
-    font-weight: 600;
-    font-size: 24px;
-    line-height: 130%;
-    color: #254A99;
-    margin:0;
-}
-
-.post-text {
+.study-text {
     font-family: Asap;
     font-style: normal;
     font-weight: normal;
     font-size: 20px;
     line-height: 150%;
     color: #000000;
-}
-
-hr {
-    background: linear-gradient(270deg, #FFFFFF 2.13%, #5DC2EF 98.62%);
-    padding: 2.5px;
-    margin: 0;
 }
 
 .show-more {
@@ -41,7 +38,8 @@ hr {
     color: #EC6B6B;
 }
 
-.padded {
-    margin-top:50px;
-    margin-bottom:50px;
+hr {
+    background: linear-gradient(270deg, #FFFFFF 2.13%, #5DC2EF 98.62%);
+    padding: 2.5px;
+    margin: 0;
 }

@@ -1,0 +1,20 @@
+.expand-navbar a {
+    color: white;
+    margin-right: 10px;
+    font-family: Asap;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 150%;
+    color: #FFFFFF;
+    transition: 0.2s linear;
+}
+
+.expand-navbar a:hover {
+    text-decoration: none;
+    color:rgb(144, 141, 141);
+}
+
+.expand-navbar button {
+    color: white;
+}
