@@ -1,12 +1,33 @@
 {
     "footer": {},
     "navbar": [
-        "Storitve", 
-        "Produkti",
-        "Tehnologije",
-        "Stranke",
-        "O nas",
-        "Blog",
-        "Kontakt"
+        {
+            "name": "Storitve",
+            "link": "/aa"
+        },
+        {
+            "name": "Produkti", 
+            "link": "/aa"
+        },
+        {
+            "name": "Tehnologije", 
+            "link": "/aa"
+        },
+        {
+            "name": "Stranke", 
+            "link": "/aa"
+        },
+        {
+            "name": "O nas", 
+            "link": "/aa"
+        },
+        {
+            "name": "Blog", 
+            "link": "/aa"
+        },
+        {
+            "name": "Kontakt", 
+            "link": "/aa"
+        }
     ]
 }

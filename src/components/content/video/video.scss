@@ -1,4 +1,6 @@
 .video {
+    padding-top: 100px;
+    padding-bottom: 20px;
     background: #F4F5F5;
 }
 
@@ -17,6 +19,8 @@
     font-weight: normal;
     font-size: 21px;
     line-height: 150%;
+    color: #254A99;
+    opacity: 0.8;
 }
 
 .video-button {
@@ -37,3 +41,25 @@
     text-align: center;
     color: #2B2B6F;
 }
+
+.kumuluz-container {
+    padding-right: 50px;
+    padding-left: 50px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+  @media (min-width: 768px) {
+    .kumuluz-container {
+      width: 750px;
+    }
+  }
+  @media (min-width: 992px) {
+    .kumuluz-container {
+      width: 970px;
+    }
+  }
+  @media (min-width: 1200px) {
+    .kumuluz-container {
+      width: 1170px;
+    }
+  }

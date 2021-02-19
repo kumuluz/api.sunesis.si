@@ -1,15 +1,20 @@
-import React from 'react'
-import { Navbar, Nav } from 'react-bootstrap'
-import "./navbar.css"
-import { Link, useTranslation } from "gatsby-plugin-react-i18next" //Link
+import React, { useState } from 'react';
+import { Navbar, Nav, Dropdown } from 'react-bootstrap'
+import "./navbar.scss"
+import { Link, useTranslation, useI18next } from "gatsby-plugin-react-i18next" //Link
 
 const NavbarComponent = () => {
 
+    const {languages, changeLanguage} = useI18next();
     const { t } = useTranslation();
     const links = t('navbar', { returnObjects: true });
+    
+    // const [showForm, setShowForm] = useState(false);
+    // const showForm = () => {
+    //     setShowForm(!showForm)
 
     const navbarLinks = links.map((link, index) =>
-        <Link key={index}>{link}</Link>
+        <Link to={link.link} key={index}>{link.name}</Link>
     );
 
     return (
@@ -28,10 +33,26 @@ const NavbarComponent = () => {
                 </svg>
             </Link>
             </Navbar.Brand>
+            {/* <button aria-controls="responsive-navbar-nav" type="button" 
+            aria-label="Toggle navigation" className="expand-navbar navbar-toggler collapsed">
+                <span className="navbar-toggler-icon"></span>
+            </button> */}
             <Navbar.Toggle aria-controls="responsive-navbar-nav" className="expand-navbar" />
             <Navbar.Collapse id="responsive-navbar-nav" className="justify-content-end">
                 <Nav className="expand-navbar">
                     {navbarLinks}
+                    <button className="language-selector">
+                        {languages.map((lng) => (
+
+                            <Dropdown.Item key={lng}
+                                onClick={(e) => {
+                                    e.preventDefault();
+                                    changeLanguage(lng);
+                                }}>
+                                {lng}
+                            </Dropdown.Item>
+                        ))}
+                    </button>
                 </Nav>
             </Navbar.Collapse>
         </Navbar>

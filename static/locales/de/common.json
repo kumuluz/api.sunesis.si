@@ -1,12 +1,33 @@
 {
     "footer": {},
-    "header": {
-        "link1": "Storitve",
-        "link2": "Produkti",
-        "link3": "Tehnologije",
-        "link4": "Stranke",
-        "link5": "O nas",
-        "link6": "Blog",
-        "link7": "Kontakt"
-    }
+    "navbar": [
+        {
+            "name": "Storitve",
+            "link": "/aa"
+        },
+        {
+            "name": "Products", 
+            "link": "/aa"
+        },
+        {
+            "name": "Technologies", 
+            "link": "/aa"
+        },
+        {
+            "name": "Customers", 
+            "link": "/aa"
+        },
+        {
+            "name": "About", 
+            "link": "/aa"
+        },
+        {
+            "name": "Blog", 
+            "link": "/aa"
+        },
+        {
+            "name": "Contact", 
+            "link": "/aa"
+        }
+    ]
 }
