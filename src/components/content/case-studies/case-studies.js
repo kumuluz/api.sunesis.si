@@ -2,7 +2,7 @@ import React from 'react'
 
 import Slide from './carousel-slide.js'
 
-import { useTranslation } from "gatsby-plugin-react-i18next" //Link
+import { useTranslation } from "gatsby-plugin-react-i18next"
 import "./case-studies.scss"
 import { Carousel } from 'react-bootstrap'
 

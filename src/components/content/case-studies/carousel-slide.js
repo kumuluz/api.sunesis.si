@@ -1,13 +1,13 @@
 import React from 'react'
-import {useTranslation} from "gatsby-plugin-react-i18next" //Link
+import {useTranslation} from "gatsby-plugin-react-i18next"
 import "./case-studies.scss"
 
 const CaseStudiesComponent = (props) => {
     
     const {t} = useTranslation();
     const text = t('case' + props.s + '.text').length > 100? 
-        t('case' + props.s + '.text').substring(0,500) : 
-        t('case' + props.s + '.text1').substring(0,500);
+        t('case' + props.s + '.text').substring(0,300) : 
+        t('case' + props.s + '.text1').substring(0,300);
     const features = t('case' + props.s + '.features', {returnObjects: true});
     // const detailComponents = details.map((detail, index) => {
     //     if(index % 2 === 0)
@@ -17,7 +17,7 @@ const CaseStudiesComponent = (props) => {
     //   });
 
     return (
-        <div className="row container">
+        <div className="row container" style={{height:"50vh"}}>
         <div className="col-md-6">
            <p className="post-title">{t('case' + props.s + '.title')}</p>
            <hr/>

@@ -1,4 +1,4 @@
-import {useTranslation} from "gatsby-plugin-react-i18next" //Link
+import {useTranslation} from "gatsby-plugin-react-i18next"
 import { Row, Col } from 'react-bootstrap';
 import React from 'react'
 import "./features.css"

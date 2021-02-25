@@ -10,9 +10,8 @@ import Content3 from "../components/content/features/features.js"
 import Content4 from "../components/content/blog-posts/blog-posts.js"
 import Content5 from "../components/content/case-studies/case-studies.js"
 import Content6 from "../components/content/video/video.js"
-import { useTranslation } from "gatsby-plugin-react-i18next" //Link
+import { useTranslation } from "gatsby-plugin-react-i18next"
 import { graphql } from "gatsby"
-import Img from "gatsby-image"
 
 const IndexPage = (props) => {
 
@@ -24,7 +23,9 @@ const IndexPage = (props) => {
       <Header>
         <HeaderContent title={t('header.title')} />
       </Header>
-      {/* <Img fluid={props.data.im.childImageSharp.fluid} alt="Kumuluz" /> */}
+      {/* <div className="col-md-1">
+        <Img fluid={props.data.im.childImageSharp.fluid} alt="Kumuluz" style={{maxHeight: '100%'}}/>
+      </div> */}
       < Content1 image={props.data.im}/>
       < Content2 />
       < Content3 />
@@ -50,7 +51,7 @@ query($language: String!) {
   }
   im: file(relativePath: {eq: "main-functions-1.png"}) {
     childImageSharp {
-      fluid(maxWidth: 450) {
+      fluid {
         ...GatsbyImageSharpFluid
       }
     }

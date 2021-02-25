@@ -1,5 +1,5 @@
 import React from 'react'
-import { useTranslation } from "gatsby-plugin-react-i18next" //Link
+import { useTranslation } from "gatsby-plugin-react-i18next"
 import style from "./studies.module.scss"
 
 const Study1Component = () => {

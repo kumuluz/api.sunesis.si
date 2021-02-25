@@ -13,16 +13,20 @@ const HeaderComponent = (props) => (
                 <p className="header-text">
                     Celovita rešitev za upravljanje z API-ji, zasnovana na modularni način. Varna, hitro nadgradljiva in razširljiva, obenem pa dostopna po poslovnem modelu, ki vam najbolj ustreza.
                 </p>
-                <button className="contact-button">
-                    <span className="contact-button-text">
-                        <a href={CONTACT_URL}>KONTAKT</a>
-                    </span>
-                </button>
-                <button className="vide-button">
-                    <span className="vide-button-text">
-                        <Link to="#video">POGLEJ VIDEO</Link>
-                    </span>
-                </button>
+                <a href={CONTACT_URL}>
+                    <button className="contact-button">
+                        <span className="contact-button-text">
+                            KONTAKT
+                        </span>
+                    </button>
+                </a>
+                <Link to="#video">
+                    <button className="vide-button">
+                        <span className="vide-button-text">
+                            POGLEJ VIDEO
+                        </span>
+                    </button>
+                </Link>
             </div>
             <div className="col-md-5">
                 <img src={image} alt="Kumuluz" className="image" />

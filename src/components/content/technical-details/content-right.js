@@ -4,7 +4,7 @@ import "./technical-details.scss"
 const ContentLeftComponent = (props) => {
 
     return (
-        <div id={"div" + props.ide}>
+        <div id={props.id}>
             <div className="row">
                 <div className="col-lg-6">
                     <p>images</p>

@@ -55,12 +55,23 @@ h1 {
     line-height: 130%;
     color: #bebdbd;
 }
+
 .image-div {
-    text-align: right;
-    height: 100px;
+    line-height:500px;
+    text-align:center;
+}
+
+.image-top  {
+    height: 75%;
+    vertical-align:top;
+}
+
+.image-center  {
+    height: 75%;
+    vertical-align:middle;
 }
 
 .center {
-    text-align: center;
+    text-align: middle;
     margin: 80px 0 50px 0; 
 }

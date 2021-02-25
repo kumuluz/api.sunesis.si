@@ -1,7 +1,7 @@
 import React from 'react'
 import { Navbar, Nav, Dropdown, DropdownButton } from 'react-bootstrap'
 import "./navbar.scss"
-import { Link, useTranslation, useI18next } from "gatsby-plugin-react-i18next" //Link
+import { Link, useTranslation, useI18next } from "gatsby-plugin-react-i18next"
 
 
 const NavbarComponent = () => {
@@ -16,7 +16,7 @@ const NavbarComponent = () => {
     
     
     let setSelected = (e) => {
-        changeLanguage(e);
+        changeLanguage(e.target.innerHTML);
     }
 
 
@@ -40,15 +40,16 @@ const NavbarComponent = () => {
             <Navbar.Collapse id="responsive-navbar-nav" className="justify-content-end">
                 <Nav className="expand-navbar">
                     {navbarLinks}
-                    <DropdownButton className="language-selector"
-                    onSelect={setSelected} title={language}
-                    >
-                        {languages.map((lng) => (
-                            <Dropdown.Item key={lng} eventKey={lng}>
-                                {lng}
-                            </Dropdown.Item>
-                        ))}
-                    </DropdownButton>
+                    <div className="dropdown">
+                       <span>{language}</span>
+                        <div className="dropdown-content">
+                            {languages.map((lng) => (
+                                <p key={lng} onClick={setSelected}>
+                                    {lng}
+                                </p>
+                            ))}
+                        </div>
+                    </div>
                 </Nav>
             </Navbar.Collapse>
         </Navbar>

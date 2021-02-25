@@ -23,14 +23,14 @@ const TechnicalDetailsPage = () => {
       <div className="container-fluid">
         <div className="row">
           <div className="col-md-2">
-            <Selector />
+            <Selector det={details}/>
           </div>
           <div className="col-md-9">
             {details.map((detail, index) => {
               if (index % 2 === 0)
-                return (<ContentL title={detail.title} text={detail.text} key={index} ide={index} />);
+                return (<ContentL title={detail.title} text={detail.text} key={index} id={"paragraph"+index} />);
               else
-                return (<ContentR title={detail.title} text={detail.text} key={index} ide={index} />);
+                return (<ContentR title={detail.title} text={detail.text} key={index} id={"paragraph"+index} />);
             })
             }
           </div>

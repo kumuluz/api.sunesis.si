@@ -30,28 +30,98 @@
         }
     ],
     "footer": {
-        "title":"hello",
+        "copyright": "Vse pravice pridržane",
         "products": {
-            "title": "Produkti"
+            "title": "Produkti",
+            "subtitle1": "Kumuluz Digital",
+            "links1": [
+                {
+                    "name": "EE",
+                    "href": "https://kumuluz.com/digital-components/ee"
+                },
+                {
+                    "name": "API",
+                    "href": "https://kumuluz.com/digital-components/api"
+                },
+                {
+                    "name": "Integration",
+                    "href": "https://kumuluz.com/digital-components/integration"
+                },
+                {
+                    "name": "Ux",
+                    "href": "https://kumuluz.com/digital-components/ux"
+                },
+                {
+                    "name": "Marketplace",
+                    "href": "https://kumuluz.com/digital-components/marketplace"
+                },
+                {
+                    "name": "Crowdsensing",
+                    "href": "https://kumuluz.com/digital-components/crowdsensing"
+                }
+            ],
+            "subtitle2": "Kumuluz Poslovni API-ji",
+            "links2": [
+                {
+                    "name": "Plačevanje",
+                    "href": "https://kumuluz.com/business-apis/payment"
+                },
+                {
+                    "name": "Katalog izdelkov",
+                    "href": "https://kumuluz.com/business-apis/product-catalog/"
+                },
+                {
+                    "name": "Nakupovalna košarica",
+                    "href": "https://kumuluz.com/business-apis/cart"
+                },
+                {
+                    "name": "Upravljanje z naročili",
+                    "href": "https://kumuluz.com/business-apis/order"
+                },
+                {
+                    "name": "Izpolnjevanje naročil",
+                    "href": "https://kumuluz.com/business-apis/fulfillment"
+                },
+                {
+                    "name": "Izdajanje računov",
+                    "href": "https://kumuluz.com/business-apis/invoice"
+                },
+                {
+                    "name": "Upravljanje odnosov s strankami",
+                    "href": "https://kumuluz.com/business-apis/customer"
+                },
+                {
+                    "name": "Komunikacija s strankami",
+                    "href": "https://kumuluz.com/business-apis/ccm"
+                },
+                {
+                    "name": "Upravljanje naročnine",
+                    "href": "https://kumuluz.com/business-apis/subscription"
+                },
+                {
+                    "name": "Proces spoznavanja strank",
+                    "href": "https://kumuluz.com/business-apis/kyc"
+                }
+            ]
         },
         "community": {
             "title": "Skupnost",
             "links": [
                 {
                     "name": "Blog",
-                    "href": "/business-apis/payment"
+                    "href": "https://blog.kumuluz.com"
                 },
                 {
                     "name": "Odprtokodnost",
-                    "href": "/business-apis/payment"
+                    "href": "https://github.com/kumuluz"
                 },
                 {
                     "name": "Twitter",
-                    "href": "/business-apis/payment"
+                    "href": "https://twitter.com/kumuluz"
                 },
                 {
                     "name": "LinkedIn",
-                    "href": "/business-apis/payment"
+                    "href": "https://www.linkedin.com/company/kumuluz"
                 }
             ]
         },
@@ -60,19 +130,19 @@
             "links": [
                 {
                     "name": "O nas",
-                    "href": "/business-apis/payment"
+                    "href": "https://sunesis.si/about/sunesis"
                 },
                 {
                     "name": "Nagrade",
-                    "href": "/business-apis/payment"
+                    "href": "https://sunesis.si/about/awards"
                 },
                 {
                     "name": "Novice",
-                    "href": "/business-apis/payment"
+                    "href": "https://blog.kumuluz.com/"
                 },
                 {
                     "name": "Kariera",
-                    "href": "/business-apis/payment"
+                    "href": ""
                 }
             ]
         },
@@ -81,43 +151,43 @@
             "links": [
                 {
                     "name": "Digitalna transformacija",
-                    "href": "/business-apis/payment"
+                    "href": "https://sunesis.si"
                 },
                 {
                     "name": "Oblak, mikrostoritve & API-ji",
-                    "href": "/business-apis/payment"
+                    "href": "https://sunesis.si"
                 },
                 {
                     "name": "Docker in Kubernetes",
-                    "href": "/business-apis/payment"
+                    "href": "https://sunesis.si"
                 },
                 {
                     "name": "Verižni bloki",
-                    "href": "/business-apis/payment"
+                    "href": "https://sunesis.si"
                 },
                 {
                     "name": "Java EE arhitektura in razvoj",
-                    "href": "/business-apis/payment"
+                    "href": "https://sunesis.si"
                 },
                 {
                     "name": "Mobilni UX",
-                    "href": "/business-apis/payment"
+                    "href": "https://sunesis.si"
                 },
                 {
                     "name": "HTML5 odzivni spletni razvoj",
-                    "href": "/business-apis/payment"
+                    "href": "https://sunesis.si"
                 },
                 {
                     "name": "DevOps & Continuous Delivery",
-                    "href": "/business-apis/payment"
+                    "href": "https://sunesis.si"
                 },
                 {
                     "name": "BPM",
-                    "href": "/business-apis/payment"
+                    "href": "https://sunesis.si"
                 },
                 {
                     "name": "Več",
-                    "href": "/business-apis/payment"
+                    "href": "https://sunesis.si/services"
                 }
             ]
         }

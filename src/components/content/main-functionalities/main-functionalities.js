@@ -1,10 +1,10 @@
 import React from 'react'
-import { graphql, useStaticQuery } from 'gatsby'
+// import { graphql, useStaticQuery } from 'gatsby'
+// import { Img } from 'gatsby-image'
 import { Row } from 'react-bootstrap'
-import { Img } from 'gatsby-image'
 
 import "./main-functionalities.css"
-// import image1 from "../../../../static/images/main-functions-1.png"
+import image1 from "../../../../static/images/main-functions-1.png"
 import image2 from "../../../../static/images/main-functions-2.png"
 import image3 from "../../../../static/images/main-functions-3.png"
 import { useTranslation } from "gatsby-plugin-react-i18next"
@@ -38,12 +38,13 @@ const MainFunctionalites = (props) => {
                     <p className="main-functionalities-text">{t('main-features.feature2_text')}</p>
                 </div>
                 <div className="col-md-6 image-div">
+                    <img src={image1} alt="Kumuluz" className="image-center"/>
                     {/* <Img fixed={props.data.im.childImageSharp.fluid} alt="Kumuluz" /> */}
                 </div>
             </div>
             <Row>
                 <div className="col-md-6 image-div">
-                    <img src={image2} alt="Kumuluz" className="image" />
+                    <img src={image2} alt="Kumuluz" className="image-top"/>
                 </div>
                 <div className="col-md-6">
                     <h3 className="main-functionalities-subtitle">{t('main-features.feature3_title')}</h3>
@@ -60,7 +61,7 @@ const MainFunctionalites = (props) => {
                     <p className="main-functionalities-text">{t('main-features.feature6_text')}</p>
                 </div>
                 <div className="col-md-6 image-div">
-                    <img src={image3} alt="Kumuluz" className="image" />
+                <img src={image3} alt="Kumuluz" className="image-center"/>
                 </div>
             </Row>
         </div>
