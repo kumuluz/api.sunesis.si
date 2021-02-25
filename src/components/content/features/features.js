@@ -18,19 +18,19 @@ const FeaturesComponent = () => {
             <Row>
                 <Col md={3}>
                     <img src={ image1 } alt="Kumuluz" className="iimage"/>
-                    <p>{t('advantages.advantage1-text')}</p>
+                    <p className="features-ttext">{t('advantages.advantage1-text')}</p>
                 </Col>
                 <Col md={3}>
                     <img src={ image2 } alt="Kumuluz" className="iimage"/>
-                    <p>{t('advantages.advantage2-text')}</p>
+                    <p className="features-ttext">{t('advantages.advantage2-text')}</p>
                 </Col>
                 <Col md={3}>
                     <img src={ image3 } alt="Kumuluz" className="iimage"/>
-                    <p>{t('advantages.advantage3-text')}</p>
+                    <p className="features-ttext">{t('advantages.advantage3-text')}</p>
                 </Col>
                 <Col md={3}>
                     <img src={ image4 } alt="Kumuluz" className="iimage"/>
-                    <p>{t('advantages.advantage4-text')}</p>
+                    <p className="features-ttext">{t('advantages.advantage4-text')}</p>
                 </Col>
             </Row>
         </div>

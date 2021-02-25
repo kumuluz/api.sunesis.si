@@ -1,27 +1,33 @@
 .header-title {
+    padding: 6rem 0 50px 0;
     font-family: Rubik;
     font-style: normal;
-    font-weight: bold;
-    font-size: 32px;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 130%;
+}
+
+.header-content {
+    padding-top: 4rem;
+    margin-bottom: 20px;
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
     line-height: 130%;
 }
 
 .header-text {
     font-family: Asap;
-    font-style: normal;
-    font-weight: normal;
     font-size: 21px;
-    line-height: 150%;
-    opacity: 0.8;
+    color:rgb(207, 205, 205);
 }
 
 .contact-button {
-    border: 2px #5DC2EF solid;
+    border: 2px solid #5DC2EF;
     background: #5DC2EF;
-    padding-left:20px;
-    padding-right:20px;
-    padding-top:5px;
-    padding-bottom:5px;
+    box-sizing: border-box;
+    padding: 5px 35px 5px 35px;
 }
 
 .contact-button-text {
@@ -29,7 +35,6 @@
     font-style: normal;
     font-weight: 600;
     font-size: 16px;
-    line-height: 150%;
     display: flex;
     align-items: center;
     text-align: center;
@@ -37,29 +42,23 @@
 }
 
 .vide-button {
-    margin-left: 10px;
+    margin-left: 25px;
     border: 2px solid #5DC2EF;
     box-sizing: border-box;
-    padding-left:20px;
-    padding-right:20px;
-    padding-top:5px;
-    padding-bottom:5px;
+    padding: 5px 20px 5px 20px;
 }
 
 .vide-button-text {
     font-family: Asap;
-    font-style: normal;
     font-weight: 600;
     font-size: 16px;
-    line-height: 150%;
     background: transparent;
-    display: flex;
-    align-items: center;
     text-align: center;
     color: #5DC2EF;
+    text-shadow: 1px 1px 1px rgba(0,0,0,0.004);
 }
 
 .image {
-    width: 300px;
-    height: 400px;
+    height: 65%;
+    margin-bottom:0;
 }

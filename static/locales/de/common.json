@@ -1,33 +1,125 @@
 {
-    "footer": {},
     "navbar": [
         {
             "name": "Storitve",
-            "link": "/aa"
+            "link": "https://sunesis.si/services"
         },
         {
-            "name": "Products", 
-            "link": "/aa"
+            "name": "Produkti",
+            "link": "https://sunesis.si/products"
         },
         {
-            "name": "Technologies", 
-            "link": "/aa"
+            "name": "Tehnologije",
+            "link": "https://sunesis.si/technologies"
         },
         {
-            "name": "Customers", 
-            "link": "/aa"
+            "name": "Stranke",
+            "link": "https://sunesis.si/customers"
         },
         {
-            "name": "About", 
-            "link": "/aa"
+            "name": "O nas",
+            "link": "https://sunesis.si/about/sunesis/"
         },
         {
-            "name": "Blog", 
-            "link": "/aa"
+            "name": "Blog",
+            "link": "https://blog.kumuluz.com/"
         },
         {
-            "name": "Contact", 
-            "link": "/aa"
+            "name": "Kontakt",
+            "link": "https://kumuluz.com/#contact-us"
         }
-    ]
+    ],
+    "footer": {
+        "title":"hello",
+        "products": {
+            "title": "Produkti"
+        },
+        "community": {
+            "title": "Skupnost",
+            "links": [
+                {
+                    "name": "Blog",
+                    "href": "/business-apis/payment"
+                },
+                {
+                    "name": "Odprtokodnost",
+                    "href": "/business-apis/payment"
+                },
+                {
+                    "name": "Twitter",
+                    "href": "/business-apis/payment"
+                },
+                {
+                    "name": "LinkedIn",
+                    "href": "/business-apis/payment"
+                }
+            ]
+        },
+        "company": {
+            "title": "Podjetje",
+            "links": [
+                {
+                    "name": "O nas",
+                    "href": "/business-apis/payment"
+                },
+                {
+                    "name": "Nagrade",
+                    "href": "/business-apis/payment"
+                },
+                {
+                    "name": "Novice",
+                    "href": "/business-apis/payment"
+                },
+                {
+                    "name": "Kariera",
+                    "href": "/business-apis/payment"
+                }
+            ]
+        },
+        "services": {
+            "title": "Storitve",
+            "links": [
+                {
+                    "name": "Digitalna transformacija",
+                    "href": "/business-apis/payment"
+                },
+                {
+                    "name": "Oblak, mikrostoritve & API-ji",
+                    "href": "/business-apis/payment"
+                },
+                {
+                    "name": "Docker in Kubernetes",
+                    "href": "/business-apis/payment"
+                },
+                {
+                    "name": "Verižni bloki",
+                    "href": "/business-apis/payment"
+                },
+                {
+                    "name": "Java EE arhitektura in razvoj",
+                    "href": "/business-apis/payment"
+                },
+                {
+                    "name": "Mobilni UX",
+                    "href": "/business-apis/payment"
+                },
+                {
+                    "name": "HTML5 odzivni spletni razvoj",
+                    "href": "/business-apis/payment"
+                },
+                {
+                    "name": "DevOps & Continuous Delivery",
+                    "href": "/business-apis/payment"
+                },
+                {
+                    "name": "BPM",
+                    "href": "/business-apis/payment"
+                },
+                {
+                    "name": "Več",
+                    "href": "/business-apis/payment"
+                }
+            ]
+        }
+    }
 }

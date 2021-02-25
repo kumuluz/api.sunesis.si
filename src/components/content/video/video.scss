@@ -11,6 +11,7 @@
     font-size: 32px;
     line-height: 130%;
     color: #2B2B6F;
+    margin-bottom: 15px;
 }
 
 .video-text {
@@ -20,14 +21,17 @@
     font-size: 21px;
     line-height: 150%;
     color: #254A99;
+    margin-bottom: 50px;
     opacity: 0.8;
 }
 
 .video-button {
     background: #5DC2EF;
+    border: #5DC2EF;
     padding: 10px;
     margin-bottom: 50px;
     margin-left: 0;
+    padding: 10px 40px 10px 40px
 }
 
 .video-button-text {
@@ -47,19 +51,22 @@
     padding-left: 50px;
     margin-right: auto;
     margin-left: auto;
-  }
-  @media (min-width: 768px) {
+}
+
+@media (min-width: 768px) {
     .kumuluz-container {
-      width: 750px;
+        width: 750px;
     }
-  }
-  @media (min-width: 992px) {
+}
+
+@media (min-width: 992px) {
     .kumuluz-container {
       width: 970px;
     }
-  }
-  @media (min-width: 1200px) {
+}
+
+@media (min-width: 1200px) {
     .kumuluz-container {
       width: 1170px;
     }
-  }
+}

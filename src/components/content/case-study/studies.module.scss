@@ -1,4 +1,5 @@
-.studies-title {
+.studies_title {
+    margin: 60px 0 35px 0;
     font-family: Asap;
     font-style: normal;
     font-weight: normal;
@@ -7,22 +8,23 @@
     color: #2B2B6F;
 }
 
-.studies-text {
+.studies_text {
     font-family: Asap;
     font-style: normal;
     font-weight: normal;
     font-size: 20px;
     line-height: 150%;
     color: #3C3C3B;
+    margin-bottom: 40px;
 }
 
 ul {
     list-style: none;
     padding: 0;
-    margin: 0;
+    margin: 0 0 35px 0;
 }
 
-.ul-blue {
+.ul_blue {
     font-family: Asap;
     font-style: normal;
     font-weight: 600;
@@ -46,20 +48,25 @@ li:before {
     color: #5DC2EF;
 }
 
-.feaature-title {
+.feaature_title {
     font-family: Asap;
     font-style: normal;
     font-weight: normal;
     font-size: 42px;
     line-height: 130%;
     color: #5DC2EF;
+    margin-bottom:10px;
 }
 
-.feaature-text {
+.feaature_text {
     font-family: Asap;
     font-style: normal;
     font-weight: normal;
     font-size: 16px;
     line-height: 130%;
     color: #000000;
+}
+
+.margin_top {
+    margin-top: 40px;
 }

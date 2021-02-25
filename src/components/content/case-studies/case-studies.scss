@@ -7,9 +7,6 @@
     color: #367DBF;
 }
 
-.padded {
-    padding:30px;
-}
 .study-subtitle {
     font-family: Asap;
     font-style: normal;
@@ -69,4 +66,9 @@ hr {
     font-size: 16px;
     line-height: 150%;
     color: #000000;
+}
+
+.carousel-control-next,
+.carousel-control-prev /*, .carousel-indicators */ {
+    filter: invert(100%);
 }

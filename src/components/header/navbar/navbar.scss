@@ -1,26 +1,66 @@
-.expand-navbar a {
-    color: white;
-    margin-right: 10px;
+.nbar {
+    padding-bottom: 0;
+}
+
+.nbar ul {
+    position: absolute;
+    margin-bottom: 0;
+    bottom: 0;
+    right: 0;
+}
+
+.nbar li {
+    padding-right: 20px;
+    margin-bottom: 0;
+}
+
+.nbar a {
+    text-decoration: none;
+    margin-right:15px;
+    line-height: 43px;
+    bottom: 0;
+    color: #FFFFFF;
     font-family: Asap;
     font-style: normal;
     font-weight: normal;
+}
+
+.nbar a p {
+    bottom: 0;
     font-size: 16px;
-    line-height: 150%;
-    color: #FFFFFF;
-    transition: 0.2s linear;
-}
-
-.expand-navbar a:hover {
-    text-decoration: none;
-    color:rgb(144, 141, 141);
-}
-
-.expand-navbar button {
-    color: white;
+    margin: 0;
 }
 
 button {
     margin:0;
     padding:0;
     background: transparent;
+}
+
+.btn-primary {
+    background: transparent;
+    border: none;
+    color:white;
+}
+.btn-primary:hover, .btn-primary:focus, .btn-primary:active, .btn-primary.active, .open>.dropdown-toggle.btn-primary {
+background: transparent;
+    border: none;
+    color:white;
+    background-color: transparent;
+    border-color: transparent; /*set the color you want here*/
+}
+
+.language-selector button {
+    background: transparent;
+    border: none;
+}
+
+.dropdown-menu.show {
+    background: transparent;
+    // border: 1px solid red;
+    width: 20px !important;
+}
+
+.language-selector button :hover {
+    background-color: red;
 }

@@ -5,7 +5,12 @@ module.exports = {
     author: `@Sunesis`,
   },
   plugins: [
+    `gatsby-image`,
     `gatsby-plugin-react-helmet`,
+    `gatsby-plugin-fontawesome-css`,
+    `gatsby-transformer-sharp`,
+    `gatsby-plugin-sharp`,
+    `gatsby-plugin-sass`,
     {
       resolve: `gatsby-source-filesystem`,
       options: {
@@ -20,8 +25,13 @@ module.exports = {
         name: `locale`
       }
     },
-    `gatsby-transformer-sharp`,
-    `gatsby-plugin-sharp`,
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        path: `${__dirname}/static/stylesheets`,
+        name: `styles`
+      }
+    },
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
@@ -38,8 +48,8 @@ module.exports = {
       resolve: `gatsby-plugin-google-fonts`,
       options: {
         fonts: [
-          `Rubik`,
-          `Asap`
+          `Rubik\:300,400,600,700`,
+          `Asap\:300,400,600,700` // you can also specify font weights and styles
         ],
         display: 'swap'
       }
@@ -74,6 +84,5 @@ module.exports = {
         ]
       }
     },
-    `gatsby-plugin-sass`,
-  ],
+  ]
 }

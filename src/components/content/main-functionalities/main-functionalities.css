@@ -1,6 +1,6 @@
 hr {
     background: linear-gradient(270deg, #FFFFFF 2.13%, #5DC2EF 98.62%);
-    padding: 2.5px;
+    /* padding: 2.5px; */
     margin: 0;
 }
 h1 {
@@ -15,19 +15,21 @@ h1 {
 .main-functionalities-title {
     font-family: Asap;
     font-style: normal;
-    font-weight: bold;
+    font-weight: 500;
     font-size: 32px;
     color: #2B2B6F;
 }
 
 .weight400 {
     font-weight: 400;
+    margin-bottom:80px;
 }
 
 .weight700 {
     font-weight: 700;
 }
 .main-functionalities-subtitle {
+    margin-bottom: 10px;
     font-family: Asap;
     font-style: normal;
     font-weight: 600;
@@ -41,15 +43,24 @@ h1 {
     font-style: normal;
     font-weight: normal;
     font-size: 20px;
-    line-height: 150%;
     color: #3C3C3B;
+    margin-bottom:40px;
 }
 
-
+.sponsors-text {
+    font-family: Asap;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 130%;
+    color: #bebdbd;
+}
 .image-div {
-    text-align: center;
+    text-align: right;
+    height: 100px;
 }
 
 .center {
     text-align: center;
+    margin: 80px 0 50px 0; 
 }

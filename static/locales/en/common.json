@@ -1,33 +1,195 @@
 {
-    "footer": {},
     "navbar": [
         {
-            "name": "Storitve",
-            "link": "/aa"
+            "name": "Services",
+            "link": "https://sunesis.si/services"
         },
         {
-            "name": "Products", 
-            "link": "/aa"
+            "name": "Products",
+            "link": "https://sunesis.si/products"
         },
         {
-            "name": "Technologies", 
-            "link": "/aa"
+            "name": "Technologies",
+            "link": "https://sunesis.si/technologies"
         },
         {
-            "name": "Customers", 
-            "link": "/aa"
+            "name": "Customers",
+            "link": "https://sunesis.si/customers"
         },
         {
-            "name": "About", 
-            "link": "/aa"
+            "name": "About",
+            "link": "https://sunesis.si/about/sunesis/"
         },
         {
-            "name": "Blog", 
-            "link": "/aa"
+            "name": "Blog",
+            "link": "https://blog.kumuluz.com/"
         },
         {
-            "name": "Contact", 
-            "link": "/aa"
+            "name": "Contact",
+            "link": "https://kumuluz.com/#contact-us"
         }
-    ]
+    ],
+    "footer": {
+        "copyright": "All rights reserved",
+        "products": {
+            "title": "Products",
+            "subtitle1": "Kumuluz Digital",
+            "links1": [
+                {
+                    "name": "EE",
+                    "href": "/business-apis/payment"
+                },
+                {
+                    "name": "API",
+                    "href": "/business-apis/payment"
+                },
+                {
+                    "name": "Integration",
+                    "href": "/business-apis/payment"
+                },
+                {
+                    "name": "Ux",
+                    "href": "/business-apis/payment"
+                },
+                {
+                    "name": "Marketplace",
+                    "href": "/business-apis/payment"
+                },
+                {
+                    "name": "Crowdsensing",
+                    "href": "/business-apis/payment"
+                }
+            ],
+            "subtitle2": "Kumuluz Business APIs",
+            "links2": [
+                {
+                    "name": "Payment",
+                    "href": "/business-apis/payment"
+                },
+                {
+                    "name": "Product catalog",
+                    "href": "/business-apis/payment"
+                },
+                {
+                    "name": "Cart",
+                    "href": "/business-apis/payment"
+                },
+                {
+                    "name": "Order",
+                    "href": "/business-apis/payment"
+                },
+                {
+                    "name": "Fulfillment",
+                    "href": "/business-apis/payment"
+                },
+                {
+                    "name": "Invoice",
+                    "href": "/business-apis/payment"
+                },
+                {
+                    "name": "Customer",
+                    "href": "/business-apis/payment"
+                },
+                {
+                    "name": "CCM",
+                    "href": "/business-apis/payment"
+                },
+                {
+                    "name": "Subscription",
+                    "href": "/business-apis/payment"
+                },
+                {
+                    "name": "KYC",
+                    "href": "/business-apis/payment"
+                }
+            ]
+        },
+        "community": {
+            "title": "Community",
+            "links": [
+                {
+                    "name": "Blog",
+                    "href": "/business-apis/payment"
+                },
+                {
+                    "name": "Open Source",
+                    "href": "/business-apis/payment"
+                },
+                {
+                    "name": "Twitter",
+                    "href": "/business-apis/payment"
+                },
+                {
+                    "name": "LinkedIn",
+                    "href": "/business-apis/payment"
+                }
+            ]
+        },
+        "company": {
+            "title": "Company",
+            "links": [
+                {
+                    "name": "About",
+                    "href": "/business-apis/payment"
+                },
+                {
+                    "name": "Rewards",
+                    "href": "/business-apis/payment"
+                },
+                {
+                    "name": "News",
+                    "href": "/business-apis/payment"
+                },
+                {
+                    "name": "Careers",
+                    "href": "/business-apis/payment"
+                }
+            ]
+        },
+        "services": {
+            "title": "Services",
+            "links": [
+                {
+                    "name": "Digital Transformation",
+                    "href": "/business-apis/payment"
+                },
+                {
+                    "name": "Cloud, microservices & APIs",
+                    "href": "/business-apis/payment"
+                },
+                {
+                    "name": "Docker and Kubernetes",
+                    "href": "/business-apis/payment"
+                },
+                {
+                    "name": "Verižni bloki",
+                    "href": "/business-apis/payment"
+                },
+                {
+                    "name": "Java EE architecture and developtment",
+                    "href": "/business-apis/payment"
+                },
+                {
+                    "name": "Mobile UX",
+                    "href": "/business-apis/payment"
+                },
+                {
+                    "name": "HTML5 responsive web developtment",
+                    "href": "/business-apis/payment"
+                },
+                {
+                    "name": "DevOps & Continuous Delivery",
+                    "href": "/business-apis/payment"
+                },
+                {
+                    "name": "BPM",
+                    "href": "/business-apis/payment"
+                },
+                {
+                    "name": "More",
+                    "href": "/business-apis/payment"
+                }
+            ]
+        }
+    }
 }

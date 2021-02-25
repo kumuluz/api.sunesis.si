@@ -1,11 +1,20 @@
 .features {
     background: radial-gradient(52.47% 202.29% at 69.07% 71.82%, #254A99 0%, #2B2B6F 82.13%);
     color: white;
-    padding: 50px;
+    padding: 110px 50px 110px 50px;
     text-align: center;
 }
 
 .iimage {
     width: 153.13px;
     height: 94.6px;
+}
+
+.features-ttext {
+    font-family: Asap;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    text-align: center;
+    color: #FFFFFF;
 }

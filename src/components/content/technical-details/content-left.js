@@ -4,13 +4,13 @@ import "./technical-details.scss"
 const ContentLeftComponent = (props) => {
 
     return (
-        <div className="container" id={"div" + props.key}>
+        <div id={"div" + props.ide}>
             <div className="row">
-                <div className="col-md-6">
+                <div className="col-lg-6">
                     <p className="tech-title">{props.title}</p>
                     <p className="tech-text">{props.text}</p>
                 </div>
-                <div className="col-md-6">
+                <div className="col-lg-6">
                     <p>images</p>
                 </div>
             </div>
