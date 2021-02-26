@@ -18,9 +18,9 @@ const TechnicalDetailsPage = () => {
     <Layout>
       <SEO title="Technical Details" />
       <Header>
-        <HeaderContent />
+        <HeaderContent title={t('header.title')}/>
       </Header>
-      <div className="container-fluid">
+      <div className="container-fluid" style={{marginTop:"90px"}}>
         <div className="row">
           <div className="col-md-2">
             <Selector det={details}/>

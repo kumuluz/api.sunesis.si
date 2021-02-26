@@ -13,7 +13,7 @@ import img_sponsors from "../../../../static/images/sponsors.png"
 const MainFunctionalites = (props) => {
 
     const { t } = useTranslation();
-    console.log(props.image.childImageSharp.fluid);
+
     return (
         <div className="container">
             <div className="center">
@@ -39,7 +39,6 @@ const MainFunctionalites = (props) => {
                 </div>
                 <div className="col-md-6 image-div">
                     <img src={image1} alt="Kumuluz" className="image-center"/>
-                    {/* <Img fixed={props.data.im.childImageSharp.fluid} alt="Kumuluz" /> */}
                 </div>
             </div>
             <Row>

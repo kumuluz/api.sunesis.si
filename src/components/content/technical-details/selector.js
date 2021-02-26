@@ -4,18 +4,19 @@ import "./technical-details.scss"
 const SelectorComponent = (props) => {
 
     const handle = (e) => {
-        document.getElementById(e.target.value).scrollIntoView();
+        document.getElementById(e.currentTarget.getAttribute('value')).scrollIntoView();
     }
 
     return (
-        <div>
+        <div className="div-margin">
             {props.det.map((detail, index) => {
                 return (
-                    <label className="radio_select" key={index}>
-                        <span className="select-text">{detail.title}</span>
-                        <input type="radio" value={"paragraph" + index} name="selector" onClick={handle}/>
-                        <span className="checkmark"></span>
-                    </label>
+                    <p key={index} value={"paragraph" + index} 
+                        name="selector" onClick={handle} className="select-text"
+                    >
+                        <span>{detail.title}</span>
+                        <span className="radio-button"></span>
+                    </p>
                 )
             }
             )}

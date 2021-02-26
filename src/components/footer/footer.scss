@@ -56,6 +56,7 @@ $font-asap: 'Asap', sans-serif;
   color: $white;
   background: linear-gradient(to right, $blue-300, $blue-400);
   font-family: $font-asap;
+
   .subtitle {
     font-weight: 700;
   }
@@ -67,9 +68,9 @@ $font-asap: 'Asap', sans-serif;
   .top-pad {
     padding-top: 20px;
   }
-
-  .links {
-    justify-content: space-between;
+  .link {
+    display: block;
+  }
     
     .title {
       padding-top:60px;
@@ -91,17 +92,10 @@ $font-asap: 'Asap', sans-serif;
     a {
       color: $white !important;
       text-decoration: none;
-      display: block;
-      padding-bottom: 5px;
-
-      div {
-        margin-bottom: 5px;
-      }
     }
     div {
       margin-bottom: 5px;
     }
-  }
 
   .line {
     margin: auto;
@@ -150,19 +144,4 @@ $font-asap: 'Asap', sans-serif;
     background: $blue-400;
   }
 
-  .social-icons {
-    text-align: center;
-
-    a {
-      margin: 0 5px;
-    }
-
-    img {
-      max-width: 50px;
-      margin-right: 10px;
-    }
-    img:last-child {
-      margin-right: 0;
-    }
-  }
 }

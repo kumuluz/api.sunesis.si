@@ -16,17 +16,14 @@ import { graphql } from "gatsby"
 const IndexPage = (props) => {
 
   const { t } = useTranslation();
-  console.log(props.data.im.childImageSharp.fluid);
+
   return (
     <Layout header={t('header')}>
       <SEO title={t('Home')} />
       <Header>
         <HeaderContent title={t('header.title')} />
       </Header>
-      {/* <div className="col-md-1">
-        <Img fluid={props.data.im.childImageSharp.fluid} alt="Kumuluz" style={{maxHeight: '100%'}}/>
-      </div> */}
-      < Content1 image={props.data.im}/>
+      < Content1 />
       < Content2 />
       < Content3 />
       < Content5 />
@@ -40,19 +37,12 @@ export default IndexPage;
 
 export const query = graphql`
 query($language: String!) {
-  locales: allLocale(filter: {ns: {in: ["common", "index","case-studies"]}, language: {eq: $language}}) {
+  locales: allLocale(filter: {ns: {in: ["index","case-studies", "common"]}, language: {eq: $language}}) {
     edges {
       node {
         ns
         data
         language
-      }
-    }
-  }
-  im: file(relativePath: {eq: "main-functions-1.png"}) {
-    childImageSharp {
-      fluid {
-        ...GatsbyImageSharpFluid
       }
     }
   }
