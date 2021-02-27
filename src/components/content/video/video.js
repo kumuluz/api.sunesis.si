@@ -13,7 +13,7 @@ const VideoComponent = () => {
                 <div className="col-md-7">
                     <p className="video-title">{t('video.video-title')}</p>
                     <p className="video-text">{t('video.video-text')}</p>
-                    <a href={CONTACT_URL}>
+                    <a href={CONTACT_URL} target="_blank" rel="noreferrer noopener">
                         <button className="video-button">
                             <span className="video-button-text">
                                 {t("header.button-contact")}</span>

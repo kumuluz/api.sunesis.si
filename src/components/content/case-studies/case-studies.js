@@ -11,7 +11,7 @@ const CaseStudiesComponent = () => {
     const { t } = useTranslation();
 
     return (
-        <div className="container">
+        <div className="container" style={{marginTop:"80px"}}>
             <p className="blog-title">{t('case-study.title')}</p>
             <Carousel>
                 <Carousel.Item>

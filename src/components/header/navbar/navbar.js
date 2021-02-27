@@ -8,15 +8,16 @@ const NavbarComponent = () => {
 
     const { languages, language, changeLanguage } = useI18next();
     const { t } = useTranslation();
-    const links = t('navbar', { returnObjects: true });
 
-    const navbarLinks = links.map((link, index) =>
-        <a href={link.link} key={index}><p>{link.name}</p></a>
+    const navbarLinks = t('navbar.links', { returnObjects: true }).map((link, index) =>
+        <a href={link.link} key={index} target="_blank" rel="noreferrer noopener">
+            <p>{link.name}</p>
+        </a>
     );
     
     
     let setSelected = (e) => {
-        changeLanguage(e.target.innerHTML);
+        changeLanguage(e.target.getAttribute('value'));
     }
 
 
@@ -41,11 +42,16 @@ const NavbarComponent = () => {
                 <Nav className="expand-navbar">
                     {navbarLinks}
                     <div className="dropdown">
-                       <span>{language}</span>
+                        <p>
+                            {t("navbar.language."+language +"-short")} &nbsp;
+                            <svg width="8" height="5" viewBox="0 0 8 5" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M1 1L4 4L7 1" stroke="#5DC2EF"/>
+                            </svg>
+                        </p>
                         <div className="dropdown-content">
                             {languages.map((lng) => (
-                                <p key={lng} onClick={setSelected}>
-                                    {lng}
+                                <p key={lng} onClick={setSelected} value={lng}>
+                                    {t("navbar.language."+lng +"-full")} 
                                 </p>
                             ))}
                         </div>

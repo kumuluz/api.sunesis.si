@@ -13,7 +13,7 @@ const HeaderComponent = (props) => (
                 <p className="header-text">
                     Celovita rešitev za upravljanje z API-ji, zasnovana na modularni način. Varna, hitro nadgradljiva in razširljiva, obenem pa dostopna po poslovnem modelu, ki vam najbolj ustreza.
                 </p>
-                <a href={CONTACT_URL}>
+                <a href={CONTACT_URL} target="_blank" rel="noreferrer noopener">
                     <button className="contact-button">
                         <span className="contact-button-text">
                             KONTAKT
