@@ -16,7 +16,10 @@ const CaseStudiesComponent = () => {
     return (
         <div className="container" style={{marginTop:"50px"}}>
             <p className="blog-title">{t('case-study-title')}</p>
-            <Carousel>
+            <Carousel 
+                prevIcon={""}
+                nextIcon={""}
+            >
                 <Carousel.Item>
                     <Slide s="1"/>
                 </Carousel.Item>

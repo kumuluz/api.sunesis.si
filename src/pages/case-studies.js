@@ -25,6 +25,7 @@ const CaseStudiesPage = () => {
       <Header>
         <HeaderContent />
       </Header>
+      <div className="container-fluid">
       <div className="row">
         <div className="col-2" style={{ display: "inline-block", marginTop: "65px", textAlign: "center" }}>
           <Link to="#study1"><img src={img_generali} alt="studija 1" style={{ marginBottom: "20px" }} /></Link>
@@ -37,6 +38,7 @@ const CaseStudiesPage = () => {
           <Content2 />
           <Content3 />
         </div>
+      </div>
       </div>
     </Layout>
   )
