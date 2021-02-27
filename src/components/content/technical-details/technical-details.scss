@@ -46,8 +46,21 @@
     border: 3.5px solid #dbdbdb;
     border-radius: 50%;
     display: inline-block;
+    // position: relative;  
 }
 
 .div-margin {
     margin-bottom: 90px;
+}
+
+.line:after {
+    border: 2px dashed #DBDBDB;
+    transform: rotate(90deg);
+    position: absolute;
+    top: 5%;
+    left: 63%;
+    width: 50%;
+    content: "";
+    display: block;
+    z-index: -1;
 }

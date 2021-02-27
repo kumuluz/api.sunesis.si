@@ -9,14 +9,15 @@ const SelectorComponent = (props) => {
 
     return (
         <div className="div-margin">
+            <div className="line"></div>
             {props.det.map((detail, index) => {
                 return (
                     <p key={index} value={"paragraph" + index} 
-                        name="selector" onClick={handle} className="select-text"
+                    name="selector" onClick={handle} className="select-text"
                     >
-                        <span>{detail.title}</span>
-                        <span className="radio-button"></span>
-                    </p>
+                            <span>{detail.title}</span>
+                            <span className="radio-button"></span>
+                        </p>
                 )
             }
             )}

@@ -1,38 +1,43 @@
 import React from 'react'
 import "./header-content.scss"
-import image from "../../../../static/images/kumuluz-header.png"
+import image from "../../../../static/images/kumuluz-header-cut.png"
 import { CONTACT_URL } from "../../../../static/links.js"
-import { Link, useTranslation, useI18next } from "gatsby-plugin-react-i18next"
+import { Link, useTranslation } from "gatsby-plugin-react-i18next"
 
-const HeaderComponent = (props) => (
+const HeaderComponent = () =>{
 
+    const { t } = useTranslation();
+
+    return (
     <div className="container">
         <div className="row">
-            <div className="col-md-7">
-                <p className="header-content">{props.title}</p>
+            <div className="col-lg-7">
+                <p className="header-content">{t('header.title')}</p>
                 <p className="header-text">
-                    Celovita rešitev za upravljanje z API-ji, zasnovana na modularni način. Varna, hitro nadgradljiva in razširljiva, obenem pa dostopna po poslovnem modelu, ki vam najbolj ustreza.
+                    {t('header.text')}
                 </p>
                 <a href={CONTACT_URL} target="_blank" rel="noreferrer noopener">
                     <button className="contact-button">
                         <span className="contact-button-text">
-                            KONTAKT
+                            {t('header.button-contact')}
                         </span>
                     </button>
                 </a>
                 <Link to="#video">
                     <button className="vide-button">
                         <span className="vide-button-text">
-                            POGLEJ VIDEO
+                            {t('header.button-video')}
                         </span>
                     </button>
                 </Link>
             </div>
-            <div className="col-md-5">
-                <img src={image} alt="Kumuluz" className="image" />
+            <div className="col-lg-5">
+                <div className="container" style={{height:"100%"}}>
+                    <img src={image} alt="Kumuluz" className="image" />
+                </div>
             </div>
         </div>
-    </div>
-)
+    </div>)
+}
 
 export default HeaderComponent;

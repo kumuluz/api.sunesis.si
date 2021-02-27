@@ -10,9 +10,12 @@ const CaseStudiesComponent = () => {
 
     const { t } = useTranslation();
 
+    const pi = <span style={{position:"absolute", left:0, top:0}} className="glyphicon glyphicon-glass">haha</span>;
+    const ni = <span style={{position:"absolute", right:0, top:0}} className="glyphicon glyphicon-glass">anacond</span>;
+
     return (
-        <div className="container" style={{marginTop:"80px"}}>
-            <p className="blog-title">{t('case-study.title')}</p>
+        <div className="container" style={{marginTop:"50px"}}>
+            <p className="blog-title">{t('case-study-title')}</p>
             <Carousel>
                 <Carousel.Item>
                     <Slide s="1"/>

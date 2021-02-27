@@ -18,10 +18,10 @@ const IndexPage = (props) => {
   const { t } = useTranslation();
 
   return (
-    <Layout header={t('header')}>
+    <Layout>
       <SEO title={t('Home')} />
       <Header>
-        <HeaderContent title={t('header.title')} />
+        <HeaderContent />
       </Header>
       < Content1 />
       < Content2 />

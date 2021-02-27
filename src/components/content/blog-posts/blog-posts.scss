@@ -5,6 +5,7 @@
     font-size: 32px;
     line-height: 130%;
     color: #2B2B6F;
+    margin-bottom:5%;
 }
 
 .post-title {
@@ -13,17 +14,17 @@
     font-weight: 600;
     font-size: 24px;
     color: #254A99;
-    margin-bottom:20px;
+    margin-bottom:40px;
 }
 
 .post-text {
     font-family: Asap;
     font-style: normal;
     font-weight: normal;
-    font-size: 20px;
+    font-size: 18px;
     color: #000000;
     margin-top:20px;
-    margin-bottom:20px;
+    margin-bottom:25px;
 }
 
 hr {
@@ -36,11 +37,12 @@ hr {
     font-family: Asap;
     font-style: normal;
     font-weight: normal;
-    font-size: 8px;
+    font-size: 18px;
     color: #EC6B6B;
+    line-height: 18px;
 }
 
 .padded {
-    margin-top:80px;
-    margin-bottom:50px;
+    padding-top:40px;
+    padding-bottom:40px;
 }

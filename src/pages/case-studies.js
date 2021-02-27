@@ -23,7 +23,7 @@ const CaseStudiesPage = () => {
     <Layout>
       <SEO title="Case Studies" />
       <Header>
-        <HeaderContent title={t('case-study.title')} />
+        <HeaderContent />
       </Header>
       <div className="row">
         <div className="col-2" style={{ display: "inline-block", marginTop: "65px", textAlign: "center" }}>

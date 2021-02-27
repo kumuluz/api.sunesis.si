@@ -18,14 +18,14 @@ const TechnicalDetailsPage = () => {
     <Layout>
       <SEO title="Technical Details" />
       <Header>
-        <HeaderContent title={t('header.title')}/>
+        <HeaderContent />
       </Header>
       <div className="container-fluid" style={{marginTop:"90px"}}>
         <div className="row">
-          <div className="col-md-2">
+          <div className="col-xl-2">
             <Selector det={details}/>
           </div>
-          <div className="col-md-9">
+          <div className="col-xl-9">
             {details.map((detail, index) => {
               if (index % 2 === 0)
                 return (<ContentL title={detail.title} text={detail.text} key={index} id={"paragraph"+index} />);

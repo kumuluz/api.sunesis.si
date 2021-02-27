@@ -1,19 +1,28 @@
 import React from 'react'
 import "./header-content.scss"
-import image from "../../../../static/images/kumuluz-header.png"
+import image from "../../../../static/images/kumuluz-header-cut.png"
+import { useTranslation } from "gatsby-plugin-react-i18next"
 
-const HeaderComponent = (props) => (
+const HeaderComponent = () =>{
 
+    const { t } = useTranslation();
+
+    return (
     <div className="container">
         <div className="row">
-            <div className="col-md-7">
-                <p className="header-content">{props.title}</p>
+            <div className="col-lg-7">
+                <p className="header-content">{t('header.title')}</p>
+                <p className="header-text">
+                    {t('header.text')}
+                </p>
             </div>
-            <div className="col-md-5">
-                <img src={image} alt="Kumuluz" className="image" />
+            <div className="col-lg-5">
+                <div className="container" style={{height:"100%"}}>
+                    <img src={image} alt="Kumuluz" className="image" />
+                </div>
             </div>
         </div>
-    </div>
-)
+    </div>)
+}
 
 export default HeaderComponent;

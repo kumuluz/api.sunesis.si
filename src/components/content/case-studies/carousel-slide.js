@@ -17,7 +17,7 @@ const CaseStudiesComponent = (props) => {
     //   });
 
     return (
-        <div className="row container" style={{height:"50vh"}}>
+        <div className="row container" style={{height:"300px"}}>
         <div className="col-md-6">
            <p className="post-title">{t('case' + props.s + '.title')}</p>
            <hr/>
@@ -25,7 +25,7 @@ const CaseStudiesComponent = (props) => {
                 { text } ...
            </p>
        </div>
-       <div className="col-md-6 row">
+       <div className="col-lg-6 row">
            <div className="col-md-6">
                <div className="featture">
                    <p className="featture-title">{features[0].title}</p>

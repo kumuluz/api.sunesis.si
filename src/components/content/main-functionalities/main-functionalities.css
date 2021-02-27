@@ -22,7 +22,7 @@ h1 {
 
 .weight400 {
     font-weight: 400;
-    margin-bottom:80px;
+    margin-bottom:30px;
 }
 
 .weight700 {
@@ -56,19 +56,21 @@ h1 {
     color: #bebdbd;
 }
 
-.image-div {
-    line-height:500px;
+.img-right {
+    text-align:right;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.img-center  {
     text-align:center;
+    margin-top: auto;
+    margin-bottom: auto;
 }
 
-.image-top  {
-    height: 75%;
-    vertical-align:top;
-}
-
-.image-center  {
-    height: 75%;
-    vertical-align:middle;
+.middle  {
+    margin-top: auto;
+    margin-bottom: auto;
 }
 
 .center {

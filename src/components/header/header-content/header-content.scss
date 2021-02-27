@@ -59,6 +59,13 @@
 }
 
 .image {
-    height: 65%;
-    margin-bottom:0;
+    display: none;
 }
+
+@media (min-width: 992px) {
+    .image {
+        display: block;
+        height: 500px;
+        margin-bottom:0;
+    }
+  }

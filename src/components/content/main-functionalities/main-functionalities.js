@@ -18,7 +18,7 @@ const MainFunctionalites = (props) => {
         <div className="container">
             <div className="center">
                 <p className="sponsors-text">{t('sponsors.text')}</p>
-                <img src={img_sponsors} alt="studija 1"/>
+                <img src={img_sponsors} alt="studija 1" />
 
             </div>
             <div className="inblock">
@@ -30,39 +30,41 @@ const MainFunctionalites = (props) => {
             <p className="main-functionalities-title weight400">
                 {t('main-features.title2')}
             </p>
-            <div className="row">
-                <div className="col-md-6">
+            <div className="container">
+            </div>
+            <div className="row padded">
+                <div className="col-md-6 middle">
                     <h3 className="main-functionalities-subtitle">{t('main-features.feature1_title')}</h3>
                     <p className="main-functionalities-text">{t('main-features.feature1_text')}</p>
                     <h3 className="main-functionalities-subtitle">{t('main-features.feature2_title')}</h3>
                     <p className="main-functionalities-text">{t('main-features.feature2_text')}</p>
                 </div>
-                <div className="col-md-6 image-div">
-                    <img src={image1} alt="Kumuluz" className="image-center"/>
+                <div className="col-md-6 img-right">
+                    <img src={image1} alt="Kumuluz"/>
                 </div>
             </div>
-            <Row>
-                <div className="col-md-6 image-div">
-                    <img src={image2} alt="Kumuluz" className="image-top"/>
+            <div className="row padded">
+                <div className="col-md-6 img-center">
+                    <img src={image2} alt="Kumuluz"/>
                 </div>
-                <div className="col-md-6">
+                <div className="col-md-6 middle">
                     <h3 className="main-functionalities-subtitle">{t('main-features.feature3_title')}</h3>
                     <p className="main-functionalities-text">{t('main-features.feature3_text')}</p>
                     <h3 className="main-functionalities-subtitle">{t('main-features.feature4_title')}</h3>
                     <p className="main-functionalities-text">{t('main-features.feature4_text')}</p>
                 </div>
-            </Row>
-            <Row>
-                <div className="col-md-6">
+            </div>
+            <div className="row padded">
+                <div className="col-md-6 middle">
                     <h3 className="main-functionalities-subtitle">{t('main-features.feature5_title')}</h3>
                     <p className="main-functionalities-text">{t('main-features.feature5_text')}</p>
                     <h3 className="main-functionalities-subtitle">{t('main-features.feature6_title')}</h3>
                     <p className="main-functionalities-text">{t('main-features.feature6_text')}</p>
                 </div>
-                <div className="col-md-6 image-div">
-                <img src={image3} alt="Kumuluz" className="image-center"/>
+                <div className="col-md-6 img-right">
+                    <img src={image3} alt="Kumuluz" />
                 </div>
-            </Row>
+            </div>
         </div>
     )
 }

@@ -1,4 +1,8 @@
 {
+    "header": {
+        "title": "Tehnične podrobnosti",
+        "text": "Celovita rešitev za upravljanje z API-ji, zasnovana na modularni način. Varna, hitro nadgradljiva in razširljiva, obenem pa dostopna po poslovnem modelu, ki vam najbolj ustreza."
+    },
     "details": [
         {
             "title": "Portal za razvijalce",
@@ -17,8 +21,5 @@
             "title": "Katalog API-jev",
             "text": "Katalog API-jev osrednja komponenta KumuluzAPI Management in KumuluzAPI developer portal. KumuluzAPI Management vsebuje več katalogov API-jev: Katalog vseh objavljenih API-jev, katalog API-je, ki so uviženi v KumuluzAPI, niso pa izpostavljeni na API prehodih in Katalog API-jev, ki so v moji lasti. Vsi katalogi podpirajo napredne načine iskanja, grupiranja in tudi tagiranja API-jev. Katalog API-jev je glavna vstopna točka na Developer portalu, kjer so uporabniku prikazani vsi API-ji, do katerih mu je bil dodeljen dostop."
         }
-    ],
-    "header": {
-        "title": "Tehnične podrobnosti"
-    }
+    ]
 }
