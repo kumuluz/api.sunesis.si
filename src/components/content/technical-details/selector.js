@@ -9,7 +9,7 @@ const SelectorComponent = (props) => {
 
     return (
         <div className="div-margin">
-            <div className="line"></div>
+            <div className="selector-line"></div>
             {props.det.map((detail, index) => {
                 return (
                     <p key={index} value={"paragraph" + index} 

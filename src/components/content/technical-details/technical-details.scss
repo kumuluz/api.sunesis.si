@@ -53,12 +53,12 @@
     margin-bottom: 90px;
 }
 
-.line:after {
+.selector-line:after {
     border: 2px dashed #DBDBDB;
     transform: rotate(90deg);
     position: absolute;
     top: 5%;
-    left: 63%;
+    left: 64%;
     width: 50%;
     content: "";
     display: block;

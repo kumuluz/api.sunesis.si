@@ -17,7 +17,7 @@ const CaseStudiesComponent = (props) => {
     //   });
 
     return (
-        <div className="row container" style={{height:"325px"}}>
+        <div className="row container">
         <div className="col-md-6">
            <p className="post-title">{t('case' + props.s + '.title')}</p>
            <hr/>

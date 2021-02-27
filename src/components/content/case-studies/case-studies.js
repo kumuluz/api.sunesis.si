@@ -1,35 +1,46 @@
 import React from 'react'
 
-import Slide from './carousel-slide.js'
+import SlideComponent from './carousel-slide.js'
 
 import { useTranslation } from "gatsby-plugin-react-i18next"
 import "./case-studies.scss"
-import { Carousel } from 'react-bootstrap'
+import { CarouselProvider, Slider, Slide, ButtonBack, ButtonNext } from 'pure-react-carousel';
+import 'pure-react-carousel/dist/react-carousel.es.css';
+import SliderButton from "../../../../static/images/slider-navi.png"
+import SliderButtonRotated from "../../../../static/images/slider-navi-rotated.png"
 
 const CaseStudiesComponent = () => {
 
     const { t } = useTranslation();
 
-    const pi = <span style={{position:"absolute", left:0, top:0}} className="glyphicon glyphicon-glass">haha</span>;
-    const ni = <span style={{position:"absolute", right:0, top:0}} className="glyphicon glyphicon-glass">anacond</span>;
-
     return (
-        <div className="container" style={{marginTop:"50px"}}>
-            <p className="blog-title">{t('case-study-title')}</p>
-            <Carousel 
-                prevIcon={""}
-                nextIcon={""}
+        <div className="container" style={{ marginTop: "50px" }}>
+            <CarouselProvider
+                className="carousel"
+                naturalSlideWidth={100}
+                naturalSlideHeight={150}
+                totalSlides={3}
+                infinite={"true"}
+                isPlaying={"true"}
+                interval={10000}
             >
-                <Carousel.Item>
-                    <Slide s="1"/>
-                </Carousel.Item>
-                <Carousel.Item>
-                    <Slide s="2"/>
-                </Carousel.Item>
-                <Carousel.Item>
-                    <Slide s="3"/>
-                </Carousel.Item>
-            </Carousel>
+                <p className="blog-title">
+                    <span>
+                        {t('case-study-title')}
+                    </span>
+                </p>
+                        <ButtonBack className="slider-button">
+                            <img src={SliderButtonRotated} alt="back" />
+                        </ButtonBack>
+                        <ButtonNext className="slider-button-rotated">
+                            <img src={SliderButton} alt="next" />
+                        </ButtonNext>
+                <Slider>
+                    <Slide index={0}><SlideComponent s="1" /></Slide>
+                    <Slide index={1}><SlideComponent s="2" /></Slide>
+                    <Slide index={2}><SlideComponent s="3" /></Slide>
+                </Slider>
+            </CarouselProvider>
         </div>
     )
 }

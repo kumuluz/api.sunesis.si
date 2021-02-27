@@ -58,3 +58,27 @@ hr {
     line-height: 150%;
     color: #000000;
 }
+
+.slider-button-rotated {
+    border:none;
+    position: absolute;
+    right:0;
+    top:45px;
+}
+
+.slider-button {
+    border:none;
+    position: absolute;
+    right:50px;
+    top:45px;
+}
+
+.carousel {
+    height: 800px;
+}
+
+@media (min-width: 992px) {
+    .carousel {
+        height: 475px;
+    }
+  }

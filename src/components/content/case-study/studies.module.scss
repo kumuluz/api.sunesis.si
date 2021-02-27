@@ -42,7 +42,8 @@ ul {
     color: #3C3C3B;
 }
 
-li:before {
+.ul_black li:before,
+.ul_blue li:before {
     content: "▪";
     padding-right: 8px;
     color: #5DC2EF;
