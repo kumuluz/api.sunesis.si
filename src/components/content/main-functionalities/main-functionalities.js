@@ -1,7 +1,4 @@
 import React from 'react'
-// import { graphql, useStaticQuery } from 'gatsby'
-// import { Img } from 'gatsby-image'
-import { Row } from 'react-bootstrap'
 
 import "./main-functionalities.css"
 import image1 from "../../../../static/images/main-functions-1.png"
@@ -39,13 +36,13 @@ const MainFunctionalites = (props) => {
                     <h3 className="main-functionalities-subtitle">{t('main-features.feature2_title')}</h3>
                     <p className="main-functionalities-text">{t('main-features.feature2_text')}</p>
                 </div>
-                <div className="col-md-6 img-right">
-                    <img src={image1} alt="Kumuluz"/>
+                <div className="col-md-6 img-center">
+                    <img src={image1} alt="Kumuluz" style={{height:"300px"}} />
                 </div>
             </div>
             <div className="row padded">
                 <div className="col-md-6 img-center">
-                    <img src={image2} alt="Kumuluz"/>
+                    <img src={image2} alt="Kumuluz" style={{height:"300px"}}/>
                 </div>
                 <div className="col-md-6 middle">
                     <h3 className="main-functionalities-subtitle">{t('main-features.feature3_title')}</h3>
@@ -61,8 +58,8 @@ const MainFunctionalites = (props) => {
                     <h3 className="main-functionalities-subtitle">{t('main-features.feature6_title')}</h3>
                     <p className="main-functionalities-text">{t('main-features.feature6_text')}</p>
                 </div>
-                <div className="col-md-6 img-right">
-                    <img src={image3} alt="Kumuluz" />
+                <div className="col-md-6 img-center">
+                    <img src={image3} alt="Kumuluz" style={{height:"300px"}}/>
                 </div>
             </div>
         </div>

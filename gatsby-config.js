@@ -70,18 +70,19 @@ module.exports = {
           },
           keySeparator: '.',
           nsSeparator: false
-        },
-        pages: [
-          {
-            matchPath: '/:lang?/blog/:uid',
-            getLanguageFromPath: true,
-            excludeLanguages: ['en']
-          },
-          {
-            matchPath: '/example-studies',
-            languages: ['en']
-          }
-        ]
+        }
+        // ,
+        // pages: [
+        //   {
+        //     matchPath: '/:lang?/blog/:uid',
+        //     getLanguageFromPath: true,
+        //     excludeLanguages: ['en']
+        //   },
+        //   {
+        //     matchPath: '/example-studies',
+        //     languages: ['en']
+        //   }
+        // ]
       }
     },
   ]

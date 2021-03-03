@@ -1,6 +1,6 @@
 import React from 'react'
 import "./footer.scss"
-import { useTranslation } from "gatsby-plugin-react-i18next"
+import { useTranslation, Link } from "gatsby-plugin-react-i18next"
 
 import { Row, Col } from 'react-bootstrap'
 
@@ -15,11 +15,19 @@ const FooterComponent = () => {
                 <div className="title">{title}</div>
                 {links.map((link, index) => {
                     if(link.href)
-                        return (<div key={index} className="link">
-                                    <a href={link.href} target="_blank" rel="noreferrer noopener">
-                                        {link.name}
-                                    </a>
-                                </div>)
+                        if(link.href.charAt(0) === '/') {
+                            return (<div key={index} className="link">
+                                        <Link to={link.href}>
+                                            {link.name}
+                                        </Link>
+                                    </div>)
+                        } else {
+                            return (<div key={index} className="link">
+                                        <a href={link.href} target="_blank" rel="noreferrer noopener">
+                                            {link.name}
+                                        </a>
+                                    </div>)
+                        }
                     else
                         return (<div key={index} className="link">
                                     <span>{link.name}</span>
@@ -39,13 +47,23 @@ const FooterComponent = () => {
                     <div className="subtitle">{t('footer.products.subtitle1')}</div>
                     {t('footer.products.links1', {returnObjects: true})
                         .map( (link,index) => {
-                        return (
-                            <div className="link left-pad" key={index}>
-                                <a  href={link.href} target="_blank" rel="noreferrer noopener">
-                                    kumuluz<span className={"color"+link.name}>{link.name}</span>
-                                </a>
-                            </div>
-                        )
+                        if(link.href.charAt(0) !== 'h') {
+                            return (
+                                <div className="link left-pad" key={index}>
+                                    <Link  to={link.href} target="_blank" rel="noreferrer noopener">
+                                        kumuluz<span className={"color"+link.name}>{link.name}</span>
+                                    </Link>
+                                </div>
+                            )
+                        } else {
+                            return (
+                                <div className="link left-pad" key={index}>
+                                    <a  href={link.href} target="_blank" rel="noreferrer noopener">
+                                        kumuluz<span className={"color"+link.name}>{link.name}</span>
+                                    </a>
+                                </div>
+                            )
+                        }
                     })
                     }
                     <div className="subtitle top-pad">{t('footer.products.subtitle2')}</div>

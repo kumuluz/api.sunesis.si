@@ -12,7 +12,7 @@
     font-family: Asap;
     font-style: normal;
     font-weight: normal;
-    font-size: 16px;
+    font-size: 17px;
     line-height: 150%;
     color: #3C3C3B;
   }
@@ -49,17 +49,13 @@
     // position: relative;  
 }
 
-.div-margin {
-    margin-bottom: 90px;
-}
-
 .selector-line:after {
     border: 2px dashed #DBDBDB;
     transform: rotate(90deg);
     position: absolute;
-    top: 5%;
-    left: 64%;
-    width: 50%;
+    bottom: 20%;
+    left: 65.5%;
+    width: 60%;
     content: "";
     display: block;
     z-index: -1;

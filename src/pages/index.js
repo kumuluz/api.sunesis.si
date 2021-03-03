@@ -21,7 +21,7 @@ const IndexPage = (props) => {
     <Layout>
       <SEO title={t('Home')} />
       <Header>
-        <HeaderContent />
+        <HeaderContent page="main"/>
       </Header>
       < Content1 />
       < Content2 />

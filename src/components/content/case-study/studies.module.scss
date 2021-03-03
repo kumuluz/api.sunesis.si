@@ -71,3 +71,14 @@ ul {
 .margin_top {
     margin-top: 40px;
 }
+
+.right {
+    margin-top:90px;
+    display: inline-block;
+    position:sticky;
+    position:-webkit-sticky;
+    bottom:80%;
+    padding-left:2%;
+    text-align: center;
+    width:15%,
+  }

@@ -41,7 +41,7 @@ const NavbarComponent = () => {
             <Navbar.Collapse id="responsive-navbar-nav" className="justify-content-end">
                 <Nav className="expand-navbar">
                     {navbarLinks}
-                    <div className="dropdown">
+                    {/* <div className="dropdown">
                         <p>
                             {t("navbar.language."+language +"-short")} &nbsp;
                             <svg width="8" height="5" viewBox="0 0 8 5" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -55,7 +55,7 @@ const NavbarComponent = () => {
                                 </p>
                             ))}
                         </div>
-                    </div>
+                    </div> */}
                 </Nav>
             </Navbar.Collapse>
         </Navbar>

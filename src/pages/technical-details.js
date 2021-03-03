@@ -18,14 +18,16 @@ const TechnicalDetailsPage = () => {
     <Layout>
       <SEO title="Technical Details" />
       <Header>
-        <HeaderContent />
+        <HeaderContent page="tech"/>
       </Header>
-      <div className="container-fluid" style={{marginTop:"90px"}}>
-        <div className="row">
-          <div className="col-xl-2">
-            <Selector det={details}/>
-          </div>
-          <div className="col-xl-9">
+      <div>
+        <div style={{paddingTop:"90px",display:"inline-block", position:"sticky",
+        height:"200px", bottom:"60%", paddingLeft:"2%", position: "-webkit-sticky"}}>
+        <Selector det={details}/>
+        </div>
+        <div style={{display:"inline-block", width:"75%", marginTop: "90px"}}>
+          {/* na mobile: width:95%, marginTop: 20px */}
+          <div style={{paddingLeft: "50px"}}>
             {details.map((detail, index) => {
               if (index % 2 === 0)
                 return (<ContentL title={detail.title} text={detail.text} key={index} id={"paragraph"+index} />);
@@ -35,7 +37,7 @@ const TechnicalDetailsPage = () => {
             }
           </div>
         </div>
-      </div>
+    </div>
     </Layout>
   )
 }

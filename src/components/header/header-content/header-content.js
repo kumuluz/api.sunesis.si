@@ -4,7 +4,7 @@ import image from "../../../../static/images/kumuluz-header-cut.png"
 import { CONTACT_URL } from "../../../../static/links.js"
 import { Link, useTranslation } from "gatsby-plugin-react-i18next"
 
-const HeaderComponent = () =>{
+const HeaderComponent = (props) =>{
 
     const { t } = useTranslation();
 
@@ -12,9 +12,9 @@ const HeaderComponent = () =>{
     <div className="container">
         <div className="row">
             <div className="col-lg-7">
-                <p className="header-content">{t('header.title')}</p>
+                <p className="header-content">{t('header.'+props.page+'-title')}</p>
                 <p className="header-text">
-                    {t('header.text')}
+                    {t('header.'+props.page+'-text')}
                 </p>
                 <a href={CONTACT_URL} target="_blank" rel="noreferrer noopener">
                     <button className="contact-button">

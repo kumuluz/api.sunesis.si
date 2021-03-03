@@ -10,13 +10,13 @@ const DiagramComponent = () => {
     return (
         <div className="diagram">
             <div className="container justify-content-md-center">
-                <img src={image} alt="Kumuluz" />
+                <img src={image} alt="Kumuluz" style={{width:"100%"}}/>
             </div>
+            <Link to="/technical-details">
             <button className="specs-button">
-                <Link to="technical-details">
                     <span className="specs-text">{t("diagram.specs-button")}</span>
-                </Link>
             </button>
+            </Link>
         </div>
     )
 }

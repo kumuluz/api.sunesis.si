@@ -8,19 +8,18 @@ const SelectorComponent = (props) => {
     }
 
     return (
-        <div className="div-margin">
-            <div className="selector-line"></div>
-            {props.det.map((detail, index) => {
-                return (
-                    <p key={index} value={"paragraph" + index} 
-                    name="selector" onClick={handle} className="select-text"
-                    >
-                            <span>{detail.title}</span>
-                            <span className="radio-button"></span>
-                        </p>
-                )
-            }
-            )}
+        <div className="selector-line">
+        {props.det.map((detail, index) => {
+            return (
+                <p key={index} value={"paragraph" + index} 
+                name="selector" onClick={handle} className="select-text"
+                >
+                        <span>{detail.title}</span>
+                        <span className="radio-button"></span>
+                    </p>
+            )
+        }
+        )}
         </div>
     )
 }

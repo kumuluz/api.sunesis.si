@@ -3,7 +3,7 @@ import "./header-content.scss"
 import image from "../../../../static/images/kumuluz-header-cut.png"
 import { useTranslation } from "gatsby-plugin-react-i18next"
 
-const HeaderComponent = () =>{
+const HeaderComponent = (props) =>{
 
     const { t } = useTranslation();
 
@@ -11,9 +11,9 @@ const HeaderComponent = () =>{
     <div className="container">
         <div className="row">
             <div className="col-lg-7">
-                <p className="header-content">{t('header.title')}</p>
+                <p className="header-content">{t('header.'+props.page+'-title')}</p>
                 <p className="header-text">
-                    {t('header.text')}
+                    {t('header.'+props.page+'-text')}
                 </p>
             </div>
             <div className="col-lg-5">

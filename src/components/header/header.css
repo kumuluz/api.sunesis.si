@@ -1,13 +1,13 @@
 .hheader {
     background: radial-gradient(32.28% 126.28% at 69.07% 71.82%, #254A99 0%, #2B2B6F 82.13%);
     color: white;
-    height: 100%;
+    /* height: 100%; */
     padding-bottom: 50px;
 }
 
-@media (min-width: 992px) {
+/* @media (min-width: 992px) {
     .hheader {
         height: 100vh;
         padding-bottom: 50px;
     }
-  }
+  } */
