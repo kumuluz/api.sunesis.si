@@ -19,46 +19,39 @@ body {
   html {
     font-size: 100%;
   }
+
 }
 
-/* /* .container-kumuluz {
-  width: 50%;
-  margin-left: auto;
-  margin-right: auto;
-}
-.container-kumuluz .left {
-  padding-top:90px;
-  display:"inline-block";
-  position:"sticky";
-  height: 200px;
-  width: 20%;
-  bottom:60%;
-  padding-left:2%;
+.left-selector {
+  padding-top:20px;
+  margin-left: 20px;
+  display: inline-block;
+  position: sticky;
+  position: -webkit-sticky;
 }
 
-.container-kumuluz .right {
-  display:"inline-block";
-  width:75%;
+.right-content {
+  width:95%;
   margin-top: 20px;
+  margin-left: 0;
 }
 
-@media (min-width: 768px) {
-  .container-kumuluz {
-    width: 750px;
+@media (min-width: 992px) {
+  .left-selector {
+    height: 200px; 
+    bottom: 65%;
+    padding-top:90px;
+  }
+
+  .right-content {
+    display:inline-block;
+    width:75%;
+    margin-top: 50px;
+    margin-left: 20px;
   }
 }
-@media (min-width: 992px) {
-  .container-kumuluz {
-    width: 970px;
-  }
-   .container-kumuluz .right {
-    display: "inline-block";
-    width:75%;
-    margin-top: "90px";
-  }
+
+/*@media (min-width: 768px) {
 }
 @media (min-width: 1200px) {
-  .container-kumuluz {
-    width: 1170px;
-  }
 } */

@@ -1,9 +1,9 @@
 .studies_title {
-    margin: 60px 0 35px 0;
+    margin: 35px 0 35px 0;
     font-family: Asap;
     font-style: normal;
     font-weight: normal;
-    font-size: 32px;
+    font-size: 30px;
     line-height: 130%;
     color: #2B2B6F;
 }
@@ -12,7 +12,7 @@
     font-family: Asap;
     font-style: normal;
     font-weight: normal;
-    font-size: 20px;
+    font-size: 17px;
     line-height: 150%;
     color: #3C3C3B;
     margin-bottom: 40px;
@@ -28,7 +28,7 @@ ul {
     font-family: Asap;
     font-style: normal;
     font-weight: 600;
-    font-size: 20px;
+    font-size: 17px;
     line-height: 130%;
     color: #2B2B6F;
 }
@@ -37,7 +37,7 @@ ul {
     font-family: Asap;
     font-style: normal;
     font-weight: normal;
-    font-size: 20px;
+    font-size: 17px;
     line-height: 150%;
     color: #3C3C3B;
 }
@@ -63,7 +63,7 @@ ul {
     font-family: Asap;
     font-style: normal;
     font-weight: normal;
-    font-size: 16px;
+    font-size: 17px;
     line-height: 130%;
     color: #000000;
 }
@@ -73,12 +73,24 @@ ul {
 }
 
 .right {
-    margin-top:90px;
-    display: inline-block;
+    margin-top:87px;
+    display:contents;
     position:sticky;
     position:-webkit-sticky;
-    bottom:80%;
+    bottom:25%;
     padding-left:2%;
     text-align: center;
-    width:15%,
-  }
+    width:20%,
+}
+
+// .image {
+//     margin-bottom: "20px"
+//     width: 185px;
+//     height: 85px;
+// }
+
+@media (min-width: 992px) {
+    .right {
+        display: inline-block;
+    }
+}

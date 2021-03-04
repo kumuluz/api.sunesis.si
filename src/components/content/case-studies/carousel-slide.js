@@ -9,12 +9,6 @@ const CaseStudiesComponent = (props) => {
         t('case' + props.s + '.text').substring(0,300) : 
         t('case' + props.s + '.text1').substring(0,300);
     const features = t('case' + props.s + '.features', {returnObjects: true});
-    // const detailComponents = details.map((detail, index) => {
-    //     if(index % 2 === 0)
-    //       return (<ContentL title={detail.title} text={detail.text} key={index} ide={index}/>);
-    //     else
-    //       return (<ContentR title={detail.title} text={detail.text} key={index} ide={index}/>);
-    //   });
 
     return (
         <div className="row container">
