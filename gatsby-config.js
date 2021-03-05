@@ -71,7 +71,7 @@ module.exports = {
           keySeparator: '.',
           nsSeparator: false
         }
-        // ,
+        //,
         // pages: [
         //   {
         //     matchPath: '/:lang?/blog/:uid',

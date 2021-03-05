@@ -1,7 +1,7 @@
 {
   "name": "api.kumuluz.com",
   "private": true,
-  "description": "New kumuluz api website.",
+  "description": "KumuluzAPI website.",
   "version": "0.1.0",
   "author": "Timotej Kosir",
   "dependencies": {
@@ -9,7 +9,7 @@
     "@fortawesome/free-solid-svg-icons": "^5.15.2",
     "@fortawesome/react-fontawesome": "^0.1.14",
     "bootstrap": "^4.6.0",
-    "gatsby": "^2.32.3",
+    "gatsby": "^2.32.9",
     "gatsby-cli": "^2.19.2",
     "gatsby-image": "^2.11.0",
     "gatsby-plugin-fontawesome-css": "^1.0.0",
