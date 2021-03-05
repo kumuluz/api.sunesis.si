@@ -18,7 +18,7 @@ const CaseStudiesPage = () => {
       <Header>
         <HeaderContent page="studies"/>
       </Header>
-      <div>
+      <div className="kumuluz-container">
         <Selector/>
         <div className="right-content">
           <Content1 />

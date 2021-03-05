@@ -12,39 +12,8 @@ h1 {
     margin: 0;
 }
 
-.main-functionalities-title {
-    font-family: Asap;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 28px;
-    color: #2B2B6F;
-}
-
-.weight400 {
-    font-weight: 400;
-    margin-bottom:30px;
-}
-
 .weight700 {
     font-weight: 700;
-}
-.main-functionalities-subtitle {
-    margin-bottom: 10px;
-    font-family: Asap;
-    font-style: normal;
-    font-weight: 600;
-    font-size: 24px;
-    line-height: 130%;
-    color: #254A99;
-}
-
-.main-functionalities-text {
-    font-family: Asap;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 18px;
-    color: #3C3C3B;
-    margin-bottom:40px;
 }
 
 .sponsors-text {

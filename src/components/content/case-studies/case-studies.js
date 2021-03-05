@@ -24,7 +24,7 @@ const CaseStudiesComponent = () => {
                 isPlaying={"true"}
                 interval={10000}
             >
-                <p className="blog-title">
+                <p className="font-subtitle-blue carousel-title">
                     <span>
                         {t('case-study-title')}
                     </span>

@@ -17,19 +17,27 @@ const FeaturesComponent = () => {
             <Row>
                 <div className="col-md-6 col-lg-3">
                     <img src={image1} alt="Kumuluz" className="iimage" />
-                    <p className="features-ttext">{t('advantages.advantage1-text')}</p>
+                    <p className="font-content-text feature-white">
+                        {t('advantages.advantage1-text')}
+                    </p>
                 </div>
                 <div className="col-md-6 col-lg-3">
                     <img src={image2} alt="Kumuluz" className="iimage" />
-                    <p className="features-ttext">{t('advantages.advantage2-text')}</p>
+                    <p className="font-content-text feature-white">
+                        {t('advantages.advantage2-text')}
+                    </p>
                 </div>
                 <div className="col-md-6 col-lg-3">
                     <img src={image3} alt="Kumuluz" className="iimage" />
-                    <p className="features-ttext">{t('advantages.advantage3-text')}</p>
+                    <p className="font-content-text feature-white">
+                        {t('advantages.advantage3-text')}
+                    </p>
                 </div>
                 <div className="col-md-6 col-lg-3">
                     <img src={image4} alt="Kumuluz" className="iimage" />
-                    <p className="features-ttext">{t('advantages.advantage4-text')}</p>
+                    <p className="font-content-text feature-white">
+                        {t('advantages.advantage4-text')}
+                    </p>
                 </div>
             </Row>
         </div>

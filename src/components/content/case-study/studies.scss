@@ -1,21 +1,6 @@
-.studies_title {
+.font-content-title.studies-title {
     margin: 35px 0 35px 0;
-    font-family: Asap;
-    font-style: normal;
     font-weight: normal;
-    font-size: 30px;
-    line-height: 130%;
-    color: #2B2B6F;
-}
-
-.studies_text {
-    font-family: Asap;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 17px;
-    line-height: 150%;
-    color: #3C3C3B;
-    margin-bottom: 40px;
 }
 
 ul {
@@ -37,7 +22,7 @@ ul {
     font-family: Asap;
     font-style: normal;
     font-weight: normal;
-    font-size: 17px;
+    font-size: 20px;
     line-height: 150%;
     color: #3C3C3B;
 }
@@ -47,16 +32,6 @@ ul {
     content: "▪";
     padding-right: 8px;
     color: #5DC2EF;
-}
-
-.feaature_title {
-    font-family: Asap;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 42px;
-    line-height: 130%;
-    color: #5DC2EF;
-    margin-bottom:10px;
 }
 
 .feaature_text {
@@ -78,7 +53,6 @@ ul {
     position:sticky;
     position:-webkit-sticky;
     bottom:25%;
-    padding-left:2%;
     text-align: center;
     width:20%,
 }

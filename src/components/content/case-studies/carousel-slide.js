@@ -13,12 +13,12 @@ const CaseStudiesComponent = (props) => {
     return (
         <div className="row container">
         <div className="col-md-6">
-           <p className="post-title">{t('case' + props.s + '.title')}</p>
+           <p className="font-subtitle-blue">{t('case' + props.s + '.title')}</p>
            <hr/>
-           <p className="post-text">
+           <p className="font-content-text feature-text">
                 { text } ...
            </p>
-            <p className="show-more">
+            <p className="font-content-text show-more">
                 <Link to={"/case-studies/#study"+props.s}>
                     {t('blog.show-more')}
                     &nbsp;
@@ -31,17 +31,29 @@ const CaseStudiesComponent = (props) => {
        <div className="col-lg-6 row">
            <div className="col-md-6 middle-aligned">
                <div className="featture">
-                   <p className="featture-title">{features[0].title}</p>
-                   <p className="featture-text">{features[0].text}</p>
+                   <p className="font-content-title carousel-feature-title">
+                       {features[0].title}
+                    </p>
+                   <p className="font-content-text feature-text">
+                       {features[0].text}
+                    </p>
                </div>
                <div className="featture">
-                   <p className="featture-title">{features[1].title}</p>
-                   <p className="featture-text">{features[1].text}</p>
+                    <p className="font-content-title carousel-feature-title">
+                       {features[1].title}
+                    </p>
+                    <p className="font-content-text feature-text">
+                       {features[1].text}
+                    </p>
                </div>
            </div>
            <div className="middle-aligned featture col-md-6">
-               <p className="featture-title">{features[2].title}</p>
-               <p className="featture-text">{features[2].text}</p>
+                    <p className="font-content-title carousel-feature-title">
+                       {features[2].title}
+                    </p>
+                    <p className="font-content-text feature-text">
+                       {features[2].text}
+                    </p>
            </div>
        </div>
    </div>

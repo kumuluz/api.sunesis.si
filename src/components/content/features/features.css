@@ -14,11 +14,8 @@
     height: 94.6px;
 }
 
-.features-ttext {
-    font-family: Asap;
-    font-style: normal;
+.feature-white {
     font-weight: 600;
-    font-size: 20px;
     text-align: center;
     color: #FFFFFF;
 }

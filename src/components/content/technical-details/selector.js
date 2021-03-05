@@ -12,7 +12,7 @@ const SelectorComponent = (props) => {
         {props.det.map((detail, index) => {
             return (
                 <p key={index} value={"paragraph" + index} 
-                name="selector" onClick={handle} className="select-text"
+                name="selector" onClick={handle} className="font-content-text select-text"
                 >
                         <span>{detail.title}</span>
                         <span className="radio-button"></span>

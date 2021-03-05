@@ -20,12 +20,12 @@ const TechnicalDetailsPage = () => {
       <Header>
         <HeaderContent page="tech"/>
       </Header>
-      <div>
+      <div className="kumuluz-container">
         <div className="left-selector">
         <Selector det={details}/>
         </div>
         <div className="right-content">
-          <div style={{paddingLeft: "15px"}}>
+          <div>
             {details.map((detail, index) => {
               if (index % 2 === 0)
                 return (<ContentL title={detail.title} text={detail.text} key={index} id={"paragraph"+index} />);
