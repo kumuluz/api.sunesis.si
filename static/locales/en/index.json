@@ -1,10 +1,4 @@
 {
-    "header": {
-        "title": "Zmogljiva API Management Platforma, popolnoma prilagojena vašim potrebam",
-        "text": "Celovita rešitev za upravljanje z API-ji, zasnovana na modularni način. Varna, hitro nadgradljiva in razširljiva, obenem pa dostopna po poslovnem modelu, ki vam najbolj ustreza.",
-        "button-video": "POGLEJ VIDEO",
-        "button-contact": "KONTAKT"
-    },
     "sponsors": {
         "text": "Zadovoljni uporabniki KumuluzAPI rešitve"
     },
@@ -38,10 +32,11 @@
         "blog-title": "Zadnje blog objave",
         "show-more": "Več",
         "post1-title": "Največje tehnološke napake pri implementaciji in uporabi API-jev",
-        "post1-text": "Največje tehnološke napake pri implementaciji in uporabi API-jev.ksddhaksdasjdhashdkasjhdasbdhbasdbasjdbjasbdasnd,asbdjasbdasbdasbnmd asmdnbasmdbas d jasbd masbd asbd bnasvdjh vasjdashvdasd bhasdvjhas dhasdn baksdnhas kdb askdbas."
+        "post1-text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."
     },
     "video": {
         "video-title": "Zmogljiva API Management Platforma, popolnoma prilagojena vašim potrebam",
         "video-text": "Celovita rešitev za upravljanje z API-ji, zasnovana na modularni način. Varna, hitro nadgradljiva in razširljiva, obenem pa dostopna po poslovnem modelu, ki vam najbolj ustreza."
-    }
+    },
+    "case-study-title": "ŠTUDIJA PRIMERA"
 }
