@@ -61,7 +61,7 @@ module.exports = {
         languages: [`sl`, `en`, `de`],
         defaultLanguage: `sl`,
         // if you are using Helmet, you must include siteUrl, and make sure you add http:https
-        siteUrl: `https://example.com/`,
+        siteUrl: `https://kumuluz-api-netlify.app/`,
         i18nextOptions: {
           interpolation: {
             escapeValue: false // not needed for react as it escapes by default
@@ -69,18 +69,13 @@ module.exports = {
           keySeparator: '.',
           nsSeparator: false
         }
-        // ,
-        // pages: [
-        //   {
-        //     matchPath: '/:lang?/blog/:uid',
-        //     getLanguageFromPath: true,
-        //     excludeLanguages: ['en']
-        //   },
-        //   {
-        //     matchPath: '/example-studies',
-        //     languages: ['en']
-        //   }
-        // ]
+        ,
+        pages: [
+          {
+            matchPath: '/',
+            language: 'sl',
+          }
+        ]
       }
     },
   ]
