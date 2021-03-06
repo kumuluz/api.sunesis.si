@@ -6,7 +6,7 @@ import HeaderContent from "../components/header/header-content/header-title.js"
 import ContentL from "../components/content/technical-details/content-left.js"
 import ContentR from "../components/content/technical-details/content-right.js"
 import Selector from "../components/content/technical-details/selector.js"
-import { useTranslation } from "gatsby-plugin-react-i18next" //Link
+import { useTranslation } from "gatsby-plugin-react-i18next"
 import { graphql } from 'gatsby'
 
 const TechnicalDetailsPage = () => {

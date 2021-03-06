@@ -8,13 +8,14 @@ const VideoComponent = () => {
     const { t } = useTranslation();
 
     return (
-        <div className="video" id="video">
-            <div className="row kumuluz-container">
+        <div className="padded" id="video">
+            <div className="container">
+            <div className="row">
                 <div className="col-md-7">
                     <p className="video-title font-content-title">
                         {t('video.video-title')}
                     </p>
-                    <p className="video-text font-subtitle-blue">
+                    <p className="video-text font-subtitle-blue" style={{marginBottom:"30px"}}>
                         {t('video.video-text')}
                     </p>
                     <a href={CONTACT_URL} target="_blank" rel="noreferrer noopener">
@@ -27,6 +28,7 @@ const VideoComponent = () => {
                 <div className="col-md-5">
                     <p>videooooooo</p>
                 </div>
+            </div>
             </div>
         </div>
     )

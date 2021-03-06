@@ -60,7 +60,7 @@ module.exports = {
         localeJsonSourceName: `locale`,
         languages: [`sl`, `en`, `de`],
         defaultLanguage: `sl`,
-        redirect: false,
+        redirect: false,  
         siteUrl: `https://kumuluz-api-netlify.app/`,
         i18nextOptions: {
           interpolation: {

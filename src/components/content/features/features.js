@@ -14,6 +14,7 @@ const FeaturesComponent = () => {
 
     return (
         <div className="features">
+            <div className="container">
             <Row>
                 <div className="col-md-6 col-lg-3">
                     <img src={image1} alt="Kumuluz" className="iimage" />
@@ -40,6 +41,7 @@ const FeaturesComponent = () => {
                     </p>
                 </div>
             </Row>
+            </div>
         </div>
     )
 }

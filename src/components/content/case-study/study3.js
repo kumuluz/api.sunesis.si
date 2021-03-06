@@ -19,17 +19,17 @@ const Study3Component = () => {
     );
 
     return (
-        <div className="container" id="study3" style={{paddingRight:"10%"}}>
+        <div className="container" id="study3" style={{paddingBottom:"3%"}}>
             <p className="studies-title font-content-title">{t('case3.title')}</p>
             <p className="font-content-text">{t('case3.text1')}</p>
             <div className="row">
                 <div className="col-md-6">
-                    <ul className="ul_black">
+                    <ul className="ul_black" style={{padding:"35px 0 10px 0"}}>
                         {listItems1}
                     </ul>
                 </div>
                 <div className="col-md-6">
-                    <ul className="ul_black">
+                    <ul className="ul_black" style={{padding:"35px 0 10px 0"}}>
                         {listItems2}
                     </ul>
                 </div>

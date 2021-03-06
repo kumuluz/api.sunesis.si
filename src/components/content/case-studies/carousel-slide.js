@@ -13,9 +13,9 @@ const CaseStudiesComponent = (props) => {
     return (
         <div className="row container">
         <div className="col-md-6">
-           <p className="font-subtitle-blue">{t('case' + props.s + '.title')}</p>
+           <p className="font-content-title">{t('case' + props.s + '.title')}</p>
            <hr/>
-           <p className="font-content-text feature-text">
+           <p className="font-content-text feature-text" style={{marginTop:"20px"}}>
                 { text } ...
            </p>
             <p className="font-content-text show-more">

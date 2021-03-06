@@ -1,22 +1,19 @@
 import React from 'react'
 import "./technical-details.scss"
+import { Link } from "gatsby-plugin-react-i18next"
 
 const SelectorComponent = (props) => {
-
-    const handle = (e) => {
-        document.getElementById(e.currentTarget.getAttribute('value')).scrollIntoView();
-    }
 
     return (
         <div className="selector-line">
         {props.det.map((detail, index) => {
             return (
-                <p key={index} value={"paragraph" + index} 
-                name="selector" onClick={handle} className="font-content-text select-text"
-                >
+                <Link to={"#paragraph" + index}>
+                    <p key={index} className="font-content-text select-text">
                         <span>{detail.title}</span>
                         <span className="radio-button"></span>
                     </p>
+                </Link>
             )
         }
         )}

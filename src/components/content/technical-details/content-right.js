@@ -5,7 +5,7 @@ const ContentLeftComponent = (props) => {
 
     return (
         <div className="container">
-            <div id={props.id} className="row" style={{marginTop:"35px",  marginBottom:"80px"}}>
+            <div id={props.id} className="row" style={{marginTop:"35px",  marginBottom:"90px"}}>
                 <div className="col-lg-6">
                 <div style={{background:"#E5E5E5",borderRadius:"21px", height:"100%"}}>
                         images

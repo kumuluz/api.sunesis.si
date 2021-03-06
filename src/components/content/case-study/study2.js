@@ -11,9 +11,9 @@ const Study2Component = () => {
 
     const features = usageCases.features
     const listFeatures = features.map((feature, index) => 
-        <div key={index} className="col-md-4">
+        <div key={index} className="col-md-4" style={{paddingBottom:"20px", paddingTop:"20px"}}>
             <p className="font-subtitle-blue feaature-title">{feature.title}</p>
-            <p className="font-content-text feature-text">{feature.text}</p>
+            <p className="font-content-text feaature-text">{feature.text}</p>
         </div>
     );
 
@@ -25,7 +25,9 @@ const Study2Component = () => {
             </div>
             <p className="font-content-text">{t('case2.text1')}</p>
             <p className="font-content-text">{t('case2.text2')}</p>
-            <img src={image} alt="kumuluz"/>
+            <div style={{padding:"40px 0 40px 0", textAlign:"center"}}>
+                <img src={image} alt="kumuluz"/>
+            </div>
             <hr className="margin_top"/>
         </div>
     )
