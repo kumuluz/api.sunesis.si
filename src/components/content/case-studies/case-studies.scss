@@ -1,60 +1,25 @@
-.study-title {
-    font-family: Asap;
-    font-style: normal;
-    font-weight: 600;
-    font-size: 18px;
-    line-height: 130%;
-    color: #367DBF;
-}
-
-.study-subtitle {
-    font-family: Asap;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 32px;
-    line-height: 130%;
-    color: #2B2B6F;
-}
-
-.study-text {
-    font-family: Asap;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 20px;
-    line-height: 150%;
-    color: #000000;
-}
-
-hr {
-    background: linear-gradient(270deg, #FFFFFF 2.13%, #5DC2EF 98.62%);
-    padding: 2.5px;
-    margin: 0;
-}
-
 .middle-aligned {
     margin-top: auto;
     margin-bottom: auto;
 }
 
+.carousel-title {
+    font-size: 18px;
+    color: #367DBF;
+}
+
+.carousel-feature-title {
+    font-size: 42px;
+    font-weight: normal;
+}
+
 .featture {
+    padding: 40px 15px 0 5px;
     background: #F4F5F5;
 }
 
-.featture-title {
-    font-family: Asap;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 42px;
-    line-height: 130%;
-    color: #2B2B6F;
-}
-
-.featture-text {
-    font-family: Asap;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 16px;
-    line-height: 150%;
+.feature-text {
+    font-size:20px;
     color: #000000;
 }
 
@@ -62,14 +27,14 @@ hr {
     border:none;
     position: absolute;
     right:0;
-    top:45px;
+    top:0px;
 }
 
 .slider-button {
     border:none;
     position: absolute;
     right:50px;
-    top:45px;
+    top:0px;
 }
 
 .carousel {

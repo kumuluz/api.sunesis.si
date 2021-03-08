@@ -6,7 +6,7 @@ import HeaderContent from "../components/header/header-content/header-title.js"
 import ContentL from "../components/content/technical-details/content-left.js"
 import ContentR from "../components/content/technical-details/content-right.js"
 import Selector from "../components/content/technical-details/selector.js"
-import { useTranslation } from "gatsby-plugin-react-i18next" //Link
+import { useTranslation } from "gatsby-plugin-react-i18next"
 import { graphql } from 'gatsby'
 
 const TechnicalDetailsPage = () => {
@@ -20,12 +20,12 @@ const TechnicalDetailsPage = () => {
       <Header>
         <HeaderContent page="tech"/>
       </Header>
-      <div>
+      <div className="kumuluz-container">
         <div className="left-selector">
         <Selector det={details}/>
         </div>
         <div className="right-content">
-          <div style={{paddingLeft: "15px"}}>
+          <div>
             {details.map((detail, index) => {
               if (index % 2 === 0)
                 return (<ContentL title={detail.title} text={detail.text} key={index} id={"paragraph"+index} />);

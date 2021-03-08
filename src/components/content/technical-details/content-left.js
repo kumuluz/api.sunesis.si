@@ -4,10 +4,11 @@ import "./technical-details.scss"
 const ContentLeftComponent = (props) => {
 
     return (
-            <div id={props.id} className="row" style={{marginTop:"35px", marginBottom:"80px"}}>
+        <div className="container">
+            <div id={props.id} className="row" style={{marginTop:"35px", marginBottom:"90px"}}>
                 <div className="col-lg-6">
-                    <p className="tech-title">{props.title}</p>
-                    <p className="tech-text">{props.text}</p>
+                    <p className="font-subtitle-blue tech-title">{props.title}</p>
+                    <p className="font-content-text">{props.text}</p>
                 </div>
                 <div className="col-lg-6">
                     <div style={{background:"#E5E5E5",borderRadius:"21px", height:"100%"}}>
@@ -15,6 +16,7 @@ const ContentLeftComponent = (props) => {
                     </div>
                 </div>
             </div>
+        </div>
     )
 }
 

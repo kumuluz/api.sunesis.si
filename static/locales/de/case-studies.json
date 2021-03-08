@@ -53,8 +53,5 @@
         "text2": "Z naborom poslovnih API-jev in rešitvijo KumuluzAPI lahko vzpostavimo digitalno poslovanje, ki ne zhateva visokega začetnega vložka. Paket rešitev je namenjen predvsem manjšim podjetjem, ki še nimajo močnega IT kadra, si pa želijo digitalnega poslovanja z uporabo API-jev. S pomočjo obstoječih gradnikov že v začetku omogočajo integracijo zunanjih sistemov in vzpostavitev API ekosistemov.",
         "bulletpoints1": ["Payment", "Product", "Catalog", "Cart", "Order", "Fulfillment"],
         "bulletpoints2": ["Invoice", "Customer", "Subscription", "Know your customer"]
-    },
-    "case-study": {
-        "title": "Študije primerov"
     }
 }

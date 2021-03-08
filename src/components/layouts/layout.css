@@ -1,6 +1,5 @@
 html {
   box-sizing: border-box;
-  scroll-behavior: smooth;
   overflow-wrap: break-word;
   margin: 0;
   padding: 0;
@@ -24,20 +23,102 @@ body {
 
 .left-selector {
   padding-top:20px;
-  margin-left: 20px;
   display: inline-block;
   position: sticky;
   position: -webkit-sticky;
 }
 
 .right-content {
-  width:95%;
   margin-top: 20px;
   margin-left: 0;
 }
 
+.contact-button {
+  border: 2px solid #5DC2EF;
+  background: #5DC2EF;
+  box-sizing: border-box;
+  padding: 5px 35px 5px 35px;
+}
+
+
+.contact-button-text {
+  font-family: 'Asap', sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #2B2B6F;
+}
+
+.font-content-title {
+  font-family: 'Asap', sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 32px;
+  line-height: 130%;
+  color: #2B2B6F;
+}
+
+.font-content-text {
+  font-family: 'Asap', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 150%;
+  color: #3C3C3B;
+}
+
+.font-subtitle-blue.feaature-title {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 42px;
+  color: #5DC2EF;
+  margin-bottom:10px;
+}
+
+.font-subtitle-blue {
+  font-family: 'Asap', sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 130%;
+  color: #254A99;
+}
+
+hr {
+  background: linear-gradient(270deg, #FFFFFF 2.13%, #5DC2EF 98.62%);
+  padding: 2.5px;
+  margin: 0;
+}
+
+.font-content-text.show-more a {
+  text-decoration: none;
+  color: #EC6B6B;
+}
+
+
+.kumuluz-container {
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+@media (min-width: 768px) {
+  .kumuluz-container {
+    width: 750px;
+  }
+}
+
 @media (min-width: 992px) {
+  .kumuluz-container {
+    width: 970px;
+  }
+
   .left-selector {
+    /* width:25% */
     height: 200px; 
     bottom: 65%;
     padding-top:90px;
@@ -51,7 +132,40 @@ body {
   }
 }
 
-/*@media (min-width: 768px) {
-}
 @media (min-width: 1200px) {
-} */
+  .kumuluz-container {
+    width: 1170px;
+  }
+}
+
+@media (min-width: 1300px) {
+  .kumuluz-container {
+    width: 1260px;
+  }
+}
+
+@media (min-width: 1600px) {
+  .kumuluz-container {
+    width: 1550px;
+  }
+
+  .right-content {
+    display:inline-block;
+    width:75%;
+    margin-top: 50px;
+    margin-left: 20px;
+  }
+}
+
+@media (min-width: 2500px) {
+  .kumuluz-container {
+    width: 2400px;
+  }
+
+  .right-content {
+    display:inline-block;
+    width:75%;
+    margin-top: 50px;
+    margin-left: 20px;
+  }
+}

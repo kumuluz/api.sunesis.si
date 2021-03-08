@@ -1,6 +1,5 @@
 import React from "react"
 import { graphql } from 'gatsby'
-import Layout from "../components/layouts/layout"
 import SEO from "../components/seo"
 import Error404 from "../components/errors/404/error404.js"
 import Navbar from "../components/header/navbar/navbar.js"

@@ -1,33 +1,14 @@
 .tech-title {
-    font-family: Asap;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 28px;
-    line-height: 130%;
-    color: #2B2B6F;
-    margin-bottom: 15px;
-  }
+  font-weight: normal;
+}
   
-  .tech-text {
-    font-family: Asap;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 17px;
-    line-height: 150%;
-    color: #3C3C3B;
-  }
+.select-text {
+  margin-bottom: 10px;
+  font-size: 16px;
+  text-align: right;
+  border: 1px solid transparent;
+}
   
-  .select-text {
-    margin-bottom: 10px;
-    font-family: Asap;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 16px;
-    text-align: right;
-    color: #3C3C3B;
-    border: 1px solid transparent;
-  }
-
   .select-text:hover {
       cursor:pointer;
       color:#254A99;

@@ -1,4 +1,16 @@
 {
+    "header": {
+        "error-title": "404",
+        "error-text": "Zahtevana stran ne obstaja.",
+        "studies-title": "Študije primerov",
+        "studies-text": "Celovita rešitev za upravljanje z API-ji, zasnovana na modularni način. Varna, hitro nadgradljiva in razširljiva, obenem pa dostopna po poslovnem modelu, ki vam najbolj ustreza.",
+        "main-title": "Zmogljiva API Management Platforma, popolnoma prilagojena vašim potrebam",
+        "main-text": "Celovita rešitev za upravljanje z API-ji, zasnovana na modularni način. Varna, hitro nadgradljiva in razširljiva, obenem pa dostopna po poslovnem modelu, ki vam najbolj ustreza.",
+        "tech-title": "Tehnične podrobnosti",
+        "tech-text": "Celovita rešitev za upravljanje z API-ji, zasnovana na modularni način. Varna, hitro nadgradljiva in razširljiva, obenem pa dostopna po poslovnem modelu, ki vam najbolj ustreza.",
+        "button-video": "POGLEJ VIDEO",
+        "button-contact": "KONTAKT"
+    },
     "navbar": {
         "language": {
             "sl-short": "Sl",
@@ -51,7 +63,7 @@
                 },
                 {
                     "name": "API",
-                    "href": "https://kumuluz.com/digital-components/api"
+                    "href": "/"
                 },
                 {
                     "name": "Integration",

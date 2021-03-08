@@ -1,21 +1,6 @@
-.studies_title {
+.font-content-title.studies-title {
     margin: 35px 0 35px 0;
-    font-family: Asap;
-    font-style: normal;
     font-weight: normal;
-    font-size: 30px;
-    line-height: 130%;
-    color: #2B2B6F;
-}
-
-.studies_text {
-    font-family: Asap;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 17px;
-    line-height: 150%;
-    color: #3C3C3B;
-    margin-bottom: 40px;
 }
 
 ul {
@@ -28,7 +13,7 @@ ul {
     font-family: Asap;
     font-style: normal;
     font-weight: 600;
-    font-size: 17px;
+    font-size: 20px;
     line-height: 130%;
     color: #2B2B6F;
 }
@@ -37,7 +22,7 @@ ul {
     font-family: Asap;
     font-style: normal;
     font-weight: normal;
-    font-size: 17px;
+    font-size: 20px;
     line-height: 150%;
     color: #3C3C3B;
 }
@@ -49,27 +34,19 @@ ul {
     color: #5DC2EF;
 }
 
-.feaature_title {
-    font-family: Asap;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 42px;
-    line-height: 130%;
-    color: #5DC2EF;
+
+.ul_black li,
+.ul_blue li {
     margin-bottom:10px;
 }
-
-.feaature_text {
-    font-family: Asap;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 17px;
-    line-height: 130%;
+.font-content-text.feaature-text {
+    font-size: 16px;
     color: #000000;
 }
 
 .margin_top {
     margin-top: 40px;
+    margin-bottom: 60px;
 }
 
 .right {
@@ -78,7 +55,6 @@ ul {
     position:sticky;
     position:-webkit-sticky;
     bottom:25%;
-    padding-left:2%;
     text-align: center;
     width:20%,
 }

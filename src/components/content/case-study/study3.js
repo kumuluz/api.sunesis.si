@@ -1,6 +1,6 @@
 import React from 'react'
 import { useTranslation } from "gatsby-plugin-react-i18next"
-import style from "./studies.module.scss"
+import style from "./studies.scss"
 
 
 const Study3Component = () => {
@@ -19,22 +19,22 @@ const Study3Component = () => {
     );
 
     return (
-        <div className="container" id="study3">
-            <p className={style.studies_title}>{t('case3.title')}</p>
-            <p className={style.studies_text}>{t('case3.text1')}</p>
+        <div className="container" id="study3" style={{paddingBottom:"3%"}}>
+            <p className="studies-title font-content-title">{t('case3.title')}</p>
+            <p className="font-content-text">{t('case3.text1')}</p>
             <div className="row">
                 <div className="col-md-6">
-                    <ul className={style.ul_black}>
+                    <ul className="ul_black" style={{padding:"35px 0 10px 0"}}>
                         {listItems1}
                     </ul>
                 </div>
                 <div className="col-md-6">
-                    <ul className={style.ul_black}>
+                    <ul className="ul_black" style={{padding:"35px 0 10px 0"}}>
                         {listItems2}
                     </ul>
                 </div>
             </div>
-            <p className={style.studies_text}>{t('case3.text2')}</p>
+            <p className="font-content-text">{t('case3.text2')}</p>
         </div>
     )
 }

@@ -41,7 +41,7 @@ module.exports = {
         background_color: `#663399`,
         theme_color: `#663399`,
         display: `minimal-ui`,
-        icon: `./static/images/gatsby-icon.png`, // This path is relative to the root of the site.
+        icon: `./static/images/gatsby-icon.png`,
       },
     },
     {
@@ -49,7 +49,7 @@ module.exports = {
       options: {
         fonts: [
           `Rubik\:300,400,600,700`,
-          `Asap\:300,400,600,700` // you can also specify font weights and styles
+          `Asap\:300,400,600,700`
         ],
         display: 'swap'
       }
@@ -57,13 +57,11 @@ module.exports = {
     {
       resolve: `gatsby-plugin-react-i18next`,
       options: {
-        localeJsonSourceName: `locale`, // name given to `gatsby-source-filesystem` plugin.
+        localeJsonSourceName: `locale`,
         languages: [`sl`, `en`, `de`],
         defaultLanguage: `sl`,
-        // if you are using Helmet, you must include siteUrl, and make sure you add http:https
-        siteUrl: `https://example.com/`,
-        // you can pass any i18next options
-        // pass following options to allow message content as a key
+        redirect: false,
+        siteUrl: `https://kumuluz-api-netlify.app/`,
         i18nextOptions: {
           interpolation: {
             escapeValue: false // not needed for react as it escapes by default
@@ -71,18 +69,13 @@ module.exports = {
           keySeparator: '.',
           nsSeparator: false
         }
-        //,
-        // pages: [
-        //   {
-        //     matchPath: '/:lang?/blog/:uid',
-        //     getLanguageFromPath: true,
-        //     excludeLanguages: ['en']
-        //   },
-        //   {
-        //     matchPath: '/example-studies',
-        //     languages: ['en']
-        //   }
-        // ]
+        ,
+        pages: [
+          {
+            matchPath: '/',
+            language: 'sl',
+          }
+        ]
       }
     },
   ]
