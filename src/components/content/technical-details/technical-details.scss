@@ -30,7 +30,7 @@
 }
 
 .selector-line:after {
-    border: 2px dashed #DBDBDB;
+    border: 1px dashed #DBDBDB;
     transform: rotate(90deg);
     position: absolute;
     bottom: 50%;
@@ -43,8 +43,8 @@
 
 @media (min-width: 992px) {
   .selector-line:after {
-    bottom: 20.5%;
-    left: 63.5%;
-    width: 62%;
-}
+    bottom: -16%;
+    left: 51.5%;
+    width: 90%;
+  }
 }

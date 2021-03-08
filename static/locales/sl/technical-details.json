@@ -10,27 +10,27 @@
 
         },
         {
-            "title": "Samodejno odkrivanje API-jev in populiranje kataloga API-jev brez ročnih posegov",
+            "title": "Samodejno odkrivanje API-jev",
             "text": "Odkrijte API-je preko vgrajenega API discovery mehanizma in se z njimi povežite brez kodiranja URL naslovov. Povežite se na API discovery register in pridobite vse naslove dinamično. Samodejno registriraj nove objave API-ja na API prehod v API discovery register."
         },
         {
-            "title": "Integracija z DevOps in Continous integration/delivery",
+            "title": "Integracija z DevOps in CI/CD",
             "text": "Uvozite API-jev v katalog API-jev tekom Continuous integration/delivery cikla. Uporabite vtičnike s katerimi samodejno iz kode generirate API specifikacijo skupaj z dokumentacijo v markdown formatu, in uvozite API vi KumuluzAPI brez dodatnega ročnega dela."
         },
         {
-            "title": "Dokumentiranje API-jev v standardni in jezikovno in tehnološko agnostični obliki",
+            "title": "Dokumentiranje",
             "text": "KumuluzAPI podpira dokumentiranje API-jev v markdown, docify in/ali rapidoc formatu. Enostavno in učinkovito pripravite dokumentacijo in jo objavite kot vgrajeno ali standalone dokumentacijo API-ja, ki je dostopna preko Developer in Management portala. Enostavno podprite večjezično dokumentacijo."
         },
         {
-            "title": "Verzioniranje API-jev v različnih okoljih",
+            "title": "Verzioniranje",
             "text": "Ustvarjanje novih verzij je mogoče ročno ali samodejno tekokom CI/CD cikal z dvigom verzije projekta. API-je lahko verzioniramo ločeno po okoljih, ki jih definiramo sami (DEV, TEST, UAT, STAGE, PROD)."
         },
         {
-            "title": "Upravljanje življenskega cikla API-jev",
+            "title": "Upravljanje življenskega cikla",
             "text": "KumuluzAPI omogoča enostavno upravljanje življenskega cikla API verzije s prehajanjem med različnimi tipi verzij, kot so: Development, Production, Deprecated, Retired."
         },
         {
-            "title": "Analiza in vizualizacija odvisnosti API, odjemalnih aplikacij in podatkovnih shem",
+            "title": "Analiza in vizualizacija odvisnosti",
             "text": "KumuluzAPI omogoča vizualizacijo odvisnosti med API-ji in odjemalnimi aplikacijami. Na ta način omogoča sledljivost povezav in statusa integracij."
         }
     ],
