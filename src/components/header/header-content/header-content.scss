@@ -1,43 +1,65 @@
 .header-title {
-    padding: 6rem 0 50px 0;
-    font-family: Rubik;
+    padding-top: 10rem;
+    font-family: Rubik, sans-serif;
     font-style: normal;
     font-weight: 700;
-    font-size: 30px;
-    line-height: 130%;
-}
-
-.header-content {
-    padding-top: 4rem;
-    margin-bottom: 20px;
-    font-family: Rubik;
-    font-style: normal;
-    font-weight: 700;
-    font-size: 30px;
-    line-height: 130%;
+    font-size: 32px;
+    line-height: 42px;
 }
 
 .header-text {
-    font-family: Asap;
+    font-family: 'Roboto', sans-serif;
     font-size: 21px;
-    color:rgb(207, 205, 205);
+    font-weight: 200;
+    color: white;
+    line-height: 31px;
+}
+
+.contact-button {
+    margin-top: 35px;
+    margin-right: 35px;
+    border: 2px solid #5DC2EF;
+    background: #5DC2EF;
+    box-sizing: border-box;
+    padding: 5px 35px 5px 35px;
+
+    width: 167.85px;
+    height: 46.17px;
+}
+
+.contact-button-text {
+    font-family: 'Asap', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+
+    align-items: center;
+    text-align: center;
+    color: #2B2B6F;
 }
 
 .vide-button {
-    margin-left: 25px;
+    margin-top: 35px;
+    background: transparent;
     border: 2px solid #5DC2EF;
     box-sizing: border-box;
     padding: 5px 20px 5px 20px;
+
+    width: 167.85px;
+    height: 46.17px;
 }
 
 .vide-button-text {
-    font-family: Asap;
-    font-weight: 600;
+    font-family: 'Asap', sans-serif;
+    font-style: normal;
+    font-weight: 500;
     font-size: 16px;
-    background: transparent;
+    line-height: 24px;
+
+    align-items: center;
     text-align: center;
     color: #5DC2EF;
-    text-shadow: 1px 1px 1px rgba(0,0,0,0.004);
 }
 
 .image {
@@ -51,3 +73,13 @@
         margin-bottom:0;
     }
   }
+
+.image-container {
+    height: 100%;
+    margin-top: -86px;
+    margin-left: -59px;
+}
+
+.image-col {
+    margin-bottom: -262px;
+}

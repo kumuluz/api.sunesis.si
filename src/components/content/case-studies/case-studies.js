@@ -14,7 +14,7 @@ const CaseStudiesComponent = () => {
     const { t } = useTranslation();
 
     return (
-        <div className="container" style={{ marginTop: "100px" }}>
+        <div className="content-container cases-background" style={{ marginTop: "100px" }}>
             <CarouselProvider
                 className="carousel"
                 naturalSlideWidth={100}
@@ -24,7 +24,7 @@ const CaseStudiesComponent = () => {
                 isPlaying={"true"}
                 interval={10000}
             >
-                <p className="font-subtitle-blue carousel-title" style={{marginLeft:"15px"}}>
+                <p className="font-content-title carousel-title" style={{marginLeft:"15px"}}>
                     <span>
                         {t('case-study-title')}
                     </span>

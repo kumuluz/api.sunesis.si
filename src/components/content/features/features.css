@@ -1,12 +1,12 @@
 .features {
     background: radial-gradient(52.47% 202.29% at 69.07% 71.82%, #254A99 0%, #2B2B6F 82.13%);
     color: white;
-    padding:10px 50px 10px 50px;
+    padding: 0px 355px 0px 355px;
     text-align: center;
 }
 
 .features div {
-    padding: 40px 10px 40px 10px;
+    padding: 39px 10px 34px 10px;
 }
 
 .iimage {
@@ -15,7 +15,8 @@
 }
 
 .feature-white {
-    font-weight: 600;
+    font-weight: 400;
     text-align: center;
     color: #FFFFFF;
+    margin-top: 8px;
 }

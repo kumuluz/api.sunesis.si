@@ -12,37 +12,37 @@ const MainFunctionalites = (props) => {
     const { t } = useTranslation();
 
     return (
-        <div className="container">
-            <div className="center">
+        <div className="content-container">
+            <div className="center content-row">
                 <p className="sponsors-text">{t('sponsors.text')}</p>
                 <img src={img_sponsors} alt="studija 1" />
 
             </div>
-            <div className="inblock">
+            <div className="inblock content-row">
                 <h1 className="font-content-title weight700">
                     {t('main-features.title1')}
                 </h1>
                 <hr />
+                <p className="font-content-title">
+                  {t('main-features.title2')}
+                </p>
             </div>
-            <p className="font-content-title">
-                {t('main-features.title2')}
-            </p>
-            <div className="container">
-            </div>
-            <div className="row padded">
+            <div className="padding-div"/>
+            <div className="row padded content-row content-row-left">
                 <div className="col-md-6 middle">
                     <h3 className="font-subtitle-blue">{t('main-features.feature1_title')}</h3>
                     <p className="font-content-text">{t('main-features.feature1_text')}</p>
                     <h3 className="font-subtitle-blue">{t('main-features.feature2_title')}</h3>
                     <p className="font-content-text">{t('main-features.feature2_text')}</p>
                 </div>
-                <div className="col-md-6 img-center">
-                    <img src={image1} alt="Kumuluz" style={{height:"300px"}} />
+                <div className="col-md-6 img-center img-right">
+                    <img src={image1} alt="Kumuluz" />
                 </div>
             </div>
-            <div className="row padded">
+            <div className="padding-div"/>
+            <div className="row padded content-row">
                 <div className="col-md-6 img-center">
-                    <img src={image2} alt="Kumuluz" style={{height:"300px"}}/>
+                    <img src={image2} alt="Kumuluz" />
                 </div>
                 <div className="col-md-6 middle">
                     <h3 className="font-subtitle-blue">{t('main-features.feature3_title')}</h3>
@@ -51,15 +51,16 @@ const MainFunctionalites = (props) => {
                     <p className="font-content-text">{t('main-features.feature4_text')}</p>
                 </div>
             </div>
-            <div className="row padded">
+            <div className="padding-div"/>
+            <div className="row padded content-row content-row-left">
                 <div className="col-md-6 middle">
                     <h3 className="font-subtitle-blue">{t('main-features.feature5_title')}</h3>
                     <p className="font-content-text">{t('main-features.feature5_text')}</p>
                     <h3 className="font-subtitle-blue">{t('main-features.feature6_title')}</h3>
                     <p className="font-content-text">{t('main-features.feature6_text')}</p>
                 </div>
-                <div className="col-md-6 img-center">
-                    <img src={image3} alt="Kumuluz" style={{height:"300px"}}/>
+                <div className="col-md-6 img-center img-right">
+                    <img src={image3} alt="Kumuluz" />
                 </div>
             </div>
         </div>

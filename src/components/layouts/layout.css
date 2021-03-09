@@ -33,40 +33,30 @@ body {
   margin-left: 0;
 }
 
-.contact-button {
-  border: 2px solid #5DC2EF;
-  background: #5DC2EF;
-  box-sizing: border-box;
-  padding: 5px 35px 5px 35px;
-}
-
-
-.contact-button-text {
-  font-family: 'Asap', sans-serif;
-  font-style: normal;
-  font-weight: 600;
-  font-size: 16px;
-  display: flex;
-  align-items: center;
-  text-align: center;
-  color: #2B2B6F;
-}
-
 .font-content-title {
   font-family: 'Asap', sans-serif;
   font-style: normal;
-  font-weight: bold;
+  font-weight: 400;
   font-size: 32px;
-  line-height: 130%;
+  line-height: 42px;
+  color: #2B2B6F;
+}
+
+.font-content-title-bold {
+  font-family: 'Asap', sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 42px;
   color: #2B2B6F;
 }
 
 .font-content-text {
   font-family: 'Asap', sans-serif;
   font-style: normal;
-  font-weight: normal;
+  font-weight: 400;
   font-size: 20px;
-  line-height: 150%;
+  line-height: 30px;
   color: #3C3C3B;
 }
 
@@ -83,7 +73,7 @@ body {
   font-style: normal;
   font-weight: 600;
   font-size: 24px;
-  line-height: 130%;
+  line-height: 32px;
   color: #254A99;
 }
 
@@ -104,6 +94,23 @@ hr {
   padding-left: 15px;
   margin-right: auto;
   margin-left: auto;
+}
+
+.content-container {
+  margin-left: auto;
+  margin-right: auto;
+
+  padding-left: 18.4%;
+  padding-right: 18.4%;
+}
+
+.content-row {
+  padding-left: 16px;
+  padding-right: 16px;
+}
+
+.content-row-left {
+  margin-right: 50px;
 }
 
 @media (min-width: 768px) {

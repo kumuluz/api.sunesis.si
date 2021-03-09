@@ -1,6 +1,13 @@
 .diagram {
     background: #F4F5F5;
     text-align: center;
+
+    padding-left: 14%;
+    padding-right: 14%;
+}
+
+.image-diagram {
+    padding-top: 45px;
 }
 
 .specs-text {

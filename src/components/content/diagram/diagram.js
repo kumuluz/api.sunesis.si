@@ -9,7 +9,7 @@ const DiagramComponent = () => {
 
     return (
         <div className="diagram">
-            <div className="container justify-content-md-center">
+            <div className="image-diagram justify-content-md-center">
                 <img src={image} alt="Kumuluz" style={{width:"100%"}}/>
             </div>
             <Link to="/technical-details">

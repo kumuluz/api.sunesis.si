@@ -1,6 +1,6 @@
 import React from 'react'
 import "./header-content.scss"
-import image from "../../../../static/images/kumuluz-header-cut.png"
+import image from "../../../../static/images/kumuluz-header.png"
 import { useTranslation } from "gatsby-plugin-react-i18next"
 
 const HeaderComponent = (props) =>{
@@ -17,7 +17,7 @@ const HeaderComponent = (props) =>{
                 </p>
             </div>
             <div className="col-lg-5">
-                <div className="container" style={{height:"100%"}}>
+                <div className="image-container" style={{height:"100%"}}>
                     <img src={image} alt="Kumuluz" className="image" />
                 </div>
             </div>

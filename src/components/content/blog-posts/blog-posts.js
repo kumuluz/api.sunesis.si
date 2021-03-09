@@ -8,15 +8,17 @@ const BlogPostsComponent = () => {
     const { t } = useTranslation();
 
     return (
-        <div className="container padded">
+        <div className="content-container padded blog-background">
+            <div className="padding-div" />
             <div>
-                <p className="font-content-title">{t('blog.blog-title')}</p>
+                <p className="font-content-title-bold">{t('blog.blog-title')}</p>
             </div>
+            <div className="padding-div" />
             <div className="row">
-                <div className="col-md-4">
+                <div className="col-md-4 blog-column">
                     <p className="font-subtitle-blue">{t('blog.post1-title')}</p>
                     <hr />
-                    <p className="font-content-text">{t('blog.post1-text')}</p>
+                    <p className="font-content-text blog-column-text">{t('blog.post1-text')}</p>
                     <p className="font-content-text show-more">
                         <a href={BLOG_URL} target="_blank" rel="noreferrer noopener">
                             {t('blog.show-more')}
@@ -27,10 +29,10 @@ const BlogPostsComponent = () => {
                         </a>
                     </p>
                 </div>
-                <div className="col-md-4">
+                <div className="col-md-4 blog-column">
                     <p className="font-subtitle-blue">{t('blog.post1-title')}</p>
                     <hr />
-                    <p className="font-content-text">{t('blog.post1-text')}</p>
+                    <p className="font-content-text blog-column-text">{t('blog.post1-text')}</p>
                     <p className="font-content-text show-more">
                         <a href={BLOG_URL} target="_blank" rel="noreferrer noopener">
                             {t('blog.show-more')}
@@ -41,8 +43,8 @@ const BlogPostsComponent = () => {
                         </a>
                     </p>
                 </div>
-                <div className="col-md-4">
-                    <p className="font-subtitle-blue">{t('blog.post1-title')}</p>
+                <div className="col-md-4 blog-column">
+                    <p className="font-subtitle-blue blog-column-text">{t('blog.post1-title')}</p>
                     <hr />
                     <p className="font-content-text">{t('blog.post1-text')}</p>
                     <p className="font-content-text show-more">

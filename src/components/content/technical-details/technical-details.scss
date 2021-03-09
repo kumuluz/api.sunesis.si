@@ -1,44 +1,45 @@
 .tech-title {
   font-weight: normal;
 }
-  
+
 .select-text {
   margin-bottom: 10px;
   font-size: 16px;
   text-align: right;
   border: 1px solid transparent;
 }
-  
-  .select-text:hover {
-      cursor:pointer;
-      color:#254A99;
-    border: 1px solid #254A99;
-      .radio-button {
-      background-color: #254A99;
-      } 
+
+.select-text:hover {
+  cursor: pointer;
+  color: #254A99;
+  border: 1px solid #254A99;
+
+  .radio-button {
+    background-color: #254A99;
   }
+}
 
 .radio-button {
-    vertical-align: middle;
-    margin-left:20px;
-    height: 16px;
-    width: 16px;
-    background-color: #dbdbdb;
-    border: 3.5px solid #dbdbdb;
-    border-radius: 50%;
-    display: inline-block;
+  vertical-align: middle;
+  margin-left: 20px;
+  height: 16px;
+  width: 16px;
+  background-color: #dbdbdb;
+  border: 3.5px solid #dbdbdb;
+  border-radius: 50%;
+  display: inline-block;
 }
 
 .selector-line:after {
-    border: 1px dashed #DBDBDB;
-    transform: rotate(90deg);
-    position: absolute;
-    bottom: 50%;
-    left: 65%;
-    width: 60%;
-    content: "";
-    display: block;
-    z-index: -1;
+  border: 1px dashed #DBDBDB;
+  transform: rotate(90deg);
+  position: absolute;
+  bottom: 50%;
+  left: 65%;
+  width: 60%;
+  content: "";
+  display: block;
+  z-index: -1;
 }
 
 @media (min-width: 992px) {
@@ -47,4 +48,25 @@
     left: 51.5%;
     width: 90%;
   }
+}
+
+.content {
+  margin-top: 35px;
+  margin-bottom: 90px;
+}
+
+.image-holder {
+  height: 100%;
+}
+
+.image {
+  max-width:100%;
+  height: auto;
+
+}
+
+.shadow {
+  -webkit-box-shadow: 3px 3px 5px 6px #ccc;  /* Safari 3-4, iOS 4.0.2 - 4.2, Android 2.3+ */
+  -moz-box-shadow:    3px 3px 5px 6px #ccc;  /* Firefox 3.5 - 3.6 */
+  box-shadow:         3px 3px 5px 6px #ccc;  /* Opera 10.5, IE 9, Firefox 4+, Chrome 6+, iOS 5 */
 }

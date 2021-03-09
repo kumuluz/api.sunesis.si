@@ -40,7 +40,7 @@ const FooterComponent = () => {
 
     return (
         <div id="footer">
-            <div className="container">
+            <div className="content-container">
             <Row>
                 <Col xs="6" md="3">
                     <div className="title">{t('footer.products.title')}</div>

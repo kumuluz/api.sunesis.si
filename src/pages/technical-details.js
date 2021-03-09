@@ -28,9 +28,9 @@ const TechnicalDetailsPage = () => {
           <div>
             {details.map((detail, index) => {
               if (index % 2 === 0)
-                return (<ContentL title={detail.title} text={detail.text} key={index} id={"paragraph"+index} />);
+                return (<ContentL title={detail.title} text={detail.text} key={index} id={"paragraph"+index} image={detail.image}/>);
               else
-                return (<ContentR title={detail.title} text={detail.text} key={index} id={"paragraph"+index} />);
+                return (<ContentR title={detail.title} text={detail.text} key={index} id={"paragraph"+index} image={detail.image}/>);
             })
             }
           </div>

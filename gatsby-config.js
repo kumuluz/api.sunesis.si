@@ -5,9 +5,8 @@ module.exports = {
     author: `@Sunesis`,
   },
   plugins: [
-    `gatsby-image`,
+    `gatsby-plugin-image`,
     `gatsby-plugin-react-helmet`,
-    `gatsby-plugin-fontawesome-css`,
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,
     `gatsby-plugin-sass`,
@@ -48,8 +47,9 @@ module.exports = {
       resolve: `gatsby-plugin-google-fonts`,
       options: {
         fonts: [
-          `Rubik\:300,400,600,700`,
-          `Asap\:300,400,600,700`
+          `Rubik\:100,200,300,400,600,700`,
+          `Roboto\:100,200,300,400,600,700`,
+          `Asap\:100,200,300,400,600,700`
         ],
         display: 'swap'
       }

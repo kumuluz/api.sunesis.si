@@ -4,7 +4,7 @@ import "./header.css"
 
 const HeaderComponent = (props) => (
     <div className="hheader">
-        <div className="container">
+        <div className="content-container">
             <Navbar />
             { props.children }
         </div>

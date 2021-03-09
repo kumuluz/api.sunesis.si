@@ -9,7 +9,7 @@ const VideoComponent = () => {
 
     return (
         <div className="padded" id="video">
-            <div className="container">
+            <div className="content-container">
             <div className="row">
                 <div className="col-md-7">
                     <p className="video-title font-content-title">

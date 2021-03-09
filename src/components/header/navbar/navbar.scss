@@ -1,5 +1,10 @@
 .nbar {
     padding-bottom: 0;
+    padding-top: 8px;
+}
+
+.nbar-brand2 {
+    padding-top: 18px;
 }
 
 .nbar ul {
@@ -16,19 +21,26 @@
 
 .nbar a, .dropdown {
     text-decoration: none;
-    margin-right:20px;
     line-height: 43px;
     bottom: 0;
     color: #FFFFFF;
-    font-family: Asap;
+    font-family: Asap, sans-serif;
     font-style: normal;
-    font-weight: normal;
+    font-weight: 200;
 }
 
 .nbar a p, .dropdown p {
   bottom: 0;
   font-size: 16px;
   margin: 0;
+}
+
+.nbar .expand-navbar a p, .dropdown p {
+  margin-left: 25px;
+}
+
+.expand-navbar {
+  margin-top: 35px;
 }
 
 .dropdown p {

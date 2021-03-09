@@ -2,36 +2,44 @@
     "details": [
         {
             "title": "Portal za razvijalce",
-            "text": "Glavna vstopna točka za razvijalce odjemalnih aplikacij je KumuluzAPI Developer portal. Developer portal nudi katalog API-jev, kjer so prikazani API-ji, dostopni določeni stranki. Razvijalci preko Developer portala dostopajo do vse dokumentacije potrebne za implementacijo odjemalnih aplikacij. Developer portal dostavi dokumentacijo, API specifikacijo in možnost naročanja in prodobivanja API Ključev za dostop."
+            "text": "Glavna vstopna točka za razvijalce odjemalnih aplikacij je KumuluzAPI Developer portal. Developer portal nudi katalog API-jev, kjer so prikazani API-ji, dostopni določeni stranki. Razvijalci preko Developer portala dostopajo do vse dokumentacije potrebne za implementacijo odjemalnih aplikacij. Developer portal dostavi dokumentacijo, API specifikacijo in možnost naročanja in prodobivanja API Ključev za dostop.",
+            "image": "/images/api-dev-portal.png"
         },
         {
             "title": "Katalog API-jev",
-            "text": "Katalog API-jev osrednja komponenta KumuluzAPI Management in KumuluzAPI developer portal. KumuluzAPI Management vsebuje več katalogov API-jev: Katalog vseh objavljenih API-jev, katalog API-je, ki so uviženi v KumuluzAPI, niso pa izpostavljeni na API prehodih in Katalog API-jev, ki so v moji lasti. Vsi katalogi podpirajo napredne načine iskanja, grupiranja in tudi tagiranja API-jev. Katalog API-jev je glavna vstopna točka na Developer portalu, kjer so uporabniku prikazani vsi API-ji, do katerih mu je bil dodeljen dostop."
+            "text": "Katalog API-jev osrednja komponenta KumuluzAPI Management in KumuluzAPI developer portal. KumuluzAPI Management vsebuje več katalogov API-jev: Katalog vseh objavljenih API-jev, katalog API-je, ki so uviženi v KumuluzAPI, niso pa izpostavljeni na API prehodih in Katalog API-jev, ki so v moji lasti. Vsi katalogi podpirajo napredne načine iskanja, grupiranja in tudi tagiranja API-jev. Katalog API-jev je glavna vstopna točka na Developer portalu, kjer so uporabniku prikazani vsi API-ji, do katerih mu je bil dodeljen dostop.",
+            "image": "/images/api-catalog.png"
 
         },
         {
             "title": "Samodejno odkrivanje API-jev",
-            "text": "Odkrijte API-je preko vgrajenega API discovery mehanizma in se z njimi povežite brez kodiranja URL naslovov. Povežite se na API discovery register in pridobite vse naslove dinamično. Samodejno registriraj nove objave API-ja na API prehod v API discovery register."
+            "text": "Odkrijte API-je preko vgrajenega API discovery mehanizma in se z njimi povežite brez kodiranja URL naslovov. Povežite se na API discovery register in pridobite naslove dinamično. Samodejno registrirajte nove objave API-ja na API prehod v API discovery register.",
+            "image": "/images/api-discovery.png"
         },
         {
             "title": "Integracija z DevOps in CI/CD",
-            "text": "Uvozite API-jev v katalog API-jev tekom Continuous integration/delivery cikla. Uporabite vtičnike s katerimi samodejno iz kode generirate API specifikacijo skupaj z dokumentacijo v markdown formatu, in uvozite API vi KumuluzAPI brez dodatnega ročnega dela."
+            "text": "Uvozite API-jev v katalog API-jev tekom Continuous integration/delivery cikla. Uporabite vtičnike s katerimi samodejno iz kode generirate API specifikacijo skupaj z dokumentacijo v markdown formatu, in uvozite API vi KumuluzAPI brez dodatnega ročnega dela.",
+            "image": "/images/kapi-ci-cd.png"
         },
         {
             "title": "Dokumentiranje",
-            "text": "KumuluzAPI podpira dokumentiranje API-jev v markdown, docify in/ali rapidoc formatu. Enostavno in učinkovito pripravite dokumentacijo in jo objavite kot vgrajeno ali standalone dokumentacijo API-ja, ki je dostopna preko Developer in Management portala. Enostavno podprite večjezično dokumentacijo."
+            "text": "KumuluzAPI podpira dokumentiranje API-jev v markdown, docsify in/ali rapidoc formatu. Enostavno in učinkovito pripravite dokumentacijo in jo objavite kot vgrajeno ali standalone dokumentacijo API-ja, ki je dostopna preko Developer in Management portala. Enostavno podprite večjezično dokumentacijo.",
+            "image": "/images/api-docs.png"
         },
         {
             "title": "Verzioniranje",
-            "text": "Ustvarjanje novih verzij je mogoče ročno ali samodejno tekokom CI/CD cikal z dvigom verzije projekta. API-je lahko verzioniramo ločeno po okoljih, ki jih definiramo sami (DEV, TEST, UAT, STAGE, PROD)."
+            "text": "Ustvarjanje novih verzij je mogoče ročno ali samodejno tekom CI/CD cikal z dvigom verzije projekta. API-je lahko verzioniramo ločeno po okoljih, ki jih definiramo sami (DEV, TEST, UAT, STAGE, PROD).",
+            "image": "/images/api-versions.png"
         },
         {
             "title": "Upravljanje življenskega cikla",
-            "text": "KumuluzAPI omogoča enostavno upravljanje življenskega cikla API verzije s prehajanjem med različnimi tipi verzij, kot so: Development, Production, Deprecated, Retired."
+            "text": "KumuluzAPI omogoča enostavno upravljanje življenskega cikla API verzije s prehajanjem med različnimi tipi verzij, kot so: Development, Production, Deprecated, Retired.",
+            "image": "/images/api-lifecycle.png"
         },
         {
             "title": "Analiza in vizualizacija odvisnosti",
-            "text": "KumuluzAPI omogoča vizualizacijo odvisnosti med API-ji in odjemalnimi aplikacijami. Na ta način omogoča sledljivost povezav in statusa integracij."
+            "text": "KumuluzAPI omogoča vizualizacijo odvisnosti med API-ji in odjemalnimi aplikacijami. Na ta način omogoča sledljivost povezav in statusa integracij.",
+            "image": "/images/api-integrations.png"
         }
     ],
     "header": {
