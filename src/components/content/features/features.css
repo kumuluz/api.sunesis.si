@@ -1,7 +1,7 @@
 .features {
     background: radial-gradient(52.47% 202.29% at 69.07% 71.82%, #254A99 0%, #2B2B6F 82.13%);
     color: white;
-    padding: 0px 355px 0px 355px;
+    padding: 0px 18% 0px 18%;
     text-align: center;
 }
 
@@ -10,8 +10,8 @@
 }
 
 .iimage {
-    width: 153.13px;
-    height: 94.6px;
+    max-width: 153.13px;
+    max-height: 94.6px;
 }
 
 .feature-white {
