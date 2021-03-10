@@ -26,7 +26,7 @@ const VideoComponent = () => {
                     </a>
                 </div>
                 <div className="col-md-5">
-                    <p>videooooooo</p>
+                    <p></p>
                 </div>
             </div>
             </div>
