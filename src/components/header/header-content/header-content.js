@@ -11,9 +11,9 @@ const HeaderComponent = (props) =>{
     return (
         <div className="row content-row">
             <div className="col-lg-7">
-                <p className="header-title">{t('header.'+props.page+'-title')}</p>
+                <p className="header-title">{t('header.'+ props.page +'-title')}</p>
                 <p className="header-text">
-                    {t('header.'+props.page+'-text')}
+                    {t('header.'+ props.page +'-text')}
                 </p>
                 <a href={CONTACT_URL} target="_blank" rel="noreferrer noopener">
                     <button className="contact-button">

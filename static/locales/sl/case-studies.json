@@ -1,57 +1,52 @@
 {
-    "case1":
+  "usecases": [
     {
-        "title": "Vpeljava KumuluzAPI v okolju zavarovalnice",
-        "text": "Cilj digitalizacije poslovanja zavarovalnice je bil dvodelen. Kot prvo, vzpostaviti pregled nad API-ji v poslovnem okolju skupaj s pregledom nad integracijami z internimi aplikacijami. In kot drugo, vzpostavitev ekosistame API-jev za zunanje partnerje. Dva najbolj uporabljena API-jev iz strani zunanjih partnerjev sta API za informativni izračun zavarovanj (premoženjsko, zdravstveno,...) in API za sklenitev zavarovanj. Kot najbolj zanimiv primer je uporaba omenjenih API-jev iz strani agregatorja ponudnikov zavarovanj, kjer tuja organizacija uporablja API-je zavarovalnic in omogoča primerjavo zavarovanj med različnimi ponudniki in potem tudi sklenitev zavarovanj pri izbranem ponudniku.",
-        "bulletpoints": [
-            "88 objavljenih API-jev",
-            "613 API naročnin",
-            "62 aktivnih odjemalnih aplikacij",
-            "200k do 500k API klicev na dan",
-            "4 API prehodi",
-            "59 zalednih namestitev API-jev v testnem in produkcijskem okolju"
-        ],
-        "features": [
-            {
-                "title": "15%",
-                "text": "več povpraševanj po zavarovalnih produktih po izpostavitvi API-ja"
-            },
-            {
-                "title": "5%",
-                "text": "povečano število sklenjenih zavarovanj po izpostavitvi API-ja"
-            },
-            {
-                "title": "2",
-                "text": "nova partnerja"
-            }
-        ]
+      "title": "Vpeljava KumuluzAPI v okolju zavarovalnice",
+      "menutitle": "KumuluzAPI v okolju zavarovalnice",
+      "text1": "Cilj digitalizacije poslovanja zavarovalnice je bil dvodelen. Kot prvo, vzpostaviti pregled nad API-ji v poslovnem okolju skupaj s pregledom nad integracijami z internimi aplikacijami. In kot drugo, vzpostavitev ekosistame API-jev za zunanje partnerje. Dva najbolj uporabljena API-jev iz strani zunanjih partnerjev sta API za informativni izračun zavarovanj (premoženjsko, zdravstveno,...) in API za sklenitev zavarovanj. Kot najbolj zanimiv primer je uporaba omenjenih API-jev iz strani agregatorja ponudnikov zavarovanj, kjer tuja organizacija uporablja API-je zavarovalnic in omogoča primerjavo zavarovanj med različnimi ponudniki in potem tudi sklenitev zavarovanj pri izbranem ponudniku.",
+      "bulletpoints": [
+        "88 objavljenih API-jev",
+        "613 API naročnin",
+        "62 aktivnih odjemalnih aplikacij",
+        "200k do 500k API klicev na dan",
+        "4 API prehodi",
+        "59 zalednih namestitev API-jev v testnem in produkcijskem okolju"
+      ],
+      "features": [
+        {
+          "title": "15%",
+          "text": "več povpraševanj po zavarovalnih produktih po izpostavitvi API-ja"
+        },
+        {
+          "title": "5%",
+          "text": "povečano število sklenjenih zavarovanj po izpostavitvi API-ja"
+        },
+        {
+          "title": "2",
+          "text": "nova partnerja"
+        }
+      ]
     },
-    "case2":
     {
-        "title": "Vzpostavitev API integracijske infrastrukture v okolju banke",
-        "text1": "Digitalno poslovanje banke zahteva vrsto integracij med različnimi aplikacijami in sistemi, tako internimi kot zunanjimi. Z rešitvijo KumuluzAPI smo vpeljali dva integracijska infrastrukturna sklopa – interni in zunanji. Interna integracijska infrastruktura je namenjena vzpostavitvi integracij med internimi aplikacijami in sistemi z zahtevo po visoki varnosti. Eksterna integracijska infrastruktura je sestavljena iz dveh delov – sklopa za vhodne (ingress) integracije in sklopa za izhodne (egress) integracije.",
-        "text2":"Ključni del digitalizacije poslovnih okolij z visokim rizikom varnosti je pregled nad vsemi integracijami in možnost upravljanja s posameznimi integracijami. Da dosežemo visok nivo varnosti moramo zagotoviti tudi enostavno upravljanje varnostne konfiguracije saj tako zmanjšamo možnosti za človeške napake. To dosežemo z vpeljavo API prehodov, ki predstavljajo enotno vstopno točko v primeru ingress integracij, oz. enotno izstopno točko v primeru egress prometa. Na ta način ves promet do internih aplikacij prihaja iz ene vhodne (ingress) točke in ves promet iz internih aplikacij na zunanje  poteka preko ene izhodne (egress) točke.",
-        "features": [
-            {
-                "title": "XX",
-                "text": "integracijskih API-jev"
-            },
-            {
-                "title": "do 1.1M",
-                "text": ""
-            },
-            {
-                "title": "2",
-                "text": "aktivni integraciji"
-            }
-        ]
-    },
-    "case3":
-    {
-        "title": "Vzpostavitev API integracijske infrastrukture v okolju banke",
-        "text1": "KumuluzAPI nudi množico poslovnih API-jev s katerimi je proces digitalizacije 3x hitrejši. KumuluzAPI vključuje naslednje poslovne API-je, ki ne zahtevajo dodatne implementacije:",
-        "text2": "Z naborom poslovnih API-jev in rešitvijo KumuluzAPI lahko vzpostavimo digitalno poslovanje, ki ne zhateva visokega začetnega vložka. Paket rešitev je namenjen predvsem manjšim podjetjem, ki še nimajo močnega IT kadra, si pa želijo digitalnega poslovanja z uporabo API-jev. S pomočjo obstoječih gradnikov že v začetku omogočajo integracijo zunanjih sistemov in vzpostavitev API ekosistemov.",
-        "bulletpoints1": ["Payment", "Product", "Catalog", "Cart", "Order", "Fulfillment"],
-        "bulletpoints2": ["Invoice", "Customer", "Subscription", "Know your customer"]
+      "title": "Vzpostavitev API integracijske infrastrukture v okolju banke",
+      "menutitle": "API infrastruktura v okolju banke",
+      "text1": "Digitalno poslovanje banke zahteva vrsto integracij med različnimi aplikacijami in sistemi, tako internimi kot zunanjimi. Z rešitvijo KumuluzAPI smo vpeljali dva integracijska infrastrukturna sklopa – interni in zunanji. Interna integracijska infrastruktura je namenjena vzpostavitvi integracij med internimi aplikacijami in sistemi z zahtevo po visoki varnosti. Eksterna integracijska infrastruktura je sestavljena iz dveh delov – sklopa za vhodne (ingress) integracije in sklopa za izhodne (egress) integracije.",
+      "text2": "Ključni del digitalizacije poslovnih okolij z visokim rizikom varnosti je pregled nad vsemi integracijami in možnost upravljanja s posameznimi integracijami. Da dosežemo visok nivo varnosti moramo zagotoviti tudi enostavno upravljanje varnostne konfiguracije saj tako zmanjšamo možnosti za človeške napake. To dosežemo z vpeljavo API prehodov, ki predstavljajo enotno vstopno točko v primeru ingress integracij, oz. enotno izstopno točko v primeru egress prometa. Na ta način ves promet do internih aplikacij prihaja iz ene vhodne (ingress) točke in ves promet iz internih aplikacij na zunanje  poteka preko ene izhodne (egress) točke.",
+      "features": [
+        {
+          "title": "22",
+          "text": "integracijskih API-jev"
+        },
+        {
+          "title": "do 1.1M",
+          "text": "klicev na dan"
+        },
+        {
+          "title": "35",
+          "text": "aktivni integraciji"
+        }
+      ],
+      "image": "/images/ingress-egress-diagram.png"
     }
+  ]
 }

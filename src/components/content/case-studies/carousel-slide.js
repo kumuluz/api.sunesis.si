@@ -3,23 +3,22 @@ import {useTranslation, Link} from "gatsby-plugin-react-i18next"
 import "./case-studies.scss"
 
 const CaseStudiesComponent = (props) => {
-    
-    const {t} = useTranslation();
-    const text = t('case' + props.s + '.text').length > 100? 
-        t('case' + props.s + '.text').substring(0,300) : 
-        t('case' + props.s + '.text1').substring(0,300);
-    const features = t('case' + props.s + '.features', {returnObjects: true});
+
+    const { t } = useTranslation()
+
+    const text = props.use.text1.length > 100? props.use.text1.substring(0,300) : props.use.text2.substring(0,300);
+    const features = props.use.features;
 
     return (
         <div className="row container">
         <div className="col-md-6">
-           <p className="font-content-title-bold">{t('case' + props.s + '.title')}</p>
+           <p className="font-content-title-bold">{props.use.title}</p>
            <hr/>
            <p className="font-content-text feature-text" style={{marginTop:"20px"}}>
                 { text } ...
            </p>
             <p className="font-content-text show-more">
-                <Link to={"/case-studies/#study"+props.s}>
+                <Link to={"/case-studies/#paragraph" + props.index}>
                     {t('blog.show-more')}
                     &nbsp;
                     <svg width="19" height="14" viewBox="0 0 19 14" fill="none" xmlns="http://www.w3.org/2000/svg">

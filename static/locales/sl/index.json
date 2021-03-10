@@ -31,8 +31,12 @@
     "blog": {
         "blog-title": "Zadnje blog objave",
         "show-more": "Več",
-        "post1-title": "Največje tehnološke napake pri implementaciji in uporabi API-jev",
-        "post1-text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."
+        "post1-title": "API ekonomija - Kaj je in kako vam lahko pomaga pri rasti vašega podjetja?",
+        "post1-text": "Preprosto povedano API-ji določajo, kako naj dve aplikaciji med seboj komunicirata oziroma izmenjata podatke. Čeprav se sliši definicija API-ja izjemno preprosta, pa je s prihodom API-jev zaživela povsem nova ekonomija – API ekonomija, ki pa postaja vse bolj kompleksna in zahtevna, a ključna za rast in razvoj skoraj vsake organizacije.",
+        "post2-title": "API Management v najzahtevnejših poslovnih okoljih",
+        "post2-text": "Najuspešnejša hitro rastoča podjetja svoje poslovanje danes širijo predvsem na podlagi digitalnih rešitev, digitalnih poslovnih modelov ter digitalnih sredstev. Razumejo API ekonomijo in s kreiranjem digitalnih sredstev rušijo fizične omejitve rasti, saj so digitalna sredstva enostavno ponovljiva in skalabilna.",
+        "post3-title": "Novi digitalni poslovni modeli, ki jih omogočajo API-ji",
+        "post3-text": "API-ji so koristni tako za podjetja, ki jih izpostavijo, kot tudi za razvijalce, ki jih uporabijo. Razvijalci z uporabo API-jev uporabijo že obstoječe programske komponente namesto da se poslužijo razvoja novih in tako prihranijo čas, denarni vložek. Podjetja, ki pa izpostavijo/ponujajo svoje API-je, pa lahko promovirajo svoje rešitve in zaslužijo s prodajo le teh. "
     },
     "video": {
         "video-title": "Zmogljiva API Management Platforma, popolnoma prilagojena vašim potrebam",

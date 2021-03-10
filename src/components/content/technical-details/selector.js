@@ -10,7 +10,7 @@ const SelectorComponent = (props) => {
             return (
                 <Link to={"#paragraph" + index}>
                     <p key={index} className="font-content-text select-text">
-                        <span>{detail.title}</span>
+                        <span>{detail.menutitle}</span>
                         <span className="radio-button"></span>
                     </p>
                 </Link>

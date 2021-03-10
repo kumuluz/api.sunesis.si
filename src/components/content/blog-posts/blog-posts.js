@@ -30,9 +30,9 @@ const BlogPostsComponent = () => {
                     </p>
                 </div>
                 <div className="col-md-4 blog-column">
-                    <p className="font-subtitle-blue">{t('blog.post1-title')}</p>
+                    <p className="font-subtitle-blue">{t('blog.post2-title')}</p>
                     <hr />
-                    <p className="font-content-text blog-column-text">{t('blog.post1-text')}</p>
+                    <p className="font-content-text blog-column-text">{t('blog.post2-text')}</p>
                     <p className="font-content-text show-more">
                         <a href={BLOG_URL} target="_blank" rel="noreferrer noopener">
                             {t('blog.show-more')}
@@ -44,9 +44,9 @@ const BlogPostsComponent = () => {
                     </p>
                 </div>
                 <div className="col-md-4 blog-column">
-                    <p className="font-subtitle-blue blog-column-text">{t('blog.post1-title')}</p>
+                    <p className="font-subtitle-blue">{t('blog.post3-title')}</p>
                     <hr />
-                    <p className="font-content-text">{t('blog.post1-text')}</p>
+                    <p className="font-content-text blog-column-text">{t('blog.post3-text')}</p>
                     <p className="font-content-text show-more">
                         <a href={BLOG_URL} target="_blank" rel="noreferrer noopener">
                             {t('blog.show-more')}

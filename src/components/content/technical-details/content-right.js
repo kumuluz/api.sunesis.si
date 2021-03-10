@@ -8,7 +8,7 @@ const ContentLeftComponent = (props) => {
       <div id={props.id} className="row" style={{ marginTop: "35px", marginBottom: "90px" }}>
         <div className="col-lg-6">
           <div className="image-holder d-flex align-items-center justify-content-center">
-            <img className="image shadow" src={props.image}/>
+            <img className="image shadow" src={props.image} alt=""/>
           </div>
         </div>
         <div className="col-lg-6">
