@@ -7,10 +7,32 @@
 }
 
 .image-diagram {
-    padding-top: 45px;
+    padding-top: 25px;
+    padding-bottom: 50px;
+}
+
+.description-text {
+    padding-top: 65px;
+    font-size: 22px;
+    color: #254A99;
+    font-weight: 600;
+    max-width: 450px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .specs-text {
+    font-family: Asap;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 150%;
+    align-items: center;
+    text-align: center;
+    color: white;
+}
+
+.business-text {
     font-family: Asap;
     font-style: normal;
     font-weight: 600;
@@ -22,9 +44,9 @@
 }
 
 .specs-button {
-    background: #5DC2EF;
-    border: 2px solid #5DC2EF;
-    padding: 15px 30px 15px 30px;
+    background: #2B2B6F;
+    border: 2px solid #2B2B6F;
+    padding: 12px 30px 12px 30px;
     margin-bottom: 50px;
     transition: cubic-bezier(1, 0.35, 1, 1) 0.1s;
     width: 250px;
@@ -37,6 +59,10 @@
 }
 
 .specs-button:hover {
+    border: 2px solid #5DC2EF;
+}
+
+.business-button:hover {
     border: 2px solid #2B2B6F;
 }
 
@@ -44,7 +70,7 @@
 .business-button {
     background: #5DC2EF;
     border: 2px solid #5DC2EF;
-    padding: 15px 30px 15px 30px;
+    padding: 12px 30px 12px 30px;
     transition: cubic-bezier(1, 0.35, 1, 1) 0.1s;
     width: 250px;
     margin: 30px 25px 50px;
