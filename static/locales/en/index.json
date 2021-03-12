@@ -20,7 +20,8 @@
     },
     "diagram": {
         "description": "Obrazložitev diagrama in ostale informacije o tej sliki.",
-        "specs-button": "TEHNOLOŠKE SPECIFIKACIJE"
+        "specs-button": "TEHNOLOŠKE PREDNOSTI",
+        "business-button": "POSLOVNE PREDNOSTI"
     },
     "advantages": {
         "advantage1-text": "Lahkotna namestitev \"On-premis\" ali SaaS",

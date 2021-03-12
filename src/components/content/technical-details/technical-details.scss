@@ -30,7 +30,7 @@
   display: inline-block;
 }
 
-.selector-line:after {
+.tech-selector-line:after {
   border: 1px dashed #DBDBDB;
   transform: rotate(90deg);
   position: absolute;
@@ -43,10 +43,31 @@
 }
 
 @media (min-width: 992px) {
-  .selector-line:after {
+  .tech-selector-line:after {
     bottom: -28%;
     left: 46.9%;
     width: 100%;
+  }
+}
+
+.business-selector-line:after {
+  border: 1px dashed #DBDBDB;
+  transform: rotate(90deg);
+  position: absolute;
+  bottom: 5%;
+  left: 46.9%;
+  width: 50%;
+  content: "";
+  display: block;
+  z-index: -1;
+}
+
+@media (min-width: 992px) {
+  .business-selector-line:after {
+
+    bottom: -17%;
+    left: 56%;
+    width: 82%;
   }
 }
 

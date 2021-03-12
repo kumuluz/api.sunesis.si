@@ -5,7 +5,7 @@ import { Link } from "gatsby-plugin-react-i18next"
 const SelectorComponent = (props) => {
 
     return (
-        <div className="selector-line">
+        <div className={props.page + "-selector-line"}>
         {props.det.map((detail, index) => {
             return (
                 <Link to={"#paragraph" + index}>

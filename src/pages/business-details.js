@@ -9,20 +9,20 @@ import Selector from "../components/content/technical-details/selector.js"
 import { useTranslation } from "gatsby-plugin-react-i18next"
 import { graphql } from 'gatsby'
 
-const TechnicalDetailsPage = () => {
+const BusinessDetailsPage = () => {
 
   const { t } = useTranslation();
-  const details = t('details', { returnObjects: true });
+  const details = t('business-details', { returnObjects: true });
 
   return (
     <Layout>
-      <SEO title="Technical Details" />
+      <SEO title="Business Advantages" />
       <Header>
-        <HeaderContent page="tech"/>
+        <HeaderContent page="business"/>
       </Header>
       <div className="kumuluz-container">
         <div className="left-selector">
-        <Selector det={details} page="tech"/>
+        <Selector det={details} page="business"/>
         </div>
         <div className="right-content">
           <div>
@@ -40,11 +40,11 @@ const TechnicalDetailsPage = () => {
   )
 }
 
-export default TechnicalDetailsPage;
+export default BusinessDetailsPage;
 
 export const query = graphql`
   query($language: String!) {
-    locales: allLocale(filter: {ns: {in: ["technical-details", "common"]}, language: {eq: $language}}) {
+    locales: allLocale(filter: {ns: {in: ["business-details", "common"]}, language: {eq: $language}}) {
       edges {
         node {
           ns
