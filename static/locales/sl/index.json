@@ -1,10 +1,10 @@
 {
     "sponsors": {
-        "text": "Zadovoljni uporabniki KumuluzAPI rešitve"
+        "text": "Zaupajo nam"
     },
     "main-features": {
-        "title1": "Glavne Funkcionalnosti",
-        "title2": "KumuluzAPI Management Platforme",
+        "title1": "Najpomembnejše značilnosti",
+        "title2": "platforme KumuluzAPI",
         "feature1_title": "Specificirajte in dokumentirajte API-je",
         "feature1_text": "Specificirajte API-je z uporabo OpenAPI 2.0/3.0, RAML ali WSDL in dokumentirajte API-je v markdown, Docksify ali Rapidoc formatu.",
         "feature2_title": "Samodejno uvozite API-je ",
@@ -39,7 +39,7 @@
         "post3-text": "API-ji so koristni tako za podjetja, ki jih izpostavijo, kot tudi za razvijalce, ki jih uporabijo. Razvijalci z uporabo API-jev uporabijo že obstoječe programske komponente namesto da se poslužijo razvoja novih in tako prihranijo čas, denarni vložek. Podjetja, ki pa izpostavijo/ponujajo svoje API-je, pa lahko promovirajo svoje rešitve in zaslužijo s prodajo le teh. "
     },
     "video": {
-        "video-title": "Zmogljiva API Management Platforma, popolnoma prilagojena vašim potrebam",
+        "video-title": "Zmogljiva platforma za upravljanje APIjev, popolnoma prilagojena vašim potrebam",
         "video-text": "Celovita rešitev za upravljanje z API-ji, zasnovana na modularni način. Varna, hitro nadgradljiva in razširljiva, obenem pa dostopna po poslovnem modelu, ki vam najbolj ustreza."
     },
     "case-study-title": "ŠTUDIJA PRIMERA"

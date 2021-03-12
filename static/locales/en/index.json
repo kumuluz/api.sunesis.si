@@ -1,10 +1,10 @@
 {
     "sponsors": {
-        "text": "Zadovoljni uporabniki KumuluzAPI rešitve"
+        "text": "Zaupajo nam"
     },
     "main-features": {
-        "title1": "Glavne Funkcionalnosti",
-        "title2": "KumuluzAPI Management Platforme",
+        "title1": "Najpomembnejše značilnosti",
+        "title2": "platforme KumuluzAPI",
         "feature1_title": "Specificirajte in dokumentirajte API-je",
         "feature1_text": "Specificirajte API-je z uporabo OpenAPI 2.0/3.0, RAML ali WSDL in dokumentirajte API-je v markdown, Docksify ali Rapidoc formatu.",
         "feature2_title": "Samodejno uvozite API-je ",
@@ -35,7 +35,7 @@
         "post1-text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."
     },
     "video": {
-        "video-title": "Zmogljiva API Management Platforma, popolnoma prilagojena vašim potrebam",
+        "video-title": "Zmogljiva platforma za upravljanje APIjev, popolnoma prilagojena vašim potrebam",
         "video-text": "Celovita rešitev za upravljanje z API-ji, zasnovana na modularni način. Varna, hitro nadgradljiva in razširljiva, obenem pa dostopna po poslovnem modelu, ki vam najbolj ustreza."
     },
     "case-study-title": "ŠTUDIJA PRIMERA"
