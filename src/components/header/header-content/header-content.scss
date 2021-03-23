@@ -69,13 +69,12 @@
 @media (min-width: 992px) {
     .image {
         display: block;
-        height: 500px;
+        height: auto;
         margin-bottom:0;
     }
   }
 
 .image-container {
-    height: 100%;
     margin-top: -86px;
     margin-left: -59px;
     z-index: -1000;
