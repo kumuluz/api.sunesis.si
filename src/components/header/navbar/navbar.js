@@ -11,10 +11,11 @@ const NavbarComponent = () => {
 
     const navbarLinks = t('navbar.links', { returnObjects: true }).map((link, index) =>
         <a href={link.link} key={index} target="_blank" rel="noreferrer">
-            <p>{link.name}</p>
+            {link.name}
         </a>
     );
 
+    console.log(navbarLinks);
 
     let setSelected = (e) => {
       changeLanguage(e.target.getAttribute('value'));

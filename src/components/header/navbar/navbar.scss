@@ -1,6 +1,7 @@
 .nbar {
     padding-bottom: 0;
     padding-top: 8px;
+    z-index: 1000;
 }
 
 .nbar-brand2 {
@@ -29,14 +30,14 @@
     font-weight: 200;
 }
 
-.nbar a p, .dropdown p {
+.nbar a, .dropdown p {
   bottom: 0;
   font-size: 16px;
   margin: 0;
   white-space: nowrap;
 }
 
-.nbar .expand-navbar a p, .dropdown p {
+.nbar .expand-navbar a, .dropdown p {
   margin-left: 25px;
 }
 
