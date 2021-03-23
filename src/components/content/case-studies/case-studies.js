@@ -8,7 +8,6 @@ import { CarouselProvider, Slider, Slide, ButtonBack, ButtonNext } from "pure-re
 import "pure-react-carousel/dist/react-carousel.es.css"
 import SliderButton from "../../../../static/images/slider-navi.png"
 import SliderButtonRotated from "../../../../static/images/slider-navi-rotated.png"
-import Content from "../case-study/study"
 
 const CaseStudiesComponent = () => {
 
@@ -39,7 +38,7 @@ const CaseStudiesComponent = () => {
         <Slider>
           {
             usecases.map((detail, index) => {
-              return (<Slide index={index}><SlideComponent use={detail} index={index}/> </Slide>)
+              return (<Slide key={index} index={index}><SlideComponent use={detail} index={index}/> </Slide>)
             })
           }
         </Slider>

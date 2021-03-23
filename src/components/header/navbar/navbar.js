@@ -10,14 +10,14 @@ const NavbarComponent = () => {
     const { t } = useTranslation();
 
     const navbarLinks = t('navbar.links', { returnObjects: true }).map((link, index) =>
-        <a href={link.link} key={index} target="_blank" rel="noreferrer noopener">
+        <a href={link.link} key={index} target="_blank" rel="noreferrer">
             <p>{link.name}</p>
         </a>
     );
 
 
     let setSelected = (e) => {
-        changeLanguage(e.target.getAttribute('value'));
+      changeLanguage(e.target.getAttribute('value'));
     }
 
 
@@ -52,7 +52,7 @@ const NavbarComponent = () => {
                         </p>
                         <div className="dropdown-content">
                             {languages.map((lng) => (
-                                <p key={lng} onClick={setSelected} value={lng}>
+                                <p key={lng} onClick={setSelected} value={lng} role="presentation">
                                     {t("navbar.language."+lng +"-full")}
                                 </p>
                             ))}

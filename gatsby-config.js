@@ -58,7 +58,7 @@ module.exports = {
       resolve: `gatsby-plugin-react-i18next`,
       options: {
         localeJsonSourceName: `locale`,
-        languages: [`sl`, `en`, `de`],
+        languages: [`sl`],
         defaultLanguage: `sl`,
         redirect: false,
         siteUrl: `https://kumuluz-api-netlify.app/`,

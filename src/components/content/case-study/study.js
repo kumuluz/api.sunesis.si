@@ -1,5 +1,4 @@
 import React from "react"
-import style from "./studies.scss"
 
 const StudyComponent = (props) => {
 
