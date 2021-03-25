@@ -47,11 +47,9 @@
     background: #2B2B6F;
     border: 2px solid #2B2B6F;
     padding: 12px 30px 12px 30px;
-    margin-bottom: 50px;
     transition: cubic-bezier(1, 0.35, 1, 1) 0.1s;
     width: 250px;
-    margin-left: 25px;
-    margin-right: 25px;
+    margin: 30px 25px 50px;
 }
 
 .specs-button a {
@@ -60,26 +58,4 @@
 
 .specs-button:hover {
     border: 2px solid #5DC2EF;
-}
-
-.business-button:hover {
-    border: 2px solid #2B2B6F;
-}
-
-
-.business-button {
-    background: #5DC2EF;
-    border: 2px solid #5DC2EF;
-    padding: 12px 30px 12px 30px;
-    transition: cubic-bezier(1, 0.35, 1, 1) 0.1s;
-    width: 250px;
-    margin: 30px 25px 50px;
-}
-
-.business-button a {
-    text-decoration: none;
-}
-
-.business-button:hover {
-    border: 2px solid #2B2B6F;
 }

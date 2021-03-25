@@ -52,12 +52,42 @@ const MainFunctionalites = (props) => {
                 </div>
             </div>
             <div className="padding-div"/>
+            <div className="inblock content-row">
+              <p className="font-content-title">
+                {t('main-features.title3')}
+              </p>
+            </div>
+            <div className="padding-div"/>
+            <div className="row padded content-row content-row-left">
+              <div className="col-md-6 middle">
+                <h3 className="font-subtitle-blue">{t('main-features.feature5_title')}</h3>
+                <p className="font-content-text">{t('main-features.feature5_text')}</p>
+                <h3 className="font-subtitle-blue">{t('main-features.feature6_title')}</h3>
+                <p className="font-content-text">{t('main-features.feature6_text')}</p>
+              </div>
+              <div className="col-md-6 img-center img-right">
+                <img src={image1} alt="Kumuluz" />
+              </div>
+            </div>
+            <div className="padding-div"/>
+            <div className="row padded content-row">
+              <div className="col-md-6 img-center">
+                <img src={image2} alt="Kumuluz" />
+              </div>
+              <div className="col-md-6 middle">
+                <h3 className="font-subtitle-blue">{t('main-features.feature7_title')}</h3>
+                <p className="font-content-text">{t('main-features.feature7_text')}</p>
+                <h3 className="font-subtitle-blue">{t('main-features.feature8_title')}</h3>
+                <p className="font-content-text">{t('main-features.feature8_text')}</p>
+              </div>
+            </div>
+            <div className="padding-div"/>
             <div className="row padded content-row content-row-left">
                 <div className="col-md-6 middle">
-                    <h3 className="font-subtitle-blue">{t('main-features.feature5_title')}</h3>
-                    <p className="font-content-text">{t('main-features.feature5_text')}</p>
-                    <h3 className="font-subtitle-blue">{t('main-features.feature6_title')}</h3>
-                    <p className="font-content-text">{t('main-features.feature6_text')}</p>
+                    <h3 className="font-subtitle-blue">{t('main-features.feature8_title')}</h3>
+                    <p className="font-content-text">{t('main-features.feature8_text')}</p>
+                    <h3 className="font-subtitle-blue">{t('main-features.feature9_title')}</h3>
+                    <p className="font-content-text">{t('main-features.feature9_text')}</p>
                 </div>
                 <div className="col-md-6 img-center img-right">
                     <img src={image3} alt="Kumuluz" />

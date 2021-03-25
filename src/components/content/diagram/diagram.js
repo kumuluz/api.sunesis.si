@@ -12,11 +12,6 @@ const DiagramComponent = () => {
       <div className="description-text justify-content-md-center">
         <span>{t("diagram.description")}</span>
       </div>
-      <Link to="/business-details">
-        <button className="business-button">
-          <span className="business-text">{t("diagram.business-button")}</span>
-        </button>
-      </Link>
       <Link to="/technical-details">
         <button className="specs-button">
           <span className="specs-text">{t("diagram.specs-button")}</span>
