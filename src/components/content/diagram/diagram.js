@@ -1,7 +1,7 @@
 import React from "react"
 import { useTranslation, Link } from "gatsby-plugin-react-i18next"
 import "./diagram.css"
-import image from "../../../../static/images/kumuluz-api-diagram-large.png"
+import image from "../../../../static/images/kumuluz-api-diagram-large-SLO.png"
 
 const DiagramComponent = () => {
 
