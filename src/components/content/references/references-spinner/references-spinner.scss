@@ -1,0 +1,24 @@
+.spinner-item {
+  padding: 10px;
+  height: 100%;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  img {
+    height: 25%;
+    max-height: 25%;
+    max-width: 350px;
+
+    filter: grayscale(100%);
+  }
+}
+
+.react-multi-carousel-item {
+  max-width: 170px !important;
+}
+
+.react-multi-carousel-list {
+  max-height: 90px !important;
+}

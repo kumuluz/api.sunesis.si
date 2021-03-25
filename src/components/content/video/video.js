@@ -11,7 +11,7 @@ const VideoComponent = () => {
         <div className="padded" id="video">
             <div className="content-container">
             <div className="row">
-                <div className="col-md-7">
+                <div className="col-xl-6 col-lg-12 col-md-12 col-sm-12">
                     <p className="video-title font-content-title">
                         {t('video.video-title')}
                     </p>
@@ -25,8 +25,9 @@ const VideoComponent = () => {
                         </button>
                     </a>
                 </div>
-                <div className="col-md-5">
-                    <p></p>
+                <div className="col-xl-6 col-lg-12 col-md-12 col-sm-12">
+                    <iframe title="vimeo-player" src="https://player.vimeo.com/video/295128872" width="640" height="360"
+                            frameBorder="0" allowFullScreen/>
                 </div>
             </div>
             </div>

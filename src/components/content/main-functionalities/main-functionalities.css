@@ -23,6 +23,7 @@ h1 {
     font-size: 16px;
     line-height: 130%;
     color: #bebdbd;
+    margin-bottom: 0px;
 }
 
 .img-right  {
@@ -62,4 +63,10 @@ h1 {
 
 .image-main {
     height: 300px;
+}
+
+.references-spinning {
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
 }

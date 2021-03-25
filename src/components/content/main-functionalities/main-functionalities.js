@@ -5,7 +5,7 @@ import image1 from "../../../../static/images/main-functions-1.png"
 import image2 from "../../../../static/images/main-functions-2.png"
 import image3 from "../../../../static/images/main-functions-3.png"
 import { useTranslation } from "gatsby-plugin-react-i18next"
-import img_sponsors from "../../../../static/images/sponsors.png"
+import { ReferencesSpinner } from "../references/references-spinner/references-spinner"
 
 const MainFunctionalites = (props) => {
 
@@ -15,7 +15,9 @@ const MainFunctionalites = (props) => {
         <div className="content-container">
             <div className="center content-row">
                 <p className="sponsors-text">{t('sponsors.text')}</p>
-                <img src={img_sponsors} alt="studija 1" />
+                <div className="references-spinning">
+                    <ReferencesSpinner/>
+                </div>
 
             </div>
             <div className="inblock content-row">
