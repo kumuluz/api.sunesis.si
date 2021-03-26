@@ -1,8 +1,10 @@
 import React from "react"
 import "./studies.scss"
-import { Link } from "gatsby-plugin-react-i18next"
+import { Link, useTranslation } from "gatsby-plugin-react-i18next"
 
 const SelectorComponent = (props) => {
+
+  const { t } = useTranslation()
 
   return (
     <div className="case-selector-line">
@@ -17,6 +19,13 @@ const SelectorComponent = (props) => {
           )
         }
       )}
+      <Link to="/#case-studies">
+        <button className="back-button">
+              <span className="back-button-text">
+                  {t("button-back")}
+              </span>
+        </button>
+      </Link>
     </div>
   )
 }

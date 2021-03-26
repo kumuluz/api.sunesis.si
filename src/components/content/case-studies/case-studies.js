@@ -15,7 +15,7 @@ const CaseStudiesComponent = () => {
   const usecases = t("usecases", { returnObjects: true })
 
   return (
-    <div className="content-container cases-background" style={{ marginTop: "100px" }}>
+    <div className="content-container cases-background" style={{ marginTop: "100px" }} id="case-studies">
       <CarouselProvider
         className="carousel"
         naturalSlideWidth={100}
