@@ -8,7 +8,7 @@ const DiagramComponent = () => {
   const { t } = useTranslation()
 
   return (
-    <div className="diagram">
+    <div className="diagram" id="diagram">
       <div className="description-text justify-content-md-center">
         <span>{t("diagram.description")}</span>
       </div>

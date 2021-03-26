@@ -24,9 +24,9 @@ const HeaderComponent = (props) => {
         </a>
         <Link to="#video">
           <button className="vide-button">
-                        <span className="vide-button-text">
-                            {t("header.button-video")}
-                        </span>
+              <span className="vide-button-text">
+                  {t("header.button-video")}
+              </span>
           </button>
         </Link>
       </div>

@@ -34,7 +34,7 @@
   border: 1px dashed #DBDBDB;
   transform: rotate(90deg);
   position: absolute;
-  bottom: 48%;
+  bottom: 62%;
   left: 46.7%;
   width: 100%;
   content: "";
@@ -47,27 +47,6 @@
     bottom: -28%;
     left: 46.9%;
     width: 100%;
-  }
-}
-
-.business-selector-line:after {
-  border: 1px dashed #DBDBDB;
-  transform: rotate(90deg);
-  position: absolute;
-  bottom: 5%;
-  left: 46.9%;
-  width: 50%;
-  content: "";
-  display: block;
-  z-index: -1;
-}
-
-@media (min-width: 992px) {
-  .business-selector-line:after {
-
-    bottom: -17%;
-    left: 56%;
-    width: 82%;
   }
 }
 
@@ -89,4 +68,39 @@
   -webkit-box-shadow: 3px 3px 5px 6px #ccc;  /* Safari 3-4, iOS 4.0.2 - 4.2, Android 2.3+ */
   -moz-box-shadow:    3px 3px 5px 6px #ccc;  /* Firefox 3.5 - 3.6 */
   box-shadow:         3px 3px 5px 6px #ccc;  /* Opera 10.5, IE 9, Firefox 4+, Chrome 6+, iOS 5 */
+}
+
+
+.back-button {
+  background: #2B2B6F;
+  border: 2px solid #2B2B6F;
+  padding: 12px 30px 12px 30px;
+  transition: cubic-bezier(1, 0.35, 1, 1) 0.1s;
+  width: 170px;
+  margin: 30px 25px 50px;
+}
+
+.back-button a {
+  text-decoration: none;
+}
+
+.back-button:hover {
+  border: 2px solid #5DC2EF;
+}
+
+.back-button-text {
+  font-family: 'Asap', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+
+  align-items: center;
+  text-align: center;
+  color: white;
+}
+
+.text-align-both-sides {
+  text-align: justify;
+  text-justify: inter-word;
 }

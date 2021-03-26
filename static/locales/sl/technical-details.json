@@ -49,5 +49,7 @@
             "text": "KumuluzAPI omogoča vizualizacijo odvisnosti med API-ji in odjemalnimi aplikacijami. Na ta način omogoča sledljivost povezav in statusa integracij.",
             "image": "/images/api-integrations.png"
         }
-    ]
+    ],
+
+    "button-back": "NAZAJ"
 }

@@ -1,6 +1,6 @@
 import React from 'react'
 
-import "./main-functionalities.css"
+import "./main-functionalities.scss"
 import image1 from "../../../../static/images/main-functions-1.png"
 import image2 from "../../../../static/images/main-functions-2.png"
 import image3 from "../../../../static/images/main-functions-3.png"
@@ -31,7 +31,7 @@ const MainFunctionalites = (props) => {
             </div>
             <div className="padding-div"/>
             <div className="row padded content-row content-row-left">
-                <div className="col-md-6 middle">
+                <div className="col-md-6 middle ">
                     <h3 className="font-subtitle-blue">{t('main-features.feature1_title')}</h3>
                     <p className="font-content-text">{t('main-features.feature1_text')}</p>
                     <h3 className="font-subtitle-blue">{t('main-features.feature2_title')}</h3>
@@ -46,7 +46,7 @@ const MainFunctionalites = (props) => {
                 <div className="col-md-6 img-center">
                     <img src={image2} alt="Kumuluz" />
                 </div>
-                <div className="col-md-6 middle">
+                <div className="col-md-6 middle ">
                     <h3 className="font-subtitle-blue">{t('main-features.feature3_title')}</h3>
                     <p className="font-content-text">{t('main-features.feature3_text')}</p>
                     <h3 className="font-subtitle-blue">{t('main-features.feature4_title')}</h3>
@@ -61,7 +61,7 @@ const MainFunctionalites = (props) => {
             </div>
             <div className="padding-div"/>
             <div className="row padded content-row content-row-left">
-              <div className="col-md-6 middle">
+              <div className="col-md-6 middle ">
                 <h3 className="font-subtitle-blue">{t('main-features.feature5_title')}</h3>
                 <p className="font-content-text">{t('main-features.feature5_text')}</p>
                 <h3 className="font-subtitle-blue">{t('main-features.feature6_title')}</h3>
@@ -76,7 +76,7 @@ const MainFunctionalites = (props) => {
               <div className="col-md-6 img-center">
                 <img src={image2} alt="Kumuluz" />
               </div>
-              <div className="col-md-6 middle">
+              <div className="col-md-6 middle ">
                 <h3 className="font-subtitle-blue">{t('main-features.feature7_title')}</h3>
                 <p className="font-content-text">{t('main-features.feature7_text')}</p>
                 <h3 className="font-subtitle-blue">{t('main-features.feature8_title')}</h3>
@@ -85,11 +85,11 @@ const MainFunctionalites = (props) => {
             </div>
             <div className="padding-div"/>
             <div className="row padded content-row content-row-left">
-                <div className="col-md-6 middle">
-                    <h3 className="font-subtitle-blue">{t('main-features.feature8_title')}</h3>
-                    <p className="font-content-text">{t('main-features.feature8_text')}</p>
+                <div className="col-md-6 middle ">
                     <h3 className="font-subtitle-blue">{t('main-features.feature9_title')}</h3>
                     <p className="font-content-text">{t('main-features.feature9_text')}</p>
+                    <h3 className="font-subtitle-blue">{t('main-features.feature10_title')}</h3>
+                    <p className="font-content-text">{t('main-features.feature10_text')}</p>
                 </div>
                 <div className="col-md-6 img-center img-right">
                     <img src={image3} alt="Kumuluz" />

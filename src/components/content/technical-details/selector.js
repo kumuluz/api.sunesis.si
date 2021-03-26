@@ -1,8 +1,10 @@
 import React from 'react'
 import "./technical-details.scss"
-import { Link } from "gatsby-plugin-react-i18next"
+import { Link, useTranslation } from "gatsby-plugin-react-i18next"
 
 const SelectorComponent = (props) => {
+
+    const { t } = useTranslation()
 
     return (
         <div className={props.page + "-selector-line"}>
@@ -17,6 +19,13 @@ const SelectorComponent = (props) => {
             )
         }
         )}
+        <Link to="/#diagram">
+            <button className="back-button">
+              <span className="back-button-text">
+                  {t("button-back")}
+              </span>
+            </button>
+        </Link>
         </div>
     )
 }
