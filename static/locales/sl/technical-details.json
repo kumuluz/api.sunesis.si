@@ -3,13 +3,13 @@
         {
             "title": "Portal za razvijalce",
             "menutitle": "Portal za razvijalce",
-            "text": "Glavna vstopna točka za razvijalce odjemalnih aplikacij je KumuluzAPI Developer portal. Developer portal nudi katalog API-jev, kjer so prikazani API-ji, dostopni določeni stranki. Razvijalci preko Developer portala dostopajo do vse dokumentacije potrebne za implementacijo odjemalnih aplikacij. Developer portal dostavi dokumentacijo, API specifikacijo in možnost naročanja in prodobivanja API Ključev za dostop.",
+            "text": "Glavna vstopna točka za razvijalce odjemalnih aplikacij je KumuluzAPI Developer portal (portal za razvijalce). Portal za razvijalce nudi katalog API-jev, kjer so prikazani API-ji, dostopni določeni stranki. Razvijalci preko portala dostopajo do vse dokumentacije potrebne za implementacijo odjemalnih aplikacij. Portal za razvijalce dostavi dokumentacijo, API specifikacijo in možnost naročanja ter prodobivanja API ključev za dostop.",
             "image": "/images/api-dev-portal.png"
         },
         {
             "title": "Katalog API-jev",
             "menutitle": "Katalog API-jev",
-            "text": "Katalog API-jev osrednja komponenta KumuluzAPI Management in KumuluzAPI developer portal. KumuluzAPI Management vsebuje več katalogov API-jev: Katalog vseh objavljenih API-jev, katalog API-je, ki so uviženi v KumuluzAPI, niso pa izpostavljeni na API prehodih in Katalog API-jev, ki so v moji lasti. Vsi katalogi podpirajo napredne načine iskanja, grupiranja in tudi tagiranja API-jev. Katalog API-jev je glavna vstopna točka na Developer portalu, kjer so uporabniku prikazani vsi API-ji, do katerih mu je bil dodeljen dostop.",
+            "text": "Katalog API-jev osrednja komponenta KumuluzAPI Management (portal za upravljanje) in KumuluzAPI Developer portala. Portal za upravljanje vsebuje več katalogov API-jev: vseh internih APIjev, APIjev za zunanje uporabnike, APIjev glede na tip in klasifikacijo. Vsi katalogi podpirajo napredne načine iskanja, grupiranja in tudi tagiranja API-jev. Katalog API-jev je glavna vstopna točka na portalu za razvijalce, kjer so uporabniku prikazani vsi API-ji, do katerih mu je bil dodeljen dostop.",
             "image": "/images/api-catalog.png"
 
         },
@@ -22,7 +22,7 @@
         {
             "title": "Integracija z DevOps in CI/CD",
             "menutitle": "Integracija z DevOps in CI/CD",
-            "text": "Uvozite API-jev v katalog API-jev tekom Continuous integration/delivery cikla. Uporabite vtičnike s katerimi samodejno iz kode generirate API specifikacijo skupaj z dokumentacijo v markdown formatu, in uvozite API vi KumuluzAPI brez dodatnega ročnega dela.",
+            "text": "Uvozite API-jev v katalog API-jev tekom cikla neprekinjene integracije/dostave. Uporabite vtičnike s katerimi samodejno iz kode generirate API specifikacijo skupaj z dokumentacijo v formatu markdown, in uvozite API vi KumuluzAPI brez dodatnega ročnega dela.",
             "image": "/images/kapi-ci-cd.png"
         },
         {
