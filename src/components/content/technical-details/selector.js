@@ -4,6 +4,7 @@ import { Link, useTranslation } from "gatsby-plugin-react-i18next"
 
 const SelectorComponent = (props) => {
 
+
     const { t } = useTranslation()
 
     return (
@@ -19,13 +20,11 @@ const SelectorComponent = (props) => {
             )
         }
         )}
-        <Link to="/">
-            <button className="back-button">
+            <button className="back-button" onClick={() => window.history.back()}>
               <span className="back-button-text">
                   {t("button-back")}
               </span>
             </button>
-        </Link>
         </div>
     )
 }
