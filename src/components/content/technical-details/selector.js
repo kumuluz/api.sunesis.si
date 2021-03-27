@@ -19,7 +19,7 @@ const SelectorComponent = (props) => {
             )
         }
         )}
-        <Link to="/#diagram">
+        <Link to="/">
             <button className="back-button">
               <span className="back-button-text">
                   {t("button-back")}
