@@ -2,6 +2,7 @@ import React from 'react'
 import { Navbar, Nav } from 'react-bootstrap'
 import "./navbar.scss"
 import { Link, useTranslation, useI18next } from "gatsby-plugin-react-i18next"
+import {SUNESIS_URL} from "../../../../static/links";
 
 
 const NavbarComponent = () => {
