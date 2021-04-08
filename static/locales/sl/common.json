@@ -25,19 +25,19 @@
     "links": [
       {
         "name": "Storitve",
-        "link": "https://kumuluz.com/"
+        "link": "https://sunesis.si/services"
       },
       {
         "name": "Produkti",
-        "link": "https://kumuluz.com/digital-platform/"
+        "link": "https://sunesis.si/products"
       },
       {
         "name": "Tehnologije",
-        "link": "https://sunesis.si/technologies/"
+        "link": "https://sunesis.si/technologies"
       },
       {
         "name": "Stranke",
-        "link": "https://kumuluz.com/partners/"
+        "link": "https://sunesis.si/customers"
       },
       {
         "name": "O nas",
@@ -49,7 +49,7 @@
       },
       {
         "name": "Kontakt",
-        "link": "https://kumuluz.com/#contact-us"
+        "link": "https://sunesis.si/about/sunesis#footer"
       }
     ]
   },
