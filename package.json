@@ -5,6 +5,9 @@
   "version": "0.1.0",
   "author": "Timotej Kosir",
   "dependencies": {
+    "@fontsource/asap": "^5.2.9",
+    "@fontsource/roboto": "^5.2.9",
+    "@fontsource/rubik": "^5.2.8",
     "@fortawesome/fontawesome-svg-core": "^1.2.34",
     "@fortawesome/free-solid-svg-icons": "^5.15.2",
     "@fortawesome/react-fontawesome": "^0.1.14",
@@ -13,7 +16,6 @@
     "gatsby-cli": "^2.19.2",
     "gatsby-image": "^2.11.0",
     "gatsby-plugin-fontawesome-css": "^1.0.0",
-    "gatsby-plugin-google-fonts": "^1.0.1",
     "gatsby-plugin-image": "^1.0.0",
     "gatsby-plugin-manifest": "^2.12.0",
     "gatsby-plugin-offline": "^3.10.0",
