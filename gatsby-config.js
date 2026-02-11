@@ -20,7 +20,7 @@ module.exports = {
           "img-src": "'self' data: https://www.google-analytics.com https://i.vimeocdn.com",
           "font-src": "'self' data: https://fonts.gstatic.com",
           "connect-src": "'self' https://www.google-analytics.com https://player.vimeo.com",
-          "frame-src": "'self' https://player.vimeo.com",
+          "frame-src": "'self' https://player.vimeo.com https://app.netlify.com",
           "object-src": "'none'",
           "base-uri": "'self'",
           "form-action": "'self'",
