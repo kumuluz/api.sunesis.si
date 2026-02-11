@@ -1,43 +1,56 @@
 {
     "sponsors": {
-        "text": "Zaupajo nam"
+        "text": "Sie vertrauen uns"
     },
     "main-features": {
-        "title1": "Najpomembnejše značilnosti",
-        "title2": "platforme KumuluzAPI",
-        "feature1_title": "Specificirajte in dokumentirajte API-je",
-        "feature1_text": "Specificirajte API-je z uporabo OpenAPI 2.0/3.0, RAML ali WSDL in dokumentirajte API-je v markdown, Docksify ali Rapidoc formatu.",
-        "feature2_title": "Samodejno uvozite API-je ",
-        "feature2_text": "Samodejno uvozite API-je z orodji za gradnjo tekom CI cikla. KumuluzAPI podpira vtičnike za maven, gradle in .NET.",
-        "feature3_title": "Integrirajte in upravljajte odprtokodne API prehode",
-        "feature3_text": "KumuluzAPI poleg lastnega API prehoda podpira integracijo tudi z drugimi odprtokodnimi API prehodi kot je Apiman in Kong GW.",
-        "feature4_title": "\"Low code\" API implementacija",
-        "feature4_text": "Implementacija agregiranih in oskubljenih (podmnožica operacij) API-jev ne zahteva pisanje nove kode. Implementirajte API-je s konfiguracijo podmnožico operacij zalednega API-ja in kombinirajte več zalednih API-je v agregirane API-je.",
-        "feature5_title": "Zavarujte API-je ",
-        "feature5_text": "Definirajte varnostne mehanizme in zaščitite svoje API-je z mehanizmi za avtentikacijo, avtorizacijo in enkripcijo brez dodatne kode. Definirajte različne nivoje varnostni s kombiniranjem varnostnih politik v plane.",
-        "feature6_title": "Nadzirajte dostop",
-        "feature6_text": "Nadzirajte aktivnost dostopov do API-jev in aktivnosti odjemalnih aplikacij. Definirajte politike in plane dostopa in zagotovite ustrezen QoS (quality of Service). Spremljajte trend klicev in odzivnost API prehodov."
+        "title1": "Wichtigste Merkmale",
+        "title2": "der KumuluzAPI-Plattform",
+        "title3": "Etablieren Sie neue Geschäftsmodelle durch APIs",
+        "feature1_title": "Verwalten Sie APIs ganzheitlich – alle APIs an einem Ort gesammelt, zugänglich und dokumentiert",
+        "feature1_text": "Mit der zunehmenden Anzahl von APIs in der Geschäftsumgebung wächst auch die Komplexität ihrer Verwaltung. Die KumuluzAPI-Lösung ermöglicht eine ganzheitliche API-Verwaltung, indem sie einen Überblick über APIs in der Geschäftsumgebung bietet.",
+        "feature2_title": "Reduzieren Sie Duplikate und fördern Sie die Konsolidierung von APIs und Geschäftsfunktionen",
+        "feature2_text": "Die Lösung für das API-Management ermöglicht einen einfachen Einblick in APIs und die von ihnen angebotenen Geschäftsfunktionen. Mit einem zentralen Register verfolgen wir einfach, was in unserer Geschäftsumgebung bereits existiert und wiederverwendet werden kann.",
+        "feature3_title": "Führen Sie Change Management ein",
+        "feature3_text": "Änderungen an APIs in Geschäftsumgebungen sind nicht einfach, da Änderungen an einer API das Funktionieren von Anwendungen beeinflussen können, die die APIs verwenden. Die Lösung für das API-Management bietet einen Überblick über Integrationen und ermöglicht einen verwalteten Übergang zu neuen Versionen sowie eine kontrollierte Durchführung von Änderungen an APIs ohne Ausfälle von Client-Anwendungen.",
+        "feature4_title": "Überwachen Sie den Zugriff",
+        "feature4_text": "Überwachen Sie die Zugriffsaktivität auf APIs und Aktivitäten von Client-Anwendungen. Definieren Sie Zugangsrichtlinien und -pläne und gewährleisten Sie angemessene QoS (Quality of Service). Verfolgen Sie Aufruftrends und Reaktionsfähigkeit von API-Gateways.",
+        "feature5_title": "Etablieren Sie eine API-Wirtschaft",
+        "feature5_text": "Jede API bringt mit ihren Funktionen einen Geschäftswert für das Unternehmen und Partner. Verwandeln Sie APIs einfach in ein digitales Asset, das Sie an externe Partner vermarkten. Etablieren Sie neue Wertschöpfungsketten und neue Kanäle zur Generierung von Einnahmen.",
+        "feature6_title": "Nutzen Sie APIs für effiziente B2B-Integration",
+        "feature6_text": "B2B-Integrationen sind entscheidend für die Erweiterung der Geschäftsambition. Die Verwaltung des Zugriffs auf APIs, die unsere Geschäftsfunktionen mit unseren Partnern teilen, ist von entscheidender Bedeutung. Wir müssen uns jeder Integration bewusst sein, sie überwachen und kontrollieren sowie SLAs gewährleisten, was ohne eine Lösung für das API-Management nicht effizient durchgeführt werden kann.",
+        "feature7_title": "Ermöglichen Sie einfaches Onboarding durch ein einheitliches Entwicklerportal",
+        "feature7_text": "Das Entwicklerportal ermöglicht allen Entwicklern (extern und intern) Self-Service-Zugriff auf APIs, deren Dokumentation und Spezifikationen. Das Entwicklerportal entlastet und vereinfacht die Arbeit mit externen Entwicklern, da es die Anzahl der Interaktionen reduziert.",
+        "feature8_title": "Vereinfachen Sie die Bereitstellung von API-Schlüsseln",
+        "feature8_text": "Der Zugriff auf APIs wird über API-Schlüssel ermöglicht, die bei Bestätigung des Abonnements vergeben werden. Das Entwicklerportal ermöglicht eine einfache und sichere Weitergabe von API-Schlüsseln an Entwickler von Client-Anwendungen.",
+        "feature9_title": "Sandbox zum Kennenlernen von APIs",
+        "feature9_text": "Richten Sie eine Sandbox ein und ermöglichen Sie Entwicklern die Interaktion mit Ihren APIs. Die Sandbox ermöglicht die Einrichtung einer sicheren Umgebung für das Kennenlernen und Testen Ihrer APIs sowohl für externe als auch interne Entwickler.",
+        "feature10_title": "Sichern Sie APIs und führen Sie Zugriffskontrolle ein",
+        "feature10_text": "Zentraler Überblick und zentrale Verwaltung der Sicherheit sind bei einer großen Anzahl von APIs entscheidend. Die Lösung ermöglicht eine zentrale Zugriffskontrolle über Richtlinien, die SLAs verwalten. Der Zugriff auf alle APIs in der Geschäftsumgebung erfolgt über einen einheitlichen Punkt - das API-Gateway, was die Sicherheitskonfiguration vereinfacht und dadurch die Sicherheit aufgrund von Einfachheit und Transparenz erheblich erhöht."
     },
     "diagram": {
-        "description": "Oglejte si vse prednosti, ki jih ponuja platforma KumuluzAPI.",
-        "specs-button": "TEHNOLOŠKE PREDNOSTI",
-        "business-button": "POSLOVNE PREDNOSTI"
+        "description": "Sehen Sie alle Vorteile, die die KumuluzAPI-Plattform bietet.",
+        "specs-button": "TECHNOLOGISCHE VORTEILE",
+        "business-button": "GESCHÄFTSVORTEILE"
     },
     "advantages": {
-        "advantage1-text": "Lahkotna namestitev \"On-premis\" ali SaaS",
-        "advantage2-text": "Enostavne in hitre nadgradnje, od politik, do integracij",
-        "advantage3-text": "Ločena komponenta za management in razvijalce",
-        "advantage4-text": "Poslovni model povsem po vaši meri"
+        "advantage1-text": "Einfache Installation \"On-Premise\" oder SaaS",
+        "advantage2-text": "Einfache und schnelle Upgrades, von Richtlinien bis zu Integrationen",
+        "advantage3-text": "Separate Komponente für Management und Entwickler",
+        "advantage4-text": "Geschäftsmodell ganz nach Ihren Wünschen"
     },
     "blog": {
-        "blog-title": "Zadnje blog objave",
-        "show-more": "Več",
-        "post1-title": "Največje tehnološke napake pri implementaciji in uporabi API-jev",
-        "post1-text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."
+        "blog-title": "Neueste Blog-Beiträge",
+        "show-more": "Mehr",
+        "post1-title": "API-Wirtschaft - Was ist das und wie kann es Ihrem Unternehmenswachstum helfen?",
+        "post1-text": "Einfach ausgedrückt definieren APIs, wie zwei Anwendungen miteinander kommunizieren oder Daten austauschen sollen. Obwohl die Definition einer API äußerst einfach klingt, ist mit dem Aufkommen von APIs eine völlig neue Wirtschaft entstanden - die API-Wirtschaft, die immer komplexer und anspruchsvoller wird",
+        "post2-title": "API-Management in den anspruchsvollsten Geschäftsumgebungen",
+        "post2-text": "Die erfolgreichsten schnell wachsenden Unternehmen erweitern ihr Geschäft heute hauptsächlich auf der Grundlage digitaler Lösungen, digitaler Geschäftsmodelle und digitaler Assets. Sie verstehen die API-Wirtschaft und durchbrechen durch die Schaffung digitaler Assets physische Wachstumsgrenzen, da digitale Assets einfach sind",
+        "post3-title": "Neue digitale Geschäftsmodelle, die durch APIs ermöglicht werden",
+        "post3-text": "APIs sind sowohl für Unternehmen, die sie bereitstellen, als auch für Entwickler, die sie verwenden, nützlich. Entwickler verwenden durch die Nutzung von APIs bereits vorhandene Softwarekomponenten, anstatt neue zu entwickeln, und sparen so Zeit und Geld. Unternehmen, die ihre APIs bereitstellen/anbieten"
     },
     "video": {
-        "video-title": "Zmogljiva platforma za upravljanje APIjev, popolnoma prilagojena vašim potrebam",
-        "video-text": "Celovita rešitev za upravljanje z API-ji, zasnovana na modularni način. Varna, hitro nadgradljiva in razširljiva, obenem pa dostopna po poslovnem modelu, ki vam najbolj ustreza."
+        "video-title": "Leistungsstarke Plattform für API-Verwaltung, vollständig an Ihre Bedürfnisse angepasst",
+        "video-text": "Eine umfassende Lösung für das API-Management, modular konzipiert. Sicher, schnell aufrüstbar und erweiterbar, während sie nach dem Geschäftsmodell zugänglich ist, das Ihnen am besten passt."
     },
-    "case-study-title": "ŠTUDIJA PRIMERA"
+    "case-study-title": "FALLSTUDIE"
 }

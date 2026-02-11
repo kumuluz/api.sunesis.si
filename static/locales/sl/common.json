@@ -25,11 +25,11 @@
     "links": [
       {
         "name": "Storitve",
-        "link": "https://sunesis.si/services"
+        "link": "https://sunesis.si/services/solutions"
       },
       {
         "name": "Produkti",
-        "link": "https://sunesis.si/products"
+        "link": "https://sunesis.si/products/digital-platform"
       },
       {
         "name": "Tehnologije",
@@ -113,14 +113,6 @@
         {
           "name": "Upravljanje odnosov s strankami",
           "href": "https://kumuluz.com/business-apis/customer"
-        },
-        {
-          "name": "Komunikacija s strankami",
-          "href": "https://kumuluz.com/business-apis/ccm"
-        },
-        {
-          "name": "Upravljanje naročnine",
-          "href": "https://kumuluz.com/business-apis/subscription"
         },
         {
           "name": "Proces spoznavanja strank",
