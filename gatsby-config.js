@@ -7,6 +7,28 @@ module.exports = {
   plugins: [
     `gatsby-plugin-image`,
     `gatsby-plugin-react-helmet`,
+    {
+      resolve: `gatsby-plugin-csp`,
+      options: {
+        disableOnDev: true,
+        mergeScriptHashes: false,
+        mergeStyleHashes: false,
+        directives: {
+          "default-src": "'self' https://player.vimeo.com",
+          "script-src": "'self' https://www.google-analytics.com https://www.googletagmanager.com https://player.vimeo.com",
+          "style-src": "'self' https://fonts.googleapis.com",
+          "img-src": "'self' data: https://www.google-analytics.com https://i.vimeocdn.com",
+          "font-src": "'self' data: https://fonts.gstatic.com",
+          "connect-src": "'self' https://www.google-analytics.com https://player.vimeo.com",
+          "frame-src": "'self' https://player.vimeo.com",
+          "object-src": "'none'",
+          "base-uri": "'self'",
+          "form-action": "'self'",
+          "frame-ancestors": "'none'",
+          "upgrade-insecure-requests": null
+        }
+      }
+    },
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,
     `gatsby-plugin-sass`,
