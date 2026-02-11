@@ -15,8 +15,8 @@ module.exports = {
         mergeStyleHashes: false,
         directives: {
           "default-src": "'self' https://player.vimeo.com",
-          "script-src": "'self' https://www.google-analytics.com https://www.googletagmanager.com https://player.vimeo.com",
-          "style-src": "'self' https://fonts.googleapis.com",
+          "script-src": "'self' 'unsafe-inline' https://www.google-analytics.com https://www.googletagmanager.com https://player.vimeo.com",
+          "style-src": "'self' 'unsafe-inline' https://fonts.googleapis.com",
           "img-src": "'self' data: https://www.google-analytics.com https://i.vimeocdn.com",
           "font-src": "'self' data: https://fonts.gstatic.com",
           "connect-src": "'self' https://www.google-analytics.com https://player.vimeo.com",
@@ -24,7 +24,6 @@ module.exports = {
           "object-src": "'none'",
           "base-uri": "'self'",
           "form-action": "'self'",
-          "frame-ancestors": "'none'",
           "upgrade-insecure-requests": null
         }
       }

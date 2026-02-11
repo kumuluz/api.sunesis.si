@@ -28,8 +28,6 @@
     position: absolute;
     right:0;
     top:0px;
-    pointer-events: auto;
-    z-index: 5;
 }
 
 .slider-button {
@@ -37,29 +35,18 @@
     position: absolute;
     right:50px;
     top:0px;
-    pointer-events: auto;
-    z-index: 5;
 }
 
 .carousel {
     height: 800px;
-    user-select: auto;
-    touch-action: auto;
-    -webkit-user-select: auto;
-    position: relative;
-    z-index: 1;
-    overflow: hidden;
 }
 
 .carousel .carousel__slider {
     touch-action: pan-y;
-    user-select: none;
-    pointer-events: auto;
 }
 
 .carousel .carousel__slider-tray {
     touch-action: pan-y;
-    pointer-events: auto;
 }
 
 @media (min-width: 992px) {
