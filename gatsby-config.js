@@ -17,7 +17,7 @@ module.exports = {
         mergeDefaultDirectives: true,
         directives: {
           "default-src": "'self' https://player.vimeo.com",
-          "script-src": "'self' 'sha256-v1oYH69RcooFs6F5XhMTzHiWlftYwnuQHDxIz0suNeo=' 'sha256-egpbluqkD8NT0bY3bWy7raM9tRIMkfUWboq0Y8KqsFk=' 'sha256-x4Ac3pinI0V50OUvvqTv5PQY+p4yuj/FmFpqEBUjew4=' 'sha256-Ime+NI9Qp+9U6eelNl0uGRSJdCvjy/AmEzrIlvLzink=' https://www.google-analytics.com https://www.googletagmanager.com https://player.vimeo.com",
+          "script-src": "'self' 'sha256-v1oYH69RcooFs6F5XhMTzHiWlftYwnuQHDxIz0suNeo=' 'sha256-egpbluqkD8NT0bY3bWy7raM9tRIMkfUWboq0Y8KqsFk=' 'sha256-x4Ac3pinI0V50OUvvqTv5PQY+p4yuj/FmFpqEBUjew4=' 'sha256-Ime+NI9Qp+9U6eelNl0uGRSJdCvjy/AmEzrIlvLzink=' 'sha256-/0oK/uGexDvzOTveD3pQYmGx9XOI7Jnu/25gzONsIm8=' https://www.google-analytics.com https://www.googletagmanager.com https://player.vimeo.com",
           "style-src": "'self' 'unsafe-inline' https://fonts.googleapis.com",
           "img-src": "'self' data: https://www.google-analytics.com https://i.vimeocdn.com",
           "font-src": "'self' data: https://fonts.gstatic.com",
