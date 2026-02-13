@@ -1,5 +1,9 @@
 import "bootstrap/dist/css/bootstrap.min.css"
 
+// FontAwesome
+import { config } from "@fortawesome/fontawesome-svg-core"
+import "@fortawesome/fontawesome-svg-core/styles.css"
+
 // Fonts
 
 // Rubik
@@ -23,3 +27,6 @@ import "@fontsource/asap/300.css"
 import "@fontsource/asap/400.css"
 import "@fontsource/asap/600.css"
 import "@fontsource/asap/700.css"
+
+// Configure FontAwesome
+config.autoAddCss = false

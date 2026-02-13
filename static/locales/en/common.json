@@ -1,17 +1,17 @@
 {
   "header": {
     "error-title": "404",
-    "error-text": "Zahtevana stran ne obstaja.",
-    "studies-title": "Študije primerov",
-    "studies-text": "Študije primerov uporabe KumuluzAPI prikazujejo prednosti uporabe rešitve v poslovnih okoljih pri naših strankah.",
-    "main-title": "Zmogljiva platforma za upravljanje APIjev, popolnoma prilagojena vašim potrebam",
-    "main-text": "Celovita rešitev za upravljanje z API-ji, zasnovana na modularni način. Varna, hitro nadgradljiva in razširljiva, obenem pa dostopna po poslovnem modelu, ki vam najbolj ustreza.",
-    "tech-title": "Tehnične podrobnosti",
-    "tech-text": "Rešitev KumuluzAPI zajema nešteto funkcionalnosti, ki ji dajejo prednost pred konkurenčnimi produkti.",
-    "business-title": "Poslovne prednosti",
-    "business-text": "Vpeljava rešitve KumuluzAPI podjetjem prinaša vrsto poslovnih prednosti, saj odpira nove tržne poti in omogoča doseganje novih strank.",
-    "button-video": "POGLEJ VIDEO",
-    "button-contact": "KONTAKT"
+    "error-text": "The requested page does not exist.",
+    "studies-title": "Case Studies",
+    "studies-text": "KumuluzAPI case studies showcase the advantages of using the solution in business environments at our clients.",
+    "main-title": "Powerful API management platform, fully tailored to your needs",
+    "main-text": "Comprehensive API management solution designed in a modular way. Secure, fast to upgrade and scalable, while accessible through a business model that suits you best.",
+    "tech-title": "Technical Details",
+    "tech-text": "The KumuluzAPI solution includes numerous features that give it an advantage over competitive products.",
+    "business-title": "Business Advantages",
+    "business-text": "Implementation of the KumuluzAPI solution brings companies a number of business advantages, as it opens new market paths and enables reaching new customers.",
+    "button-video": "WATCH VIDEO",
+    "button-contact": "CONTACT"
   },
   "navbar": {
     "language": {
@@ -24,39 +24,39 @@
     },
     "links": [
       {
-        "name": "Storitve",
-        "link": "https://kumuluz.com/"
+        "name": "Services",
+        "link": "https://sunesis.si/services/solutions"
       },
       {
-        "name": "Produkti",
-        "link": "https://kumuluz.com/digital-platform/"
+        "name": "Products",
+        "link": "https://sunesis.si/products/digital-platform"
       },
       {
-        "name": "Tehnologije",
-        "link": "https://sunesis.si/technologies/"
+        "name": "Technologies",
+        "link": "https://sunesis.si/technologies"
       },
       {
-        "name": "Stranke",
-        "link": "https://kumuluz.com/partners/"
+        "name": "Customers",
+        "link": "https://sunesis.si/customers"
       },
       {
-        "name": "O nas",
+        "name": "About Us",
         "link": "https://sunesis.si/about/sunesis/"
       },
       {
         "name": "Blog",
-        "link": "https://blog.kumuluz.com/"
+        "link": "https://blog.sunesis.si/"
       },
       {
-        "name": "Kontakt",
-        "link": "https://kumuluz.com/#contact-us"
+        "name": "Contact",
+        "link": "https://sunesis.si/about/sunesis#footer"
       }
     ]
   },
   "footer": {
-    "copyright": "Vse pravice pridržane",
+    "copyright": "All rights reserved",
     "products": {
-      "title": "Produkti",
+      "title": "Products",
       "subtitle1": "Kumuluz Digital",
       "links1": [
         {
@@ -84,59 +84,51 @@
           "href": "https://kumuluz.com/digital-components/crowdsensing"
         }
       ],
-      "subtitle2": "Kumuluz Poslovni API-ji",
+      "subtitle2": "Kumuluz Business APIs",
       "links2": [
         {
-          "name": "Plačevanje",
+          "name": "Payment",
           "href": "https://kumuluz.com/business-apis/payment"
         },
         {
-          "name": "Katalog izdelkov",
+          "name": "Product Catalog",
           "href": "https://kumuluz.com/business-apis/product-catalog/"
         },
         {
-          "name": "Nakupovalna košarica",
+          "name": "Shopping Cart",
           "href": "https://kumuluz.com/business-apis/cart"
         },
         {
-          "name": "Upravljanje z naročili",
+          "name": "Order Management",
           "href": "https://kumuluz.com/business-apis/order"
         },
         {
-          "name": "Izpolnjevanje naročil",
+          "name": "Order Fulfillment",
           "href": "https://kumuluz.com/business-apis/fulfillment"
         },
         {
-          "name": "Izdajanje računov",
+          "name": "Invoicing",
           "href": "https://kumuluz.com/business-apis/invoice"
         },
         {
-          "name": "Upravljanje odnosov s strankami",
+          "name": "Customer Relationship Management",
           "href": "https://kumuluz.com/business-apis/customer"
         },
         {
-          "name": "Komunikacija s strankami",
-          "href": "https://kumuluz.com/business-apis/ccm"
-        },
-        {
-          "name": "Upravljanje naročnine",
-          "href": "https://kumuluz.com/business-apis/subscription"
-        },
-        {
-          "name": "Proces spoznavanja strank",
+          "name": "Know Your Customer Process",
           "href": "https://kumuluz.com/business-apis/kyc"
         }
       ]
     },
     "community": {
-      "title": "Skupnost",
+      "title": "Community",
       "links": [
         {
           "name": "Blog",
           "href": "https://blog.kumuluz.com"
         },
         {
-          "name": "Odprtokodnost",
+          "name": "Open Source",
           "href": "https://github.com/kumuluz"
         },
         {
@@ -150,51 +142,51 @@
       ]
     },
     "company": {
-      "title": "Podjetje",
+      "title": "Company",
       "links": [
         {
-          "name": "O nas",
+          "name": "About Us",
           "href": "https://sunesis.si/about/sunesis"
         },
         {
-          "name": "Nagrade",
+          "name": "Awards",
           "href": "https://sunesis.si/about/awards"
         },
         {
-          "name": "Novice",
+          "name": "News",
           "href": "https://blog.kumuluz.com/"
         }
       ]
     },
     "services": {
-      "title": "Storitve",
+      "title": "Services",
       "links": [
         {
-          "name": "Digitalna transformacija",
+          "name": "Digital Transformation",
           "href": ""
         },
         {
-          "name": "Oblak, mikrostoritve & API-ji",
+          "name": "Cloud, Microservices & APIs",
           "href": ""
         },
         {
-          "name": "Docker in Kubernetes",
+          "name": "Docker and Kubernetes",
           "href": ""
         },
         {
-          "name": "Verižni bloki",
+          "name": "Blockchain",
           "href": ""
         },
         {
-          "name": "Java EE arhitektura in razvoj",
+          "name": "Java EE Architecture and Development",
           "href": ""
         },
         {
-          "name": "Mobilni UX",
+          "name": "Mobile UX",
           "href": ""
         },
         {
-          "name": "HTML5 odzivni spletni razvoj",
+          "name": "HTML5 Responsive Web Development",
           "href": ""
         },
         {
@@ -206,8 +198,8 @@
           "href": ""
         },
         {
-          "name": "Več",
-          "href": "https://sunesis.si/services"
+          "name": "More",
+          "href": "https://sunesis.si/services/solutions"
         }
       ]
     }

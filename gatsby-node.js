@@ -4,4 +4,15 @@
  * See: https://www.gatsbyjs.com/docs/node-apis/
  */
 
-// You can delete this file if you're not using it
+// Externalize webpack runtime to avoid inline scripts for CSP compliance
+exports.onCreateWebpackConfig = ({ actions, stage }) => {
+  if (stage === 'build-javascript') {
+    actions.setWebpackConfig({
+      optimization: {
+        runtimeChunk: {
+          name: 'webpack-runtime',
+        },
+      },
+    });
+  }
+};

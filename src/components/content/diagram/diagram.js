@@ -18,7 +18,7 @@ const DiagramComponent = () => {
         </button>
       </Link>
       <div className="image-diagram justify-content-md-center">
-        <img src={image} alt="Kumuluz" style={{ width: "100%" }}/>
+        <img src={image} alt="Kumuluz"/>
       </div>
     </div>
   )
