@@ -1,43 +1,56 @@
 {
     "sponsors": {
-        "text": "Zaupajo nam"
+        "text": "They trust us"
     },
     "main-features": {
-        "title1": "Najpomembnejše značilnosti",
-        "title2": "platforme KumuluzAPI",
-        "feature1_title": "Specificirajte in dokumentirajte API-je",
-        "feature1_text": "Specificirajte API-je z uporabo OpenAPI 2.0/3.0, RAML ali WSDL in dokumentirajte API-je v markdown, Docksify ali Rapidoc formatu.",
-        "feature2_title": "Samodejno uvozite API-je ",
-        "feature2_text": "Samodejno uvozite API-je z orodji za gradnjo tekom CI cikla. KumuluzAPI podpira vtičnike za maven, gradle in .NET.",
-        "feature3_title": "Integrirajte in upravljajte odprtokodne API prehode",
-        "feature3_text": "KumuluzAPI poleg lastnega API prehoda podpira integracijo tudi z drugimi odprtokodnimi API prehodi kot je Apiman in Kong GW.",
-        "feature4_title": "\"Low code\" API implementacija",
-        "feature4_text": "Implementacija agregiranih in oskubljenih (podmnožica operacij) API-jev ne zahteva pisanje nove kode. Implementirajte API-je s konfiguracijo podmnožico operacij zalednega API-ja in kombinirajte več zalednih API-je v agregirane API-je.",
-        "feature5_title": "Zavarujte API-je ",
-        "feature5_text": "Definirajte varnostne mehanizme in zaščitite svoje API-je z mehanizmi za avtentikacijo, avtorizacijo in enkripcijo brez dodatne kode. Definirajte različne nivoje varnostni s kombiniranjem varnostnih politik v plane.",
-        "feature6_title": "Nadzirajte dostop",
-        "feature6_text": "Nadzirajte aktivnost dostopov do API-jev in aktivnosti odjemalnih aplikacij. Definirajte politike in plane dostopa in zagotovite ustrezen QoS (quality of Service). Spremljajte trend klicev in odzivnost API prehodov."
+        "title1": "Key features",
+        "title2": "of the KumuluzAPI platform",
+        "title3": "Establish new business models through APIs",
+        "feature1_title": "Holistically manage APIs – all APIs collected in one place, accessible and documented",
+        "feature1_text": "As the number of APIs in the business environment grows, so does the complexity of their management. The KumuluzAPI solution enables holistic API management by providing an overview of APIs in the business environment.",
+        "feature2_title": "Reduce duplication and promote API and business functionality consolidation",
+        "feature2_text": "The API management solution provides easy insight into APIs and the business functionalities they offer. With a central registry, we easily track what already exists in our business environment and can be reused.",
+        "feature3_title": "Introduce change management",
+        "feature3_text": "Changes to APIs in business environments are not simple, as API changes can affect the operation of applications using the APIs. The API management solution provides an overview of integrations and enables managed transition to new versions and controlled execution of API changes without client application outages.",
+        "feature4_title": "Monitor access",
+        "feature4_text": "Monitor API access activity and client application activities. Define access policies and plans and ensure appropriate QoS (Quality of Service). Track call trends and API gateway responsiveness.",
+        "feature5_title": "Establish an API economy",
+        "feature5_text": "Each API brings business value to the company and partners through its functionalities. Easily transform APIs into a digital asset that you market to external partners. Establish new value chains and new channels for revenue generation.",
+        "feature6_title": "Use APIs for efficient B2B integration",
+        "feature6_text": "B2B integrations are crucial for expanding business ambitions. Managing access to APIs that share our business functionalities with our partners is critical. We must be aware of each integration, monitor and control it, and ensure SLAs, which cannot be done efficiently without an API management solution.",
+        "feature7_title": "Enable easy onboarding through a unified developer portal",
+        "feature7_text": "The developer portal enables all developers (external and internal) self-service access to APIs, their documentation, and specifications. The developer portal relieves and simplifies work with external developers by reducing the number of interactions.",
+        "feature8_title": "Simplify API key delivery",
+        "feature8_text": "Access to APIs is enabled via API keys that are allocated upon subscription confirmation. The developer portal enables easy and secure sharing of API keys to client application developers.",
+        "feature9_title": "Sandbox for API familiarization",
+        "feature9_text": "Set up a sandbox and enable developers to interact with your APIs. The sandbox enables the establishment of a secure environment for familiarization and testing of your APIs for both external and internal developers.",
+        "feature10_title": "Secure APIs and introduce access control",
+        "feature10_text": "Central overview and central security management is crucial with a large number of APIs. The solution enables central access control through policies that manage SLAs. Access to all APIs in the business environment goes through a unified point - the API gateway, which simplifies security configuration and thereby significantly increases security due to simplicity and transparency."
     },
     "diagram": {
-        "description": "Oglejte si vse prednosti, ki jih ponuja platforma KumuluzAPI.",
-        "specs-button": "TEHNOLOŠKE PREDNOSTI",
-        "business-button": "POSLOVNE PREDNOSTI"
+        "description": "See all the advantages offered by the KumuluzAPI platform.",
+        "specs-button": "TECHNOLOGICAL ADVANTAGES",
+        "business-button": "BUSINESS ADVANTAGES"
     },
     "advantages": {
-        "advantage1-text": "Lahkotna namestitev \"On-premis\" ali SaaS",
-        "advantage2-text": "Enostavne in hitre nadgradnje, od politik, do integracij",
-        "advantage3-text": "Ločena komponenta za management in razvijalce",
-        "advantage4-text": "Poslovni model povsem po vaši meri"
+        "advantage1-text": "Easy \"On-premise\" or SaaS installation",
+        "advantage2-text": "Simple and fast upgrades, from policies to integrations",
+        "advantage3-text": "Separate component for management and developers",
+        "advantage4-text": "Business model completely tailored to your needs"
     },
     "blog": {
-        "blog-title": "Zadnje blog objave",
-        "show-more": "Več",
-        "post1-title": "Največje tehnološke napake pri implementaciji in uporabi API-jev",
-        "post1-text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."
+        "blog-title": "Latest blog posts",
+        "show-more": "More",
+        "post1-title": "API Economy - What is it and how can it help your business grow?",
+        "post1-text": "Simply put, APIs define how two applications should communicate or exchange data. Although the definition of an API sounds extremely simple, with the advent of APIs, a whole new economy has emerged - the API economy, which is becoming increasingly complex and demanding",
+        "post2-title": "API Management in the most demanding business environments",
+        "post2-text": "The most successful fast-growing companies today expand their business mainly based on digital solutions, digital business models, and digital assets. They understand the API economy and by creating digital assets break through physical growth limitations, as digital assets are simple",
+        "post3-title": "New digital business models enabled by APIs",
+        "post3-text": "APIs are useful for both companies that expose them and developers who use them. By using APIs, developers use already existing software components instead of developing new ones, thus saving time and money. Companies that expose/offer their APIs"
     },
     "video": {
-        "video-title": "Zmogljiva platforma za upravljanje APIjev, popolnoma prilagojena vašim potrebam",
-        "video-text": "Celovita rešitev za upravljanje z API-ji, zasnovana na modularni način. Varna, hitro nadgradljiva in razširljiva, obenem pa dostopna po poslovnem modelu, ki vam najbolj ustreza."
+        "video-title": "Powerful API management platform, fully tailored to your needs",
+        "video-text": "Comprehensive API management solution designed in a modular way. Secure, fast to upgrade and scalable, while accessible through a business model that suits you best."
     },
-    "case-study-title": "ŠTUDIJA PRIMERA"
+    "case-study-title": "CASE STUDY"
 }

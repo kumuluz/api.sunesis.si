@@ -7,10 +7,17 @@
     padding-right: 80px;
 }
 
+.blog-column .show-more a {
+    position: relative;
+    z-index: 100;
+    pointer-events: auto;
+    cursor: pointer;
+}
+
 .blog-column-text {
     padding-top: 20px;
 }
 
-.blogs-background {
+.blog-background {
     background: white;
 }

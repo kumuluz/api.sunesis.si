@@ -1,8 +1,8 @@
 {
     "error": {
-        "home": "Domov",
-        "text1": "Stran ne obstaja.",
-        "text2": "Prosimo poskusite z drugim naslovom ali se vrnite na začetno stran s klikom na gumb."
+        "home": "Home",
+        "text1": "The page does not exist.",
+        "text2": "Please try with a different address or return to the home page by clicking the button."
     }
 
 }

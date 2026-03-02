@@ -7,6 +7,29 @@ module.exports = {
   plugins: [
     `gatsby-plugin-image`,
     `gatsby-plugin-react-helmet`,
+    {
+      resolve: `gatsby-plugin-csp`,
+      options: {
+        disableOnDev: true,
+        reportOnly: false,
+        mergeScriptHashes: true,
+        mergeStyleHashes: false,
+        mergeDefaultDirectives: true,
+        directives: {
+          "default-src": "'self' https://player.vimeo.com",
+          "script-src": "'self' 'sha256-v1oYH69RcooFs6F5XhMTzHiWlftYwnuQHDxIz0suNeo=' 'sha256-egpbluqkD8NT0bY3bWy7raM9tRIMkfUWboq0Y8KqsFk=' 'sha256-x4Ac3pinI0V50OUvvqTv5PQY+p4yuj/FmFpqEBUjew4=' 'sha256-Ime+NI9Qp+9U6eelNl0uGRSJdCvjy/AmEzrIlvLzink=' 'sha256-/0oK/uGexDvzOTveD3pQYmGx9XOI7Jnu/25gzONsIm8=' https://www.google-analytics.com https://www.googletagmanager.com https://player.vimeo.com",
+          "style-src": "'self' 'unsafe-inline' https://fonts.googleapis.com",
+          "img-src": "'self' data: https://www.google-analytics.com https://i.vimeocdn.com",
+          "font-src": "'self' data: https://fonts.gstatic.com",
+          "connect-src": "'self' https://www.google-analytics.com https://player.vimeo.com",
+          "frame-src": "'self' https://player.vimeo.com https://app.netlify.com",
+          "object-src": "'none'",
+          "base-uri": "'self'",
+          "form-action": "'self'",
+          "upgrade-insecure-requests": null
+        }
+      }
+    },
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,
     `gatsby-plugin-sass`,
@@ -47,7 +70,7 @@ module.exports = {
       resolve: `gatsby-plugin-react-i18next`,
       options: {
         localeJsonSourceName: `locale`,
-        languages: [`sl`],
+        languages: [`sl`, `en`, `de`],
         defaultLanguage: `sl`,
         redirect: false,
         siteUrl: `https://kumuluz-api-netlify.app/`,
@@ -58,13 +81,6 @@ module.exports = {
           keySeparator: '.',
           nsSeparator: false
         }
-        ,
-        pages: [
-          {
-            matchPath: '/',
-            language: 'sl',
-          }
-        ]
       }
     },
   ]

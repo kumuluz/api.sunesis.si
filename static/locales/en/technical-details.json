@@ -1,52 +1,52 @@
 {
     "details": [
         {
-            "title": "Portal za razvijalce",
-            "menutitle": "Portal za razvijalce",
-            "text": "Glavna vstopna točka za razvijalce odjemalnih aplikacij je KumuluzAPI Developer portal. Developer portal nudi katalog API-jev, kjer so prikazani API-ji, dostopni določeni stranki. Razvijalci preko Developer portala dostopajo do vse dokumentacije potrebne za implementacijo odjemalnih aplikacij. Developer portal dostavi dokumentacijo, API specifikacijo in možnost naročanja in prodobivanja API Ključev za dostop.",
+            "title": "Developer Portal",
+            "menutitle": "Developer Portal",
+            "text": "The main entry point for client application developers is the KumuluzAPI Developer portal. The Developer portal provides an API catalog where APIs accessible to a specific customer are displayed. Developers access all documentation necessary for implementing client applications through the Developer portal. The Developer portal delivers documentation, API specification, and the ability to subscribe and obtain API Keys for access.",
             "image": "/images/api-dev-portal.png"
         },
         {
-            "title": "Katalog API-jev",
-            "menutitle": "Katalog API-jev",
-            "text": "Katalog API-jev osrednja komponenta KumuluzAPI Management in KumuluzAPI developer portal. KumuluzAPI Management vsebuje več katalogov API-jev: Katalog vseh objavljenih API-jev, katalog API-je, ki so uviženi v KumuluzAPI, niso pa izpostavljeni na API prehodih in Katalog API-jev, ki so v moji lasti. Vsi katalogi podpirajo napredne načine iskanja, grupiranja in tudi tagiranja API-jev. Katalog API-jev je glavna vstopna točka na Developer portalu, kjer so uporabniku prikazani vsi API-ji, do katerih mu je bil dodeljen dostop.",
+            "title": "API Catalog",
+            "menutitle": "API Catalog",
+            "text": "The API catalog is the central component of KumuluzAPI Management and KumuluzAPI developer portal. KumuluzAPI Management contains several API catalogs: Catalog of all published APIs, catalog of APIs that are imported into KumuluzAPI but not exposed on API gateways, and Catalog of APIs that I own. All catalogs support advanced search methods, grouping, and also tagging of APIs. The API catalog is the main entry point on the Developer portal, where the user is shown all APIs to which they have been grand access.",
             "image": "/images/api-catalog.png"
 
         },
         {
-            "title": "Samodejno odkrivanje API-jev",
-            "menutitle": "Samodejno odkrivanje API-jev",
-            "text": "Odkrijte API-je preko vgrajenega API discovery mehanizma in se z njimi povežite brez kodiranja URL naslovov. Povežite se na API discovery register in pridobite naslove dinamično. Samodejno registrirajte nove objave API-ja na API prehod v API discovery register.",
+            "title": "Automatic API Discovery",
+            "menutitle": "Automatic API Discovery",
+            "text": "Discover APIs through the built-in API discovery mechanism and connect to them without coding URL addresses. Connect to the API discovery registry and obtain addresses dynamically. Automatically register new API publications on the API gateway in the API discovery registry.",
             "image": "/images/api-discovery.png"
         },
         {
-            "title": "Integracija z DevOps in CI/CD",
-            "menutitle": "Integracija z DevOps in CI/CD",
-            "text": "Uvozite API-jev v katalog API-jev tekom Continuous integration/delivery cikla. Uporabite vtičnike s katerimi samodejno iz kode generirate API specifikacijo skupaj z dokumentacijo v markdown formatu, in uvozite API vi KumuluzAPI brez dodatnega ročnega dela.",
+            "title": "DevOps and CI/CD Integration",
+            "menutitle": "DevOps and CI/CD Integration",
+            "text": "Import APIs into the API catalog during the Continuous integration/delivery cycle. Use plugins that automatically generate API specifications from code along with documentation in markdown format, and import APIs into KumuluzAPI without additional manual work.",
             "image": "/images/kapi-ci-cd.png"
         },
         {
-            "title": "Dokumentiranje",
-            "menutitle": "Dokumentiranje",
-            "text": "KumuluzAPI podpira dokumentiranje API-jev v markdown, docsify in/ali rapidoc formatu. Enostavno in učinkovito pripravite dokumentacijo in jo objavite kot vgrajeno ali standalone dokumentacijo API-ja, ki je dostopna preko Developer in Management portala. Enostavno podprite večjezično dokumentacijo.",
+            "title": "Documentation",
+            "menutitle": "Documentation",
+            "text": "KumuluzAPI supports API documentation in markdown, docsify and/or rapidoc format. Easily and efficiently prepare documentation and publish it as embedded or standalone API documentation accessible through the Developer and Management portal. Easily support multilingual documentation.",
             "image": "/images/api-docs.png"
         },
         {
-            "title": "Verzioniranje",
-            "menutitle": "Verzioniranje",
-            "text": "Ustvarjanje novih verzij je mogoče ročno ali samodejno tekom CI/CD cikal z dvigom verzije projekta. API-je lahko verzioniramo ločeno po okoljih, ki jih definiramo sami (DEV, TEST, UAT, STAGE, PROD).",
+            "title": "Versioning",
+            "menutitle": "Versioning",
+            "text": "Creating new versions is possible manually or automatically during CI/CD cycles by incrementing the project version. APIs can be versioned separately by environments that we define ourselves (DEV, TEST, UAT, STAGE, PROD).",
             "image": "/images/api-versions.png"
         },
         {
-            "title": "Upravljanje življenskega cikla",
-            "menutitle": "Upravljanje življenskega cikla",
-            "text": "KumuluzAPI omogoča enostavno upravljanje življenskega cikla API verzije s prehajanjem med različnimi tipi verzij, kot so: Development, Production, Deprecated, Retired.",
+            "title": "Lifecycle Management",
+            "menutitle": "Lifecycle Management",
+            "text": "KumuluzAPI enables easy management of the API version lifecycle by transitioning between different types of versions, such as: Development, Production, Deprecated, Retired.",
             "image": "/images/api-lifecycle-portal.png"
         },
         {
-            "title": "Analiza in vizualizacija odvisnosti",
-            "menutitle": "Analiza in vizualizacija odvisnosti",
-            "text": "KumuluzAPI omogoča vizualizacijo odvisnosti med API-ji in odjemalnimi aplikacijami. Na ta način omogoča sledljivost povezav in statusa integracij.",
+            "title": "Dependency Analysis and Visualization",
+            "menutitle": "Dependency Analysis and Visualization",
+            "text": "KumuluzAPI enables visualization of dependencies between APIs and client applications. This way, it enables traceability of connections and integration status.",
             "image": "/images/api-integrations.png"
         }
     ]
