@@ -17,18 +17,22 @@ module.exports = {
         mergeDefaultDirectives: true,
         directives: {
           "default-src": "'self' https://player.vimeo.com",
-          "script-src": "'self' 'sha256-v1oYH69RcooFs6F5XhMTzHiWlftYwnuQHDxIz0suNeo=' 'sha256-egpbluqkD8NT0bY3bWy7raM9tRIMkfUWboq0Y8KqsFk=' 'sha256-x4Ac3pinI0V50OUvvqTv5PQY+p4yuj/FmFpqEBUjew4=' 'sha256-Ime+NI9Qp+9U6eelNl0uGRSJdCvjy/AmEzrIlvLzink=' 'sha256-/0oK/uGexDvzOTveD3pQYmGx9XOI7Jnu/25gzONsIm8=' https://www.google-analytics.com https://www.googletagmanager.com https://player.vimeo.com",
+          "script-src":
+            "'self' 'sha256-v1oYH69RcooFs6F5XhMTzHiWlftYwnuQHDxIz0suNeo=' 'sha256-egpbluqkD8NT0bY3bWy7raM9tRIMkfUWboq0Y8KqsFk=' 'sha256-x4Ac3pinI0V50OUvvqTv5PQY+p4yuj/FmFpqEBUjew4=' 'sha256-Ime+NI9Qp+9U6eelNl0uGRSJdCvjy/AmEzrIlvLzink=' 'sha256-/0oK/uGexDvzOTveD3pQYmGx9XOI7Jnu/25gzONsIm8=' 'sha256-ftQd4pB5fKKsEQltWaiGQddzFPek72kiplVmtsx1fqA=' https://www.google-analytics.com https://www.googletagmanager.com https://player.vimeo.com",
           "style-src": "'self' 'unsafe-inline' https://fonts.googleapis.com",
-          "img-src": "'self' data: https://www.google-analytics.com https://i.vimeocdn.com",
+          "img-src":
+            "'self' data: https://www.google-analytics.com https://i.vimeocdn.com",
           "font-src": "'self' data: https://fonts.gstatic.com",
-          "connect-src": "'self' https://www.google-analytics.com https://player.vimeo.com",
-          "frame-src": "'self' https://player.vimeo.com https://app.netlify.com",
+          "connect-src":
+            "'self' https://www.google-analytics.com https://player.vimeo.com",
+          "frame-src":
+            "'self' https://player.vimeo.com https://app.netlify.com",
           "object-src": "'none'",
           "base-uri": "'self'",
           "form-action": "'self'",
-          "upgrade-insecure-requests": null
-        }
-      }
+          "upgrade-insecure-requests": null,
+        },
+      },
     },
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,
@@ -44,15 +48,15 @@ module.exports = {
       resolve: `gatsby-source-filesystem`,
       options: {
         path: `${__dirname}/static/locales`,
-        name: `locale`
-      }
+        name: `locale`,
+      },
     },
     {
       resolve: `gatsby-source-filesystem`,
       options: {
         path: `${__dirname}/static/stylesheets`,
-        name: `styles`
-      }
+        name: `styles`,
+      },
     },
     {
       resolve: `gatsby-plugin-manifest`,
@@ -76,12 +80,12 @@ module.exports = {
         siteUrl: `https://kumuluz-api-netlify.app/`,
         i18nextOptions: {
           interpolation: {
-            escapeValue: false // not needed for react as it escapes by default
+            escapeValue: false, // not needed for react as it escapes by default
           },
-          keySeparator: '.',
-          nsSeparator: false
-        }
-      }
+          keySeparator: ".",
+          nsSeparator: false,
+        },
+      },
     },
-  ]
+  ],
 }
