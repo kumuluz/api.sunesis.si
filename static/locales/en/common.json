@@ -25,31 +25,31 @@
     "links": [
       {
         "name": "Services",
-        "link": "https://sunesis.si/services/solutions"
+        "link": "https://sunesis.si/en/expertise/digital-solutions/"
       },
       {
         "name": "Products",
-        "link": "https://sunesis.si/products/digital-platform"
+        "link": "https://kumuluz.com/en/products/digital-platform/"
       },
       {
         "name": "Technologies",
-        "link": "https://sunesis.si/technologies"
+        "link": "https://sunesis.si/en/expertise/cloud-native-edge/"
       },
       {
         "name": "Customers",
-        "link": "https://sunesis.si/customers"
+        "link": "https://sunesis.si/en/references/clients-industries/"
       },
       {
         "name": "About Us",
-        "link": "https://sunesis.si/about/sunesis/"
+        "link": "https://sunesis.si/en/company/about/"
       },
       {
         "name": "Blog",
-        "link": "https://blog.sunesis.si/"
+        "link": "https://sunesis.si/en/insights/"
       },
       {
         "name": "Contact",
-        "link": "https://sunesis.si/about/sunesis#footer"
+        "link": "https://sunesis.si/en/#contact"
       }
     ]
   },
@@ -61,7 +61,7 @@
       "links1": [
         {
           "name": "EE",
-          "href": "https://kumuluz.com/digital-components/ee"
+          "href": "https://kumuluz.com/en/products/digital-platform/"
         },
         {
           "name": "API",
@@ -69,54 +69,54 @@
         },
         {
           "name": "Integration",
-          "href": "https://kumuluz.com/digital-components/integration"
+          "href": "https://kumuluz.com/en/products/digital-platform/"
         },
         {
           "name": "Ux",
-          "href": "https://kumuluz.com/digital-components/ux"
+          "href": "https://kumuluz.com/en/products/digital-platform/"
         },
         {
           "name": "Marketplace",
-          "href": "https://kumuluz.com/digital-components/marketplace"
+          "href": "https://kumuluz.com/en/products/digital-platform/"
         },
         {
           "name": "Crowdsensing",
-          "href": "https://kumuluz.com/digital-components/crowdsensing"
+          "href": "https://kumuluz.com/en/products/crowdsensing/"
         }
       ],
       "subtitle2": "Kumuluz Business APIs",
       "links2": [
         {
           "name": "Payment",
-          "href": "https://kumuluz.com/business-apis/payment"
+          "href": "https://kumuluz.com/en/products/business-apis/"
         },
         {
           "name": "Product Catalog",
-          "href": "https://kumuluz.com/business-apis/product-catalog/"
+          "href": "https://kumuluz.com/en/products/business-apis/"
         },
         {
           "name": "Shopping Cart",
-          "href": "https://kumuluz.com/business-apis/cart"
+          "href": "https://kumuluz.com/en/products/business-apis/"
         },
         {
           "name": "Order Management",
-          "href": "https://kumuluz.com/business-apis/order"
+          "href": "https://kumuluz.com/en/products/business-apis/"
         },
         {
           "name": "Order Fulfillment",
-          "href": "https://kumuluz.com/business-apis/fulfillment"
+          "href": "https://kumuluz.com/en/products/business-apis/"
         },
         {
           "name": "Invoicing",
-          "href": "https://kumuluz.com/business-apis/invoice"
+          "href": "https://kumuluz.com/en/products/business-apis/"
         },
         {
           "name": "Customer Relationship Management",
-          "href": "https://kumuluz.com/business-apis/customer"
+          "href": "https://kumuluz.com/en/products/business-apis/"
         },
         {
           "name": "Know Your Customer Process",
-          "href": "https://kumuluz.com/business-apis/kyc"
+          "href": "https://kumuluz.com/en/products/business-apis/"
         }
       ]
     },
@@ -146,11 +146,11 @@
       "links": [
         {
           "name": "About Us",
-          "href": "https://sunesis.si/about/sunesis"
+          "href": "https://sunesis.si/en/company/about/"
         },
         {
           "name": "Awards",
-          "href": "https://sunesis.si/about/awards"
+          "href": "https://sunesis.si/en/company/awards/"
         },
         {
           "name": "News",
@@ -199,7 +199,7 @@
         },
         {
           "name": "More",
-          "href": "https://sunesis.si/services/solutions"
+          "href": "https://sunesis.si/en/expertise/digital-solutions/"
         }
       ]
     }

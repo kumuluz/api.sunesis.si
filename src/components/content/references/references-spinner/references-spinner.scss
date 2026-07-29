@@ -1,13 +1,33 @@
+.references-carousel {
+  max-height: 90px;
+  overflow: hidden;
+}
+
+.references-track {
+  display: flex;
+  width: max-content;
+  animation: references-scroll 60s linear infinite;
+}
+
+.references-track:hover {
+  animation-play-state: paused;
+}
+
+.references-track-group {
+  display: flex;
+  height: 90px;
+}
+
 .spinner-item {
   padding: 10px;
-  height: 100%;
+  width: 170px;
+  height: 90px;
 
   display: flex;
   justify-content: center;
   align-items: center;
 
   img {
-    height: 25%;
     max-height: 25%;
     max-width: 350px;
 
@@ -15,10 +35,22 @@
   }
 }
 
-.react-multi-carousel-item {
-  max-width: 170px !important;
+@keyframes references-scroll {
+  to {
+    transform: translateX(-50%);
+  }
 }
 
-.react-multi-carousel-list {
-  max-height: 90px !important;
+@media (prefers-reduced-motion: reduce) {
+  .references-carousel {
+    overflow-x: auto;
+  }
+
+  .references-track {
+    animation: none;
+  }
+
+  .references-track-group[aria-hidden="true"] {
+    display: none;
+  }
 }

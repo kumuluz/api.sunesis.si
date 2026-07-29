@@ -1,38 +1,42 @@
 #video {
-    padding-top: 125px;
-    padding-bottom: 20px;
-    background: #F4F5F5;
+  padding-top: 125px;
+  padding-bottom: 20px;
+  background: #f4f5f5;
 }
 
 .video-title {
-    font-family: 'Rubik';
-    font-weight: bold;
+  font-family: "Rubik";
+  font-weight: bold;
 }
 
 .video-text {
-    font-weight: normal;
-    font-size: 21px;
-    line-height: 150%;
-    opacity: 0.8;
+  font-weight: normal;
+  font-size: 21px;
+  line-height: 150%;
+  opacity: 0.8;
+}
+
+.video-text-spacing {
+  margin-bottom: 30px;
 }
 
 .video-button {
-    background: #5DC2EF;
-    border: #5DC2EF;
-    padding: 10px;
-    margin-bottom: 50px;
-    margin-left: 0;
-    padding: 10px 40px 10px 40px
+  background: #5dc2ef;
+  border: #5dc2ef;
+  padding: 10px;
+  margin-bottom: 50px;
+  margin-left: 0;
+  padding: 10px 40px 10px 40px;
 }
 
 .video-button-text {
-    font-family: Asap;
-    font-style: normal;
-    font-weight: 600;
-    font-size: 16px;
-    line-height: 150%;
-    display: flex;
-    align-items: center;
-    text-align: center;
-    color: #2B2B6F;
+  font-family: Asap;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 150%;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #2b2b6f;
 }
