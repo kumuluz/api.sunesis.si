@@ -1,6 +1,6 @@
 import React from 'react'
 import "./technical-details.scss"
-import { Link, useTranslation } from "gatsby-plugin-react-i18next"
+import { useTranslation } from "gatsby-plugin-react-i18next"
 
 const SelectorComponent = (props) => {
 
@@ -11,12 +11,12 @@ const SelectorComponent = (props) => {
         <div className={props.page + "-selector-line"}>
         {props.det.map((detail, index) => {
             return (
-                <Link to={"#paragraph" + index}>
-                    <p key={index} className="font-content-text select-text">
+                <a href={"#paragraph" + index} key={index}>
+                    <p className="font-content-text select-text">
                         <span>{detail.menutitle}</span>
                         <span className="radio-button"></span>
                     </p>
-                </Link>
+                </a>
             )
         }
         )}

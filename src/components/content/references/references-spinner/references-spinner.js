@@ -29,158 +29,154 @@ import logoGlobePayroll from "../../../../../static/images/references/globepayro
 import logoPrva from "../../../../../static/images/references/prva.jpg"
 import logoSava from "../../../../../static/images/references/sava.jpg"
 
-import React, {Component} from "react"
-import Carousel from 'react-multi-carousel'
-
-import '../../../../../node_modules/react-multi-carousel/lib/styles.css';
+import React from "react"
 import "./references-spinner.scss"
 
 export const references = [
   {
     image: logoAkrapovic,
-    name: "Akrapovič"
+    name: "Akrapovič",
   },
   {
     image: logoOsocial,
-    name: "Österreichische Sozialversicherung, Austria"
+    name: "Österreichische Sozialversicherung, Austria",
   },
   {
     image: logoEbcont,
-    name: "EBCONT group GmbH, Austria"
+    name: "EBCONT group GmbH, Austria",
   },
   {
     image: logoCybergrid,
-    name: "Cybergrid, Austria"
+    name: "Cybergrid, Austria",
   },
   {
     image: logoEveris,
     name: "Everis, Chile",
-    caseStudy: "/about/references/everis"
+    caseStudy: "/about/references/everis",
   },
   {
     image: logoAbanka,
-    name: "Abanka"
+    name: "Abanka",
   },
   {
     image: logoPetrol,
-    name: "Petrol d.d."
+    name: "Petrol d.d.",
   },
   {
     image: logoAdriatic,
-    name: "Adriatic Slovenica"
+    name: "Adriatic Slovenica",
   },
   {
     image: logoSnaga,
-    name: "Snaga"
+    name: "Snaga",
   },
   {
     image: logoEnergetika,
-    name: "Energetika Ljubljana"
+    name: "Energetika Ljubljana",
   },
   {
     image: logoZZZS,
-    name: "ZZZS"
+    name: "ZZZS",
   },
   {
     image: logoMinPubAdmin,
-    name: "Government - Ministry of Public Administration"
+    name: "Government - Ministry of Public Administration",
   },
   {
     image: logoMinJust,
-    name: "Goverment - Ministry of Justice"
+    name: "Goverment - Ministry of Justice",
   },
   {
     image: logoPBS,
-    name: "Poštna banka Slovenije"
+    name: "Poštna banka Slovenije",
   },
   {
     image: logoMMTurist,
-    name: "MM turist"
+    name: "MM turist",
   },
   {
     image: logoSolvera,
-    name: "Solvera Lynx"
+    name: "Solvera Lynx",
   },
   {
     image: logoIRC,
-    name: "IRC Celje"
+    name: "IRC Celje",
   },
   {
     image: logoSRC,
-    name: "Src"
+    name: "Src",
   },
   {
     image: logoInformatika,
-    name: "Informatika d.d."
+    name: "Informatika d.d.",
   },
   {
     image: logoHardlab,
-    name: "Hardlab"
+    name: "Hardlab",
   },
   {
     image: logoTovarna,
-    name: "Tovarna podjemov"
+    name: "Tovarna podjemov",
   },
   {
     image: logoPrva,
-    name: "Prva Osebna zavarovalnica"
+    name: "Prva Osebna zavarovalnica",
   },
   {
     image: logoKneip,
-    name: "Kneip Communication, Luxembourg"
+    name: "Kneip Communication, Luxembourg",
   },
   {
     image: logoChile,
-    name: "Chile Government (funded by World Bank)"
+    name: "Chile Government (funded by World Bank)",
   },
   {
     image: logoIBM,
-    name: "IBM Java Technology Centre"
+    name: "IBM Java Technology Centre",
   },
   {
     image: logoOracle,
-    name: "Oracle HQ"
+    name: "Oracle HQ",
   },
   {
     image: logoEbrad,
-    name: "European Bank for Reconstruction and Development (EBRD), EU"
+    name: "European Bank for Reconstruction and Development (EBRD), EU",
   },
   {
     image: citytech,
-    name: "Citytech"
-  }, {
+    name: "Citytech",
+  },
+  {
     image: logoGlobePayroll,
-    name: "GlobePayroll"
+    name: "GlobePayroll",
   },
   {
     image: logoSava,
-    name: "Zavarovalnica Sava"
-  }
+    name: "Zavarovalnica Sava",
+  },
 ]
 
+const ReferenceItems = ({ duplicate = false }) => (
+  <div
+    aria-hidden={duplicate ? "true" : undefined}
+    className="references-track-group"
+  >
+    {references.map((reference, index) => (
+      <div
+        className="spinner-item"
+        key={`${duplicate ? "duplicate" : "primary"}-${index}`}
+      >
+        <img src={reference.image} alt={duplicate ? "" : reference.name} />
+      </div>
+    ))}
+  </div>
+)
 
-export class ReferencesSpinner extends Component {
-
-  render() {
-
-    const responsive = {
-
-      desktop: {
-        breakpoint: { max: 3000, min: 1024 },
-        items: 4
-      }
-    }
-
-    return (
-      <Carousel responsive={responsive} arrows={false} swipeable={true} infinite={true} autoPlay={true}
-                autoPlaySpeed={2000}>
-        {references.map((reference, index) => (
-          <div className="spinner-item" key={index}>
-            <img src={reference.image} alt={reference.name}/>
-          </div>
-        ))}
-      </Carousel>
-    )
-  }
-
-}
+export const ReferencesSpinner = () => (
+  <div className="references-carousel">
+    <div className="references-track">
+      <ReferenceItems />
+      <ReferenceItems duplicate />
+    </div>
+  </div>
+)

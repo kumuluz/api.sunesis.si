@@ -25,31 +25,31 @@
     "links": [
       {
         "name": "Storitve",
-        "link": "https://sunesis.si/services/solutions"
+        "link": "https://sunesis.si/sl/expertise/digital-solutions/"
       },
       {
         "name": "Produkti",
-        "link": "https://sunesis.si/products/digital-platform"
+        "link": "https://kumuluz.com/sl/products/digital-platform/"
       },
       {
         "name": "Tehnologije",
-        "link": "https://sunesis.si/technologies"
+        "link": "https://sunesis.si/sl/expertise/cloud-native-edge/"
       },
       {
         "name": "Stranke",
-        "link": "https://sunesis.si/customers"
+        "link": "https://sunesis.si/sl/references/clients-industries/"
       },
       {
         "name": "O nas",
-        "link": "https://sunesis.si/about/sunesis/"
+        "link": "https://sunesis.si/sl/company/about/"
       },
       {
         "name": "Blog",
-        "link": "https://blog.sunesis.si/"
+        "link": "https://sunesis.si/sl/insights/"
       },
       {
         "name": "Kontakt",
-        "link": "https://sunesis.si/about/sunesis#footer"
+        "link": "https://sunesis.si/sl/#contact"
       }
     ]
   },
@@ -61,7 +61,7 @@
       "links1": [
         {
           "name": "EE",
-          "href": "https://kumuluz.com/digital-components/ee"
+          "href": "https://kumuluz.com/sl/products/digital-platform/"
         },
         {
           "name": "API",
@@ -69,54 +69,54 @@
         },
         {
           "name": "Integration",
-          "href": "https://kumuluz.com/digital-components/integration"
+          "href": "https://kumuluz.com/sl/products/digital-platform/"
         },
         {
           "name": "Ux",
-          "href": "https://kumuluz.com/digital-components/ux"
+          "href": "https://kumuluz.com/sl/products/digital-platform/"
         },
         {
           "name": "Marketplace",
-          "href": "https://kumuluz.com/digital-components/marketplace"
+          "href": "https://kumuluz.com/sl/products/digital-platform/"
         },
         {
           "name": "Crowdsensing",
-          "href": "https://kumuluz.com/digital-components/crowdsensing"
+          "href": "https://kumuluz.com/sl/products/crowdsensing/"
         }
       ],
       "subtitle2": "Kumuluz Poslovni API-ji",
       "links2": [
         {
           "name": "Plačevanje",
-          "href": "https://kumuluz.com/business-apis/payment"
+          "href": "https://kumuluz.com/sl/products/business-apis/"
         },
         {
           "name": "Katalog izdelkov",
-          "href": "https://kumuluz.com/business-apis/product-catalog/"
+          "href": "https://kumuluz.com/sl/products/business-apis/"
         },
         {
           "name": "Nakupovalna košarica",
-          "href": "https://kumuluz.com/business-apis/cart"
+          "href": "https://kumuluz.com/sl/products/business-apis/"
         },
         {
           "name": "Upravljanje z naročili",
-          "href": "https://kumuluz.com/business-apis/order"
+          "href": "https://kumuluz.com/sl/products/business-apis/"
         },
         {
           "name": "Izpolnjevanje naročil",
-          "href": "https://kumuluz.com/business-apis/fulfillment"
+          "href": "https://kumuluz.com/sl/products/business-apis/"
         },
         {
           "name": "Izdajanje računov",
-          "href": "https://kumuluz.com/business-apis/invoice"
+          "href": "https://kumuluz.com/sl/products/business-apis/"
         },
         {
           "name": "Upravljanje odnosov s strankami",
-          "href": "https://kumuluz.com/business-apis/customer"
+          "href": "https://kumuluz.com/sl/products/business-apis/"
         },
         {
           "name": "Proces spoznavanja strank",
-          "href": "https://kumuluz.com/business-apis/kyc"
+          "href": "https://kumuluz.com/sl/products/business-apis/"
         }
       ]
     },
@@ -146,11 +146,11 @@
       "links": [
         {
           "name": "O nas",
-          "href": "https://sunesis.si/about/sunesis"
+          "href": "https://sunesis.si/sl/company/about/"
         },
         {
           "name": "Nagrade",
-          "href": "https://sunesis.si/about/awards"
+          "href": "https://sunesis.si/sl/company/awards/"
         },
         {
           "name": "Novice",
@@ -199,7 +199,7 @@
         },
         {
           "name": "Več",
-          "href": "https://sunesis.si/services/solutions"
+          "href": "https://sunesis.si/sl/expertise/digital-solutions/"
         }
       ]
     }

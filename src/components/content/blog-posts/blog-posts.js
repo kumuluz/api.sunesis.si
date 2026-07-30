@@ -1,11 +1,12 @@
 import React from 'react'
 import "./blog-posts.scss"
 import { useTranslation } from "gatsby-plugin-react-i18next"
-import { BLOG_URL } from "../../../../static/links.js"
+import { getSunesisInsightsUrl } from "../../../../static/links.js"
 
 const BlogPostsComponent = () => {
 
-    const { t } = useTranslation();
+    const { t, i18n } = useTranslation();
+    const insightsUrl = getSunesisInsightsUrl(i18n.language);
 
     return (
         <div className="content-container padded blog-background">
@@ -20,7 +21,7 @@ const BlogPostsComponent = () => {
                     <hr />
                     <p className="font-content-text blog-column-text">{t('blog.post1-text')}</p>
                     <p className="font-content-text show-more">
-                        <a href={BLOG_URL} target="_blank" rel="noreferrer noopener">
+                        <a href={insightsUrl} target="_blank" rel="noreferrer noopener">
                             {t('blog.show-more')}
                             &nbsp;
                             <svg width="19" height="14" viewBox="0 0 19 14" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -42,7 +43,7 @@ export default BlogPostsComponent;
               <hr />
               <p className="font-content-text blog-column-text">{t('blog.post2-text')}</p>
               <p className="font-content-text show-more">
-                  <a href={BLOG_URL} target="_blank" rel="noreferrer noopener">
+                  <a href={insightsUrl} target="_blank" rel="noreferrer noopener">
                       {t('blog.show-more')}
                       &nbsp;
                       <svg width="19" height="14" viewBox="0 0 19 14" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -56,7 +57,7 @@ export default BlogPostsComponent;
               <hr />
               <p className="font-content-text blog-column-text">{t('blog.post3-text')}</p>
               <p className="font-content-text show-more">
-                  <a href={BLOG_URL} target="_blank" rel="noreferrer noopener">
+                  <a href={insightsUrl} target="_blank" rel="noreferrer noopener">
                       {t('blog.show-more')}
                       &nbsp;
                       <svg width="19" height="14" viewBox="0 0 19 14" fill="none" xmlns="http://www.w3.org/2000/svg">

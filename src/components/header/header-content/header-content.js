@@ -1,12 +1,13 @@
 import React from "react"
 import "./header-content.scss"
 import image from "../../../../static/images/kumuluz-header.png"
-import { CONTACT_URL } from "../../../../static/links.js"
+import { getSunesisContactUrl } from "../../../../static/links.js"
 import { Link, useTranslation } from "gatsby-plugin-react-i18next"
 
 const HeaderComponent = (props) => {
 
-  const { t } = useTranslation()
+  const { t, i18n } = useTranslation()
+  const contactUrl = getSunesisContactUrl(i18n.language)
 
   return (
     <div className="row content-row">
@@ -15,7 +16,7 @@ const HeaderComponent = (props) => {
         <p className="header-text">
           {t("header." + props.page + "-text")}
         </p>
-        <a href={CONTACT_URL} target="_blank" rel="noreferrer noopener">
+        <a href={contactUrl} target="_blank" rel="noreferrer noopener">
           <button className="contact-button">
             <span className="contact-button-text">
                 {t("header.button-contact")}

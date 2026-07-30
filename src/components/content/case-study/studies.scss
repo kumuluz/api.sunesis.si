@@ -1,62 +1,71 @@
+.study-feature {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.study-image {
+  padding: 40px 0;
+  text-align: center;
+}
+
 .font-content-title.studies-title {
-    margin: 35px 0 35px 0;
-    font-weight: normal;
+  margin: 35px 0 35px 0;
+  font-weight: normal;
 }
 
 ul {
-    list-style: none;
-    padding: 0;
-    margin: 0 0 35px 0;
+  list-style: none;
+  padding: 0;
+  margin: 0 0 35px 0;
 }
 
 .ul_blue {
-    font-family: Asap;
-    font-style: normal;
-    font-weight: 600;
-    font-size: 20px;
-    line-height: 130%;
-    color: #2B2B6F;
+  font-family: Asap;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 130%;
+  color: #2b2b6f;
 }
 
 .ul_black {
-    font-family: Asap;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 20px;
-    line-height: 150%;
-    color: #3C3C3B;
+  font-family: Asap;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 150%;
+  color: #3c3c3b;
 }
 
 .ul_black li:before,
 .ul_blue li:before {
-    content: "▪";
-    padding-right: 8px;
-    color: #5DC2EF;
+  content: "▪";
+  padding-right: 8px;
+  color: #5dc2ef;
 }
-
 
 .ul_black li,
 .ul_blue li {
-    margin-bottom:10px;
+  margin-bottom: 10px;
 }
 .font-content-text.feaature-text {
-    font-size: 16px;
-    color: #000000;
+  font-size: 16px;
+  color: #000000;
 }
 
 .margin_top {
-    margin-top: 40px;
-    margin-bottom: 60px;
+  margin-top: 40px;
+  margin-bottom: 60px;
 }
 
 .right {
-    margin-top:87px;
-    display:contents;
-    position:sticky;
-    position:-webkit-sticky;
-    bottom:25%;
-    text-align: center;
-    width:20%
+  margin-top: 87px;
+  display: contents;
+  position: sticky;
+  position: -webkit-sticky;
+  bottom: 25%;
+  text-align: center;
+  width: 20%;
 }
 
 // .image {
@@ -66,33 +75,31 @@ ul {
 // }
 
 @media (min-width: 992px) {
-    .right {
-        display: inline-block;
-    }
+  .right {
+    display: inline-block;
+  }
 }
 
-
 .case-selector-line:after {
-    border: 1px dashed #DBDBDB;
-    transform: rotate(90deg);
-    position: absolute;
-    bottom: 38%;
-    left: 89.5%;
-    width: 15%;
-    content: "";
-    display: block;
-    z-index: -1;
+  border: 1px dashed #dbdbdb;
+  transform: rotate(90deg);
+  position: absolute;
+  bottom: 38%;
+  left: 89.5%;
+  width: 15%;
+  content: "";
+  display: block;
+  z-index: -1;
 }
 
 @media (min-width: 992px) {
-    .case-selector-line:after {
-        bottom: 35%;
-        left: 86.9%;
-        width: 20%;
-    }
+  .case-selector-line:after {
+    bottom: 35%;
+    left: 86.9%;
+    width: 20%;
+  }
 }
 
-
 .img {
-    max-width: 100%;
+  max-width: 100%;
 }

@@ -1,14 +1,13 @@
 import React from "react"
 import "./technical-details.scss"
 
-const ContentLeftComponent = (props) => {
-
+const ContentLeftComponent = props => {
   return (
     <div className="container">
-      <div id={props.id} className="row" style={{ marginTop: "35px", marginBottom: "90px" }}>
+      <div id={props.id} className="row content">
         <div className="col-lg-6">
           <div className="image-holder d-flex align-items-center justify-content-center">
-            <img className="image-td shadow" src={props.image} alt=""/>
+            <img className="image-td shadow" src={props.image} alt="" />
           </div>
         </div>
         <div className="col-lg-6">

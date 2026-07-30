@@ -25,31 +25,31 @@
         "links": [
             {
                 "name": "Dienstleistungen",
-                "link": "https://kumuluz.com/"
+                "link": "https://sunesis.si/en/expertise/digital-solutions/"
             },
             {
                 "name": "Produkte",
-                "link": "https://kumuluz.com/digital-platform/"
+                "link": "https://kumuluz.com/en/products/digital-platform/"
             },
             {
                 "name": "Technologien",
-                "link": "https://sunesis.si/technologies/"
+                "link": "https://sunesis.si/en/expertise/cloud-native-edge/"
             },
             {
                 "name": "Kunden",
-                "link": "https://kumuluz.com/partners/"
+                "link": "https://sunesis.si/en/references/clients-industries/"
             },
             {
                 "name": "Über uns",
-                "link": "https://sunesis.si/about/sunesis/"
+                "link": "https://sunesis.si/en/company/about/"
             },
             {
                 "name": "Blog",
-                "link": "https://blog.kumuluz.com/"
+                "link": "https://sunesis.si/en/insights/"
             },
             {
                 "name": "Kontakt",
-                "link": "https://kumuluz.com/#contact-us"
+                "link": "https://sunesis.si/en/#contact"
             }
         ]
     },
@@ -61,7 +61,7 @@
             "links1": [
                 {
                     "name": "EE",
-                    "href": "https://kumuluz.com/digital-components/ee"
+                    "href": "https://kumuluz.com/en/products/digital-platform/"
                 },
                 {
                     "name": "API",
@@ -69,58 +69,58 @@
                 },
                 {
                     "name": "Integration",
-                    "href": "https://kumuluz.com/digital-components/integration"
+                    "href": "https://kumuluz.com/en/products/digital-platform/"
                 },
                 {
                     "name": "Ux",
-                    "href": "https://kumuluz.com/digital-components/ux"
+                    "href": "https://kumuluz.com/en/products/digital-platform/"
                 },
                 {
                     "name": "Marketplace",
-                    "href": "https://kumuluz.com/digital-components/marketplace"
+                    "href": "https://kumuluz.com/en/products/digital-platform/"
                 },
                 {
                     "name": "Crowdsensing",
-                    "href": "https://kumuluz.com/digital-components/crowdsensing"
+                    "href": "https://kumuluz.com/en/products/crowdsensing/"
                 }
             ],
             "subtitle2": "Kumuluz Business APIs",
             "links2": [
                 {
                     "name": "Zahlung",
-                    "href": "https://kumuluz.com/business-apis/payment"
+                    "href": "https://kumuluz.com/en/products/business-apis/"
                 },
                 {
                     "name": "Produktkatalog",
-                    "href": "https://kumuluz.com/business-apis/product-catalog/"
+                    "href": "https://kumuluz.com/en/products/business-apis/"
                 },
                 {
                     "name": "Warenkorb",
-                    "href": "https://kumuluz.com/business-apis/cart"
+                    "href": "https://kumuluz.com/en/products/business-apis/"
                 },
                 {
                     "name": "Bestellverwaltung",
-                    "href": "https://kumuluz.com/business-apis/order"
+                    "href": "https://kumuluz.com/en/products/business-apis/"
                 },
                 {
                     "name": "Auftragsabwicklung",
-                    "href": "https://kumuluz.com/business-apis/fulfillment"
+                    "href": "https://kumuluz.com/en/products/business-apis/"
                 },
                 {
                     "name": "Rechnungsstellung",
-                    "href": "https://kumuluz.com/business-apis/invoice"
+                    "href": "https://kumuluz.com/en/products/business-apis/"
                 },
                 {
                     "name": "Kundenbeziehungsmanagement",
-                    "href": "https://kumuluz.com/business-apis/customer"
+                    "href": "https://kumuluz.com/en/products/business-apis/"
                 },
                 {
                     "name": "Abonnementverwaltung",
-                    "href": "https://kumuluz.com/business-apis/subscription"
+                    "href": "https://kumuluz.com/en/products/business-apis/"
                 },
                 {
                     "name": "Kundenidentifizierungsprozess",
-                    "href": "https://kumuluz.com/business-apis/kyc"
+                    "href": "https://kumuluz.com/en/products/business-apis/"
                 }
             ]
         },
@@ -150,11 +150,11 @@
             "links": [
                 {
                     "name": "Über uns",
-                    "href": "https://sunesis.si/about/sunesis"
+                    "href": "https://sunesis.si/en/company/about/"
                 },
                 {
                     "name": "Auszeichnungen",
-                    "href": "https://sunesis.si/about/awards"
+                    "href": "https://sunesis.si/en/company/awards/"
                 },
                 {
                     "name": "Nachrichten",
@@ -203,7 +203,7 @@
                 },
                 {
                     "name": "Mehr",
-                    "href": "https://sunesis.si/services/solutions"
+                    "href": "https://sunesis.si/en/expertise/digital-solutions/"
                 }
             ]
         }

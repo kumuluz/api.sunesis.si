@@ -1,22 +1,43 @@
+.not-found-page {
+  min-height: 550px;
+  height: 100vh;
+  color: white;
+  background: radial-gradient(
+    32.28% 126.28% at 69.07% 71.82%,
+    #254a99 0%,
+    #2b2b6f 82.13%
+  );
+}
+
+.not-found-image-container {
+  height: 100%;
+}
+
+.error-code {
+  padding-top: 50px;
+  font-family: Rubik, sans-serif;
+  font-size: 80px;
+}
+
 .error-title {
-    font-family: Rubik;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 48px;
-    line-height: 130%;
+  font-family: Rubik;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 48px;
+  line-height: 130%;
 }
 
 .error-content {
-    padding-top: 4rem;
-    margin-bottom: 20px;
-    font-family: Rubik;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 24px;
-    line-height: 130%;
+  padding-top: 4rem;
+  margin-bottom: 20px;
+  font-family: Rubik;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 130%;
 }
 
 .error-button {
-    text-align: center;
-    padding-bottom:20px;
+  text-align: center;
+  padding-bottom: 20px;
 }
